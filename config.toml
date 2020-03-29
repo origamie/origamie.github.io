@@ -1,4 +1,4 @@
-baseURL = "https://frozen-hamlet-61166.herokuapp.com/"
+baseURL = "http://www.origamie.org"
 languageCode = "fr-fr"
 title = "Origamie"
 theme = "ananke"
