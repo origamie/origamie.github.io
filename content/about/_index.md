@@ -1,5 +1,5 @@
 ---
-description: "Une breve description de ce que nous sommes"
+description: "Une breve description de ce que nous sommes ou ce que nous pensons être ou peut etre de ce que nous ne sommes pas."
 title: "Qui sommes nous??"
 featured_image: '/images/quisommesnous.jpg'
 ---

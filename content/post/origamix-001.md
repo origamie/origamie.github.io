@@ -5,7 +5,7 @@ tags: ["origamix", "remito"]
 title: "Origamix 001"
 ---
 
-Tout premier origamix de confinement
+Le tout premier origamix d'une longue série.
 
 <iframe 
 	width="560" 
