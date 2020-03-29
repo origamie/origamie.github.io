@@ -9,7 +9,6 @@ SectionPagesMenu = "main"
 Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
-disqusShortname = "origamie"
 
 [sitemap]
   changefreq = "monthly"
