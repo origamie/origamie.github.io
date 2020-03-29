@@ -1,7 +1,7 @@
 ---
 description: "Une breve description de ce que nous sommes"
 title: "Qui sommes nous??"
-featured_image: '/images/guitar.png'
+featured_image: '/images/quisommesnous.jpg'
 ---
 
 Un beau jour, tu te retrouves sur le trône des toilettes. Il est 8:00. Tu t’essaies à faire un Origami pour passer le temps.
@@ -17,7 +17,4 @@ La morale de cette histoire : une journée sur le trône n’est jamais perdue, 
 
 La team Origamie
 
-
-Tu peux aussi nous contacter ici:
-
-{{< form-contact action="https://formspree.io/mwkqdlww"  >}}
+contact[@]origamie.org
