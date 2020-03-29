@@ -5,7 +5,7 @@ tags: ["vodka", "russie"]
 title: "Vodka en russie"
 ---
 
-{{< figure src="/images/valere.png" title="La russie >}}
+{{< figure src="/images/valere.png" title="La russie">}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ante, consequat id arcu pretium, viverra condimentum turpis. Sed euismod velit commodo, placerat libero elementum, posuere urna. Sed bibendum pulvinar nisi in bibendum. Donec ultricies massa magna, eu lobortis lectus rutrum at. Integer tincidunt ornare urna, eu mollis felis sollicitudin ut. Vivamus a mi ac tellus euismod consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas quis magna arcu. Duis ultrices nibh blandit libero tincidunt facilisis. Aliquam eget tellus metus. Praesent sit amet elit ac justo sollicitudin consequat. Donec at tortor sed nulla commodo consequat. Nullam imperdiet ex et metus commodo tempor. Aliquam dui ante, ullamcorper sit amet purus ac, hendrerit suscipit sem.
 
