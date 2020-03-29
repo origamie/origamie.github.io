@@ -1,7 +1,7 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Origamix 001"
-tags: ["origamix", "remito"]
+tags: ["origamix", "new musik", "the limiñanas", "laurent garnier", "mgmt", "jim croce", "noir boy george", "flavien berger", "fishbach", "nils fraham", "john myrtle", "tangerine dream"]
 title: "Origamix 001"
 ---
 
