@@ -1,11 +1,11 @@
 ---
 date: 2017-04-09T10:58:08-04:00
 description: "Ceci est un exemple d'article"
-tags: ["valere", "guerre", "russie"]
-title: "Valère en russie"
+tags: ["berlin", "taz", "allemagne"]
+title: "Berlin"
 ---
 
-{{< figure src="/images/valere.png" title="Valère a la sortie de la guerre" >}}
+{{< figure src="/images/berlin.png" title="Berlin" >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem ante, consequat id arcu pretium, viverra condimentum turpis. Sed euismod velit commodo, placerat libero elementum, posuere urna. Sed bibendum pulvinar nisi in bibendum. Donec ultricies massa magna, eu lobortis lectus rutrum at. Integer tincidunt ornare urna, eu mollis felis sollicitudin ut. Vivamus a mi ac tellus euismod consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas quis magna arcu. Duis ultrices nibh blandit libero tincidunt facilisis. Aliquam eget tellus metus. Praesent sit amet elit ac justo sollicitudin consequat. Donec at tortor sed nulla commodo consequat. Nullam imperdiet ex et metus commodo tempor. Aliquam dui ante, ullamcorper sit amet purus ac, hendrerit suscipit sem.
 

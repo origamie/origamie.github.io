@@ -1,6 +1,6 @@
 ---
-title: "Site en construction..."
-featured_image: '/images/origa_bw.png'
-description: "Origamie c'est l'asso qu'il te faut"
+title: "Origamie"
+featured_image: '/images/origamie_bw.png'
+description: "Association loi 1901 détournant un max de thunes🖕"
 ---
-Bienvue sur l'origasite
+Le site est en cours de maçonnage, nos ouvrier.e.s sont à pied d'oeuvre pour essayer de le fini un jour.

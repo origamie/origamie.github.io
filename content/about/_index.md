@@ -1,7 +1,7 @@
 ---
 description: "Une breve description de ce que nous sommes"
 title: "Qui sommes nous??"
-featured_image: '/images/origa.jpg'
+featured_image: '/images/guitar.png'
 ---
 
 Un beau jour, tu te retrouves sur le trône des toilettes. Il est 8:00. Tu t’essaies à faire un Origami pour passer le temps.
