@@ -2,6 +2,8 @@
 description: "Une breve description de ce que nous sommes ou ce que nous pensons être ou peut etre de ce que nous ne sommes pas."
 title: "Qui sommes nous??"
 featured_image: '/images/quisommesnous.jpg'
+type: page
+menu: main
 ---
 
 Un beau jour, tu te retrouves sur le trône des toilettes. Il est 8:00. Tu t’essaies à faire un Origami pour passer le temps.

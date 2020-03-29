@@ -1,8 +1,9 @@
 ---
-date: 2017-04-09T10:58:08-04:00
 description: "Playlist 001"
 tags: ["playlist", "new musik", "the limiñanas", "laurent garnier", "mgmt", "jim croce", "noir boy george", "flavien berger", "fishbach", "nils fraham", "john myrtle", "tangerine dream"]
 title: "Coteau du Velux 2020"
+featured_image: '/images/coteauvelux.jpeg'
+date: 2020-03-02T12:00:00-05:00
 ---
 
 <iframe 
