@@ -16,3 +16,8 @@ La morale de cette histoire : une journée sur le trône n’est jamais perdue, 
 
 
 La team Origamie
+
+
+Tu peux aussi nous contacter ici:
+
+{{< form-contact action="https://formspree.io/mwkqdlww"  >}}
