@@ -6,9 +6,10 @@ theme = "ananke"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
+disqusShortname = "origamie"
 
 [sitemap]
   changefreq = "monthly"
