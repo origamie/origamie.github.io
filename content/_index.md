@@ -1,6 +1,6 @@
 ---
 title: "Origamie"
-featured_image: '/images/skate.jpg'
+featured_image: '/images/teo.jpg'
 description: "Association loi 1901 détournant un max de thunes 🖕"
 type: page
 ---
