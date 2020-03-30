@@ -1,0 +1,9 @@
+{{- $artist := .Get "artist" | default (.Get 0) -}}
+{{- $title := .Get "title" | default (.Get 1) -}}
+
+<iframe 
+  width="100%" 
+  height="120" 
+  src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2F{{ $artist }}%2F{{ $title }}%2F" 
+  frameborder="0" >
+</iframe>

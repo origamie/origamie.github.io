@@ -17,14 +17,7 @@ Les ballades en fôret commencent à sérieusement me manquer. Et mon chien auss
 Est ce que je dois vraiment expliquer ma blague du Dimanche dans la playlist ? Oui . Parce que chaque jour sonne comme un dimanche en ce moment. Un dimanche ensoleillé en plus. Le seum.
 
 
-<iframe 
-	width="560" 
-	height="315" 
-	src="https://www.youtube.com/embed/videoseries?list=PL3yt8r5HGJ37gbL9g_tQXxDwIas7y6Fc3" 
-	frameborder="0" 
-	allow="autoplay; encrypted-media" 
-	allowfullscreen>
-</iframe>
+{{< youtube-playlist PL3yt8r5HGJ37gbL9g_tQXxDwIas7y6Fc3 >}}
 
 
 Alors forcément, comme dit tout juste avant : le seum s’installe. On a envie de chanter comme Noir Boy George, et puis après on a moins envie de chanter. On s’enfonce dans les canapés comme dans l’alcool, à défaut de la ville. Car on ne sait pas quand on la retrouvera.
