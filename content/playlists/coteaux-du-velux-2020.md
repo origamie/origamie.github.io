@@ -1,12 +1,12 @@
 ---
 description: "Playlist 001"
 tags: ["playlist", "new musik", "the limiñanas", "laurent garnier", "mgmt", "jim croce", "noir boy george", "flavien berger", "fishbach", "nils fraham", "john myrtle", "tangerine dream"]
-title: "Coteau du Velux 2020"
-featured_image: '/images/coteau_du_velux.png'
+title: "Coteaux du Velux 2020"
+featured_image: '/images/coteaux_du_velux.png'
 display_featured_image: false
 date: 2020-03-02T12:00:00-05:00
 ---
-{{< figure src="/images/coteau_du_velux.png" title="Coteau du Velux 2020" >}}
+{{< figure src="/images/coteaux_du_velux.png" title="Coteaux du Velux 2020" >}}
 
 Nous en sommes à la troisième semaine et j’ai beaucoup écouté Jim Croce la première semaine. J’ai acheté récemment le disque qui est un vrai petit bijou de folk 70’s, hippie à souhait. I Got A Name est le morceau qui ouvre l’album, bien que ce soit le seul de l’album qu’il n’a pas écrit, il annonce très bien la chaleur de la suite. C’était parfait pour souhaiter la bienvenue au soleil, à travers les veluxs du salon, après des mois de temps bien normand.
 
