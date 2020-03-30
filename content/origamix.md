@@ -2,6 +2,7 @@
 title: "Origamixs"
 description: "Origamie te fait danser, chanter, pleurer."
 featured_image: '/images/origamix.jpg'
+display_featured_image: true
 type: page
 menu: main
 ---
