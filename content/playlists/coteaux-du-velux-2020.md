@@ -1,18 +1,18 @@
 ---
-description: "Playlist 001"
+description: "Playlist #1"
 tags: ["playlist", "new musik", "the limiñanas", "laurent garnier", "mgmt", "jim croce", "noir boy george", "flavien berger", "fishbach", "nils fraham", "john myrtle", "tangerine dream"]
-title: "Coteaux du Velux 2020"
+title: "#1 Coteaux du Velux 2020"
 featured_image: '/images/coteaux_du_velux.png'
 display_featured_image: false
 date: 2020-03-02T12:00:00-05:00
 ---
-{{< figure src="/images/coteaux_du_velux.png" title="Coteaux du Velux 2020" >}}
+{{< figure src="/images/coteaux_du_velux.png" title="#1 Coteaux du Velux 2020" >}}
 
 Nous en sommes à la troisième semaine et j’ai beaucoup écouté Jim Croce la première semaine. J’ai acheté récemment le disque qui est un vrai petit bijou de folk 70’s, hippie à souhait. I Got A Name est le morceau qui ouvre l’album, bien que ce soit le seul de l’album qu’il n’a pas écrit, il annonce très bien la chaleur de la suite. C’était parfait pour souhaiter la bienvenue au soleil, à travers les veluxs du salon, après des mois de temps bien normand.
 
 On a beau avoir tous les projets du monde en confinement, même à trois dans un appartement, les plans établis finissent très souvent entre les mains de la procrastination téléphonique quand ce n’est pas en une partie de Jenga. Time Spent Looking At My Phone, c’est le titre de ce morceau de MGMT qui résume en quelque sorte la tragédie d’une génération de futurs bossus, contraints de manger des racines dans des déserts nucléaires.
 
-Les ballades en fôret commence à sérieusement me manquer. Et mon chien aussi. Les dernières ballades c’était avec mon ami ermite, poète et ténor du comptoir, qui m’a fait découvrir un album New Musik, qui m’a donné la forte envie d’acquérir ce disque de pop bien 80’s à souhait. Avec une qualité d’arrangements et de sons très inspirants pour l’époque, et ça n’a pas vieilli d’un poil pour ma part.
+Les ballades en fôret commencent à sérieusement me manquer. Et mon chien aussi. Les dernières ballades c’était avec mon ami ermite, poète et ténor du comptoir, qui m’a fait découvrir un album New Musik, qui m’a donné la forte envie d’acquérir ce disque de pop bien 80’s à souhait. Avec une qualité d’arrangements et de sons très inspirants pour l’époque, et ça n’a pas vieilli d’un poil pour ma part.
 
 Est ce que je dois vraiment expliquer ma blague du Dimanche dans la playlist ? Oui . Parce que chaque jour sonne comme un dimanche en ce moment. Un dimanche ensoleillé en plus. Le seum.
 
@@ -27,9 +27,9 @@ Est ce que je dois vraiment expliquer ma blague du Dimanche dans la playlist ? O
 </iframe>
 
 
-Alors forcément, comme dit tout juste avant : Le seum s’installe. On a envie de chanter comme Noir Boy George, et puis après on a moins envie de chanter. On s’enfonce dans les canapés comme dans l’alcool, à défaut de la ville. Car on ne sait pas quand on la retrouvera.
+Alors forcément, comme dit tout juste avant : le seum s’installe. On a envie de chanter comme Noir Boy George, et puis après on a moins envie de chanter. On s’enfonce dans les canapés comme dans l’alcool, à défaut de la ville. Car on ne sait pas quand on la retrouvera.
 
-Mais dans la mélancolie, le soleil du matin, et le café chaud deviennent des bénédictions. Les cigarettes sentent meilleure et l’air pur de la ville détoxifiée respire la nostalgie des premières fleurs du printemps. Je vais faire chialer les mômes putain.
+Mais dans la mélancolie, le soleil du matin, et le café chaud deviennent des bénédictions. Les cigarettes sentent meilleur et l’air pur de la ville détoxifiée respire la nostalgie des premières fleurs du printemps. Je vais faire chialer les mômes putain.
 
 Du coup parfois on va un peu mieux. Peut être parce qu’on a moins bu la veille ou qu’on a pas traîné jusque 5h sur internet, n’importe où, n’importe comment. On s’en fout. Là on se sent de mettre le son un peu plus fort et de profiter de son appartement comme il se doit, avec en prime un joli sourire.
 
