@@ -1,6 +1,6 @@
 ---
 description: "Une breve description de ce que nous sommes ou ce que nous pensons être ou peut etre de ce que nous ne sommes pas."
-title: "Qui sommes nous??"
+title: "A propos"
 featured_image: '/images/quisommesnous.jpg'
 display_featured_image: true
 type: page
