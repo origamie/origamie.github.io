@@ -1,16 +1,20 @@
 {{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l">
+  <article class="cf pa3 pa4-m pa4-l center">
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
-      <p>Ci dessous les articles taggés “{{ .Title }}”</p>
+      <p>Là tu trouveras toutes les playlists et origamixs taggés “{{ .Title }}” :</p>
     </div>
   </article>
   <div class="mw8 center">    
-    <section class="flex-ns flex-wrap justify-around mt5">
-      {{ range  .Pages }}
-        <div class="relative w-100  mb4 bg-white">
-          {{ partial "summary.html" . }}
-        </div>
-      {{ end }}
-    </section>
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      <section class="w-100 mw8">
+          {{/* Range through the first $n_posts items of the section */}}
+          {{ range  .Pages }}
+            <div class="relative w-100 mb4">
+              {{ partial "summary-with-image.html" . }}
+            </div>
+          {{ end }}
+        </section>
+      </div>
+    {{- template "_internal/pagination.html" . -}}
   </div>
 {{ end }}
