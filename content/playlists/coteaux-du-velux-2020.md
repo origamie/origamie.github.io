@@ -34,3 +34,9 @@ Bon courage à tout le monde et bonne écoute.
 
 Zoubis.
 
+<hr/>
+
+<p><small>
+Texte : Rémi Mangot<br/>
+Illustation : Maxime Renaudet
+</small></p>
