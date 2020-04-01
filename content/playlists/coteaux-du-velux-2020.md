@@ -4,7 +4,9 @@ tags: ["playlist", "new musik", "the limiñanas", "laurent garnier", "mgmt", "ji
 title: "#1 Coteaux du Velux 2020"
 featured_image: '/images/coteaux_du_velux.png'
 display_featured_image: false
-date: 2020-03-02T12:00:00-05:00
+date: 2020-03-31T12:00:00-05:00
+author: "Rémi Mangot" 
+illustrator: "Maxime Renaudet"
 ---
 {{< figure src="/images/coteaux_du_velux.png" title="#1 Coteaux du Velux 2020" >}}
 
@@ -33,10 +35,3 @@ Pour les deux derniers morceaux, voyez ça plutôt comme une ordonnance. La musi
 Bon courage à tout le monde et bonne écoute.
 
 Zoubis.
-
-<hr/>
-
-<p><small>
-Texte : Rémi Mangot<br/>
-Illustation : Maxime Renaudet
-</small></p>
