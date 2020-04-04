@@ -8,19 +8,7 @@ menu:
   main:
     weight: 3
 ---
-<h4>Musique</h4>
-
-<style type="text/css">
-	.artist-line {
-		display: flex;
-	}
-
-	@media (max-device-width : 880px) {
-		.artist-line {
-			display: block !important;
-		}
-	}
-</style>
+{{<title "Musique" >}}
 
 <div class="artist-line">
 	{{< artist image="/images/gizele2000.png" 

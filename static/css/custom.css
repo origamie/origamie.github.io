@@ -1,0 +1,9 @@
+.artist-line {
+	display: flex;
+}
+
+@media (max-device-width : 880px) {
+	.artist-line {
+		display: block !important;
+	}
+}
