@@ -48,5 +48,12 @@ menu:
 		name="DJ Gaziers"
 	>}}
 </div>
+<div class="artist-line">
+	{{< artist image="/images/techno_bankers.jpg" 
+		name="Techno Bankers" 
+		width="50%"
+		facebook="https://www.facebook.com/Techno-Bankers-257541874589467/?tn-str=k*F"
+	>}}
+</div>
 
 booking@origamie.org
