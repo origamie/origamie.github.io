@@ -7,6 +7,19 @@
     {{- if .Get "name" -}}
         <figcaption>
             <p>{{- .Get "name" -}}
+
+            {{ with .Get "youtube" }}
+            <a href="{{ . }}" 
+                target="_blank" 
+                style="float: right;" 
+                class="youtube mr1" 
+                title="Lien Youtube" 
+                rel="noopener" 
+                aria-label="follow on Youtube——Opens in a new window">
+                {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
+            </a>
+            {{ end }}
+
             {{ with .Get  "instagram" }}
                 <a href="{{ . }}" 
                     target="_blank" 
@@ -18,6 +31,7 @@
                   {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
                 </a>
             {{ end }}
+
             {{ with .Get  "soundcloud" }}
                 <a href="{{ . }}" 
                     target="_blank" 
@@ -29,6 +43,7 @@
                   {{ partial "svg/soundcloud.svg" (dict "size" $icon_size) }}
                 </a>
             {{ end }}
+            
             {{ with .Get "facebook" }}
                 <a href="{{ . }}" 
                     target="_blank" 

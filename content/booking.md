@@ -17,19 +17,33 @@ menu:
 		facebook="https://www.facebook.com/GIZELE2K/" 
 		instagram="https://www.instagram.com/gizele2000/"
 	>}}
-	{{< artist image="/images/tseue.png" 
-		name="Tseue" 
-		width="50%"
-		facebook="https://www.facebook.com/tseue3000/"
-		instagram="https://www.instagram.com/tseue3000/"
-	>}}
-</div>
-<div class="artist-line">
 	{{< artist image="/images/ambivalence.jpg" 
 		name="Ambivalence" 
 		width="50%"
 		facebook="https://www.facebook.com/ambivalencecrew/"
 		soundcloud="https://soundcloud.com/ambivalencecrew"
+	>}}
+</div>
+<div class="artist-line">
+	{{< artist image="/images/lap1.jpg" 
+		name="Lap1" 
+		width="50%"	
+		facebook="https://www.facebook.com/LaP1LaP1/"
+		soundcloud="https://soundcloud.com/lap1lap1"
+	>}}
+	{{< artist image="/images/tomi_marx.jpg" 
+		width="50%"
+		name="Tomi Marx"
+		facebook="https://www.facebook.com/tomimarxmusic/"
+		youtube="https://www.youtube.com/channel/UCSYRO8TUi7bos4dyXyvpliQ"
+	>}}
+</div>
+<div class="artist-line">
+	{{< artist image="/images/tseue.png" 
+		name="Tseue" 
+		width="50%"
+		facebook="https://www.facebook.com/tseue3000/"
+		instagram="https://www.instagram.com/tseue3000/"
 	>}}
 	{{< artist image="/images/gaziers.png" 
 		width="50%"
