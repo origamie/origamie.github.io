@@ -1,0 +1,46 @@
+{{ $icon_size := "25px" }}
+<span {{ with .Get "width" }} style="width: {{ . }}"{{ end }}>
+<figure>
+    <img src="{{ .Get "image" }}"
+         alt="{{ .Get "name" }}"
+    />
+    {{- if .Get "name" -}}
+        <figcaption>
+            <p>{{- .Get "name" -}}
+            {{ with .Get  "instagram" }}
+                <a href="{{ . }}" 
+                    target="_blank" 
+                    style="float: right;" 
+                    class="instagram mr1" 
+                    title="Lien Instagram" 
+                    rel="noopener" 
+                    aria-label="follow on Instagram——Opens in a new window">
+                  {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+                </a>
+            {{ end }}
+            {{ with .Get  "soundcloud" }}
+                <a href="{{ . }}" 
+                    target="_blank" 
+                    style="float: right;" 
+                    class="stackoverflow mr1" 
+                    title="Lien Soundcloud" 
+                    rel="noopener" 
+                    aria-label="follow on Instagram——Opens in a new window">
+                  {{ partial "svg/soundcloud.svg" (dict "size" $icon_size) }}
+                </a>
+            {{ end }}
+            {{ with .Get "facebook" }}
+                <a href="{{ . }}" 
+                    target="_blank" 
+                    style="float: right;" 
+                    class="facebook mr1" 
+                    title="Lien Facebook" rel="noopener" 
+                    aria-label="follow on Facebook——Opens in a new window">
+                {{ partial "svg/facebook.svg" (dict "size" $icon_size)}}
+                </a>
+            {{ end }}
+            </p>
+        </figcaption>
+    {{- end }}
+</figure>
+</span>

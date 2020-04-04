@@ -22,4 +22,4 @@ La morale de cette histoire : une journée sur le trône n’est jamais perdue, 
 
 La team Origamie
 
-contact[@]origamie.org
+contact@origamie.org
