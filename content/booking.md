@@ -1,6 +1,5 @@
 ---
 title: "Artistes"
-description: "Origamie te fait danser, chanter, pleurer."
 featured_image: '/images/origamix.jpg'
 display_featured_image: false
 type: page
@@ -28,6 +27,7 @@ menu:
 	{{< artist image="/images/lap1.jpg" 
 		name="Lap1" 
 		width="50%"	
+		instagram="https://www.instagram.com/le_lap1/"
 		facebook="https://www.facebook.com/LaP1LaP1/"
 		soundcloud="https://soundcloud.com/lap1lap1"
 	>}}
@@ -42,6 +42,7 @@ menu:
 	{{< artist image="/images/tseue.png" 
 		name="Tseue" 
 		width="50%"
+		soundcloud="https://soundcloud.com/tseue-3000"
 		facebook="https://www.facebook.com/tseue3000/"
 		instagram="https://www.instagram.com/tseue3000/"
 	>}}
@@ -55,6 +56,7 @@ menu:
 		name="Techno Bankers" 
 		width="50%"
 		facebook="https://www.facebook.com/Techno-Bankers-257541874589467/?tn-str=k*F"
+		soundcloud="https://soundcloud.com/robin-pot-reau"
 	>}}
 </div>
 
