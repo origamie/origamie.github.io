@@ -17,4 +17,4 @@ Partons pour un rapide tour du monde, destination le Japon, le Congo, l'Inde ou 
 
 Explorons les fonds marins et les galaxies très lointaines, allons même pourquoi pas jusqu'à Palavas-les-Flots !
 
-{{< youtube-playlist PLcZ9GIDr05jP-f3EoNOrSQnXSRM9PZSTj >}}
+{{< youtube-playlist PL3yt8r5HGJ35ruy_H7wanQwyjAETK1ISo >}}
