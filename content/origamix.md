@@ -12,3 +12,5 @@ menu:
 {{< mixcloud ORIGAMIE origamix-1 >}}
 
 {{< mixcloud ORIGAMIE origamix-2 >}}
+
+{{< mixcloud ORIGAMIE origamix-3-dream-pop-of-the-duck >}}
