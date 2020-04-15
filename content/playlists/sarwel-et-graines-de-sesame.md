@@ -27,5 +27,5 @@ Je me suis trompé le meilleur groupe Normand c’était G.H.B, du rock qui tach
 
 Mais t’étais un romantique aussi, t’étais le genre de mec qui draguait dans une caravane avec ton poncho et ta weed soit disant local ! Tu te retrouvais à bouffer des graines de sésames et fumer des joints avec une dreadeuse et son sarouel coloré, c’est comme ça que tu draguais en 2010. Tu lui glissais doucement un petit mickey 3d ou babylon circus en rêvant de vos futures années en arts du spectacle à vivre dans un Volkswagen aménagé ! 
 
-Pour finir t’étais le genre de mec qui se faisait passer pour le fils de Manu Chao en festival, juste parce que t’avais une grat’ et le teint un peu mate, le pire c’est que ça marchait, tu choppais à tous les coups. On finit par le King of the Bongo. 
+Pour finir t’étais le genre de mec qui se faisait passer pour le fils de Manu Chao en festival, juste parce que t’avais une grat’ et le teint un peu mate, le pire c’est que ça marchait, tu choppais à tous les coups. On finit par t'appeler le King of the Bongo. 
 
