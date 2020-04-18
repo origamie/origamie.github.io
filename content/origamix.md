@@ -6,7 +6,7 @@ display_featured_image: true
 type: page
 menu:
   main:
-    weight: 2
+    weight: 3
 ---
 
 {{< mixcloud ORIGAMIE origamix-1 >}}
