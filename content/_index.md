@@ -1,5 +1,5 @@
 ---
-title: "Origamie"
+title: "Origamie site tests"
 featured_image: '/images/teo.jpg'
 description: "Association loi 1901 détournant un max de thunes 🖕"
 type: page
