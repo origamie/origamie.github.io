@@ -1,9 +1,31 @@
-.artist-line {
+.artist-line, .fanzine-line {
 	display: flex;
 }
 
 @media (max-device-width : 880px) {
-	.artist-line {
+	.artist-line, .fanzine-line {
 		display: block !important;
+	}
+}
+
+.fanzine-description {
+	width: 50%; 
+	margin-right: 60px
+}
+
+@media (max-device-width : 880px) {
+	.fanzine-description {
+		width: 100%;
+	}
+}
+
+
+.fanzine-product {
+	width: 300px
+}
+
+@media (max-device-width : 880px) {
+	.fanzine-product {
+		width: 100%;
 	}
 }
