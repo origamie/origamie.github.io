@@ -18,8 +18,6 @@ menu:
 			<br/>
 			<li>L'achat du fanzine (peut importe le prix) t'offre une adhesion à l'association Origamie.</li>
 			<br/>
-			<li>Il est soumis à la TVA de 20%, pour le fonctionnement d'un état basé sur le social et la solidaritée.</li>
-			<br/>
 			<li>Tous les bénéfices de la vente du fanzine seront déstinés à la rémunération des artises ayants collaborés et au fonctionnement de l'association.</li>
 			<br/>
 		</ul>
