@@ -9,16 +9,17 @@ menu:
     weight: 4
 ---
 
-Un beau jour, tu te retrouves sur le trône des toilettes. Il est 8:00. Tu t’essaies à faire un Origami pour passer le temps.
+Nous sommes musiciens, graphistes, informaticiens, acteurs, infirmiers, humoristes, illustrateurs, plombiers, professeurs, fonctionnaires, éducateurs, et même tenanciers de bar. Mais un soir, à l’appel des degrés élevés, nous avons abandonnés les obscures créations collectives du passé pour un pliage carré et sensé.
 
-Il est 19:32, tu viens de réaliser 200 Origamis. Tu réalises que ce Mardi 8 Janvier, tu viens de passer ta journée sur le trône. 
+Depuis, Origamie a évolué. C’est encore et toujours une bande de potes qui s’est bâtie à Alençon, bourgade bas-normande laissée culturellement à l’abandon il n’y a encore pas si longtemps. Mais c’est aussi et surtout devenu un collectif qui repose sur une volonté partagée depuis de nombreuses années : dynamiser et promouvoir la culture locale.
 
-Est-ce une journée de perdue ? On pourrait penser que oui. Tu prends du recul et tu réalises que finalement se fut une journée merveilleuse, enrichissante et à la genèse de ce projet : s’amuser simplement !
+Le DIY nous connaît et nous prônons à cette occasion la consommation locale et solidaire. Terminé bonsoir le sandwich merguez et la pinte pour dix euros, place au radis noire et à la sangria maison pour le prix de votre choix. 
 
-Nous pouvons toujours trouver le moyen de s’amuser, de vivre pleinement chaque instant mais le faire ensemble reste la plus belle des choses. 
+Venez goûter à cette doctrine au cours des différents événements que nous organisons ici et là, que ce soit une exposition, un concert, une performance, ou un after.
 
-La morale de cette histoire : une journée sur le trône n’est jamais perdue, donnons simplement de l’importance à chaque journée et à chaque trône. 
+Pliez-vous bien ! 
 
+<br/>
 
 La team Origamie
 
