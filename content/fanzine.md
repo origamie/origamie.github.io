@@ -12,7 +12,7 @@ menu:
 	<div class="fanzine-description">
 		<h4>Acheter le fanzine</h4>
 		<ul>
-			<li>Le fanzine est disponible en prix libre. C'est à dire que tu donne ce que tu veux et ce que tu peux.</li>
+			<li>Le fanzine est disponible en prix libre. C'est à dire que tu donnes ce que tu veux et ce que tu peux.</li>
 			<br/>
 			<li>Le fanzine sera envoyé en PDF sur ton adresse mail.</li>
 			<br/>
@@ -30,7 +30,7 @@ menu:
 <br/>
 <br/>
 
-<h3>Pourquoi le prix libre</h3>
+<h3>Pourquoi le prix libre ?</h3>
 
 Le prix libre est une prat​iq​ue de solid​ar​ité, chaque individu·e, quels que soient ses reven​us, peut bénéf​ic​ier des mêmes serv​ic​es. 
 
