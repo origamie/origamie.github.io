@@ -10,16 +10,12 @@ menu:
 ---
 <section class="fanzine-line">
 	<div class="fanzine-description">
-		<h4>Acheter le fanzine</h4>
+		{{<title "Acheter le fanzine" >}}
 		<ul>
 			<li>Le fanzine est disponible en prix libre. C'est à dire que tu donnes ce que tu veux et ce que tu peux.</li>
-			<br/>
 			<li>Le fanzine sera envoyé en PDF sur ton adresse mail.</li>
-			<br/>
 			<li>L'achat du fanzine (peut importe le prix) t'offre une adhesion à l'association Origamie.</li>
-			<br/>
 			<li>Tous les bénéfices de la vente du fanzine seront déstinés à la rémunération des artises ayants collaborés et au fonctionnement de l'association.</li>
-			<br/>
 		</ul>
 	</div>
 	<div class="fanzine-product">
@@ -27,10 +23,17 @@ menu:
 	</div>
 </section>
 
-<br/>
-<br/>
+{{<title "Papiel Cul, le fanzine" >}}
 
-<h3>Pourquoi le prix libre ?</h3>
+Phasellus ipsum neque, vulputate et augue vel, consectetur bibendum orci. Morbi blandit lacinia tortor, sit amet interdum est suscipit ac. 
+
+Integer imperdiet mi mi, interdum vehicula dolor fringilla ac. Sed sit amet fringilla lectus. Nam vulputate tristique lacus quis consectetur. Nulla commodo lorem at diam auctor, eget feugiat lectus varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+
+Nam iaculis magna efficitur ullamcorper tincidunt. Duis mattis, urna nec convallis maximus, quam justo tristique nibh, id tristique libero purus et velit. Sed facilisis iaculis lorem, non viverra tortor mollis ac. Ut ac orci a nisl facilisis rhoncus. Integer placerat, neque in eleifend efficitur, ipsum felis semper purus, in sodales elit augue ac urna. Duis sem arcu, lacinia ut hendrerit bibendum, euismod vitae nunc. 
+
+Quisque pulvinar sem a interdum dictum. Nulla facilisi. Vestibulum interdum ipsum sit amet purus congue, nec pulvinar ligula consectetur. 
+
+{{<title "Pourquoi le prix libre ?" >}}
 
 Le prix libre est une prat​iq​ue de solid​ar​ité, chaque individu·e, quels que soient ses reven​us, peut bénéf​ic​ier des mêmes serv​ic​es. 
 
