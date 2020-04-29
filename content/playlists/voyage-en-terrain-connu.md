@@ -17,7 +17,7 @@ Le temps d’une playlist, je vous propose un voyage au pays de la sensas’ pur
 
 Allons donc baguenauder... Pas besoin de chausser vos quechua, ici ce sera un trajet direct entre vos enceintes et votre canapé. Entrons dans un univers hybride entre machines et traditions..Chérissez la Gasba, le Dabourka ou la Conga, saluez les cloches, les guimbardes... En route vers le pays des koras, des bousoukis, des Shamisens... N’attachez pas vos ceintures, l’envol sera doux et la trajectoire ascendante... Have fun.
 
-{{< youtube-playlist PL3yt8r5HGJ350A4ZBDddsGGLAEL1OEovP >}}
+{{< youtube-playlist PL3yt8r5HGJ36Upvf4dK1nNHuprjXai9AO >}}
 
 Petite présentation des artistes accompagnée de suggestions d’albums à dévorer..
 
