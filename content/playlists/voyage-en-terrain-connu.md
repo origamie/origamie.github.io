@@ -51,8 +51,13 @@ Kikagaku Moyo - kodama : Kikagaku Moyo est un groupe de rock psychédélique b
 Top album : Forest for lost children
 
 <strong>Los Bitchos - The think is about to die</strong> : faites tourner la tequila car ce merveilleux mélange de rock psychédélique, de surf rock californien et d’exotisme americanos à la sauce cumbia saura vous faire taper du pied au beau milieu de votre salon.
-Goat - Try my robe - Goat explore une musique sans entraves en puisant ses influences aux quatre coins du monde, de l'afro-beat au funk anatolien, Goat est un groupe de rock psychédélique expérimental de la scène Suédoise. Top Album : World Music
-AMAMI - Ivory : AMAMI est un alliage dub, afrobeat, dancehall retro-futurist..sur-vitaminée, dansant et positif, laissez vous emporter par vos rêves ou sur la piste de danse (votre salon) 
+
+
+<strong>Goat - Try my robe</strong> : Goat explore une musique sans entraves en puisant ses influences aux quatre coins du monde, de l'afro-beat au funk anatolien, Goat est un groupe de rock psychédélique expérimental de la scène Suédoise. 
+
+Top Album : World Music
+
+<strong>AMAMI - Ivory</strong> : AMAMI est un alliage dub, afrobeat, dancehall retro-futurist..sur-vitaminée, dansant et positif, laissez vous emporter par vos rêves ou sur la piste de danse (votre salon) 
 
 Top album : (EP) Giant
            
