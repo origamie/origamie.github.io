@@ -46,8 +46,12 @@ Top Album : The Hunt
 
 Top Album : The Mauskovic Dance band
 
-<strong>Against all logic - Now U got me hooked</strong> : ALIAS Nicolas Jaar... Que dire de plus ? Top Album : 2012-2017
-Kikagaku Moyo - kodama : Kikagaku Moyo est un groupe de rock psychédélique basé à Tokyo dont le son incorpore des éléments de Krautrock, de râga indiens et de folk acide.
+<strong>Against all logic - Now U got me hooked</strong> : ALIAS Nicolas Jaar... Que dire de plus ? 
+
+Top Album : 2012-2017
+
+
+<strong>Kikagaku Moyo - kodama</strong> : Kikagaku Moyo est un groupe de rock psychédélique basé à Tokyo dont le son incorpore des éléments de Krautrock, de râga indiens et de folk acide.
 
 Top album : Forest for lost children
 
