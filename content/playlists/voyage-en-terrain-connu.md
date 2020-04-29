@@ -33,7 +33,8 @@ Top Album : Tayi Bebba
 Top Album : (EP) Roll with the punches
 
 <strong>YIN YIN - Thom KIKI</strong> : association délicieuse de musique dansante et psyquédélique d’Asie du sud-est à des productions disco, funk, electro du monde entier. Top album : The rabbit that hunts tigers
-Tamikrest - Tisnant an Chatma : Blues rock du Sahara. Les tambours traditionnels hypnotisants sont accompagnés des riffs de guitares électriques, de voix en chœur, couplées à des sons de clavier ou de violons qui viennent bâtir le blues voluptueux des Touaregs. 
+
+<strong>Tamikrest - Tisnant an Chatma</strong> : Blues rock du Sahara. Les tambours traditionnels hypnotisants sont accompagnés des riffs de guitares électriques, de voix en chœur, couplées à des sons de clavier ou de violons qui viennent bâtir le blues voluptueux des Touaregs. 
 
 Top Album : Chatma
 
