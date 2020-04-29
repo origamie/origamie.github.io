@@ -64,7 +64,7 @@ Top albums : Afrobeat maker (ft Tony Allen) / Nuova Napoli
 
  Top Album : Days in orbit
 
-<string>Ko shin moon - Uber Ciftetelli</strong> : croulant sous les synthétiseurs analogiques et les luths orientaux d’un studio, Ko Shin Moon efface les frontières dans une ode aux machines et au monde.
+<strong>Ko shin moon - Uber Ciftetelli</strong> : croulant sous les synthétiseurs analogiques et les luths orientaux d’un studio, Ko Shin Moon efface les frontières dans une ode aux machines et au monde.
 
 Top Album : Leïla Nova
 
