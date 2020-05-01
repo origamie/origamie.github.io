@@ -20,7 +20,7 @@
       </h1>
       {{ with .Params.author }}
       <p class="tracked">
-          Texte et Playlist: <strong>
+          Texte et Playlist : <strong>
           {{ if reflect.IsSlice . }}
               {{ delimit . ", " | markdownify }}
           {{else}}
