@@ -4,7 +4,7 @@ date: 2020-05-01T17:44:40+02:00
 featured_image: '/images/faites_de_la_musique.png'
 display_featured_image: false
 author: "Martin Potel" 
-illustrator: "Adrien Artaud"
+illustrator: "Adrien Arthaud"
 description: "Playlist #10"
 tags: ["playlist"]
 ---
