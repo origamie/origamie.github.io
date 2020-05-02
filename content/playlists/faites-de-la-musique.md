@@ -19,7 +19,7 @@ La musique live a surtout quelque chose d’extraordinaire, elle rassemble, unit
 
 Parce que le live est aussi souvent le meilleur endroit pour découvrir ou redécouvrir des artistes, des gens ou des endroits que l’ont aurait jamais rencontré sinon. Les artistes en profitent aussi pour collaborer et expérimenter. Les organisateurs et techniciens pour nous émerveiller, nous questionner.
 
-Les concerts, les festivals, les bars, les clubs nous manquent mais reviendront. Ils ont toujours été là et seront toujours là. 
+Les concerts, quels qu'ils soient, petits ou grands, amateurs ou proffessionels nous manquent. Mais ils reviendront. Ils ont toujours été là et seront toujours là. 
 
 Soyons patients,
 
