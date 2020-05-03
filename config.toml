@@ -32,3 +32,17 @@ enableRobotsTXT = true
   featured_image = ""
   recent_posts_number = 2
   custom_css = ["css/custom.css"]
+
+[related]
+  threshold = 0
+  includeNewer = true
+  toLower = false
+
+  [[related.indices]]
+    name = "keywords"
+    weight = 100
+
+  [[related.indices]]
+    name  = "date"
+    weight = 10
+

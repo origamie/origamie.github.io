@@ -20,7 +20,6 @@ Venez goûter à cette doctrine au cours des différents événements que nous o
 Pliez-vous bien ! 
 
 <br/>
-<br/>
 
 La team Origamie
 

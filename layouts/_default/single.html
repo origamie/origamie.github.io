@@ -20,7 +20,7 @@
       </h1>
       {{ with .Params.author }}
       <p class="tracked">
-          Texte : <strong>
+          Playlist : <strong>
           {{ if reflect.IsSlice . }}
               {{ delimit . ", " | markdownify }}
           {{else}}
@@ -31,7 +31,7 @@
       {{ end }}
       {{ with .Params.illustrator }}
       <p class="tracked">
-          Illustrations : <strong>
+          Illustration : <strong>
           {{ if reflect.IsSlice . }}
               {{ delimit . ", " | markdownify }}
           {{else}}
