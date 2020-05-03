@@ -12,10 +12,10 @@ menu:
 	<div class="fanzine-description">
 		{{<title "Acheter le fanzine" >}}
 		<ul>
-			<li>Le fanzine est disponible en prix libre. C'est à dire que tu donnes ce que tu veux et ce que tu peux.</li>
+			<li>Le fanzine est disponible à prix libre. C'est à dire que tu donnes ce que tu veux et ce que tu peux.</li>
 			<li>Le fanzine sera envoyé en PDF sur ton adresse mail.</li>
-			<li>L'achat du fanzine (peut importe le prix) t'offre une adhesion à l'association Origamie.</li>
-			<li>Tous les bénéfices de la vente du fanzine seront déstinés à la rémunération des artises ayants collaborés et au fonctionnement de l'association.</li>
+			<li>L'achat du fanzine (peu importe le prix) t'offre une adhesion à l'association Origamie.</li>
+			<li>Tous les bénéfices de la vente du fanzine seront déstinés à la rémunération des artistes ayants collaborés et au fonctionnement de l'association.</li>
 		</ul>
 	</div>
 	<div class="fanzine-product">
