@@ -11,7 +11,7 @@ menu:
 
 Nous sommes musiciens, graphistes, informaticiens, acteurs, infirmiers, humoristes, illustrateurs, plombiers, professeurs, fonctionnaires, éducateurs, et même tenanciers de bar. Mais un soir, à l’appel des degrés élevés, nous avons abandonnés les obscures créations collectives du passé pour un pliage carré et sensé.
 
-Depuis, Origamie a évolué. C’est encore et toujours une bande de potes qui s’est bâtie à Alençon, bourgade bas-normande laissée culturellement à l’abandon il n’y a encore pas si longtemps. Mais c’est aussi et surtout devenu un collectif qui repose sur une volonté partagée depuis de nombreuses années : dynamiser et promouvoir la culture locale.
+Depuis, Origamie a évolué. C’est encore et toujours une bande de potes qui s’est bâtie à Alençon, bourgade bas-normande. Mais c’est aussi et surtout devenu un collectif qui repose sur une volonté partagée depuis de nombreuses années : dynamiser et promouvoir la culture locale.
 
 Le DIY nous connaît et nous prônons à cette occasion la consommation locale et solidaire. Terminé bonsoir le sandwich merguez et la pinte pour dix euros, place au radis noire et à la sangria maison pour le prix de votre choix. 
 
