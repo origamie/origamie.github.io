@@ -13,7 +13,7 @@ Nous sommes musiciens, graphistes, informaticiens, acteurs, infirmiers, humorist
 
 Depuis, Origamie a évolué. C’est encore et toujours une bande de potes qui s’est bâtie à Alençon, bourgade bas-normande. Mais c’est aussi et surtout devenu un collectif qui repose sur une volonté partagée depuis de nombreuses années : dynamiser et promouvoir la culture locale.
 
-Le DIY nous connaît et nous prônons à cette occasion la consommation locale et solidaire. Terminé bonsoir le sandwich merguez et la pinte pour dix euros, place au radis noire et à la sangria maison pour le prix de votre choix. 
+Le DIY nous connaît et nous prônons à cette occasion la consommation locale et solidaire. Terminé bonsoir le sandwich merguez et la pinte pour dix euros, place au radis noir et à la sangria maison pour le prix de votre choix. 
 
 Venez goûter à cette doctrine au cours des différents événements que nous organisons ici et là, que ce soit une exposition, un concert, une performance, ou un after.
 
