@@ -10,7 +10,7 @@ author: "Mathieu Génissel"
 illustrator: "Adrien Arthaud"
 ---
 
-{{< figure src="/images/la_rave_de_karoline.png" title="#11 Coteaux du Velux 2020" >}}
+{{< figure src="/images/la_rave_de_karoline.png" title="#11 La rave de karoline" >}}
 
 La Karo elle s’est raveillée ce matin avec l’envie de sortir. Elle a ravée qu’elle et sa bande de « on arrête pas un peuple qui danse » se sont retrouvés Porte d’Aubervilliers pour fêter le changement d’heure. C'est bien le changement d'heure. 
 
