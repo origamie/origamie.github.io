@@ -15,7 +15,6 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  commentoEnable = true
   favicon = "favicon.ico"
   description = "Origamie association"
   facebook = "https://www.facebook.com/origa1000"
