@@ -12,10 +12,10 @@ menu:
 	<div class="fanzine-description">
 		{{<title "Acheter le fanzine" >}}
 		<ul>
-			<li>Le fanzine est disponible à prix libre. C'est à dire que tu donnes ce que tu veux et ce que tu peux.</li>
+			<li>Le fanzine est disponible à prix libre. C'est-à-dire que tu donnes ce que tu veux et ce que tu peux.</li>
 			<li>Le fanzine sera envoyé en PDF sur ton adresse mail.</li>
-			<li>L'achat du fanzine (peu importe le prix) t'offre une adhesion à l'association Origamie.</li>
-			<li>Tous les bénéfices de la vente du fanzine seront déstinés à la rémunération des artistes ayants collaborés et au fonctionnement de l'association.</li>
+			<li>L'achat du fanzine (peu importe le prix.) t'offre une adhesion à l'association Origamie.</li>
+			<li>Tous les bénéfices de la vente du fanzine seront déstinés à la rémunération des artistes ayant collaboré et au fonctionnement de l'association.</li>
 		</ul>
 	</div>
 	<div class="fanzine-product">
@@ -35,13 +35,13 @@ Quisque pulvinar sem a interdum dictum. Nulla facilisi. Vestibulum interdum ipsu
 
 {{<title "Pourquoi le prix libre ?" >}}
 
-Le prix libre est une prat​iq​ue de solid​ar​ité, chaque individu·e, quels que soient ses reven​us, peut bénéf​ic​ier des mêmes serv​ic​es. 
+Le prix libre est une prat​iq​ue de solid​ar​ité, chaque individu·e, quels que soient ses reven​us, peut bénéf​ic​ier des mêmes serv​ic​es.
 
-Le prix libre impliq​ue aussi une notion de resp​ons​ab​il​is​at​ion, d’entraide et d’échange. L’organ​is​at​ion d’un prix libre nécess​ite un choix de non-surc​onsomm​at​ion (récup, dons, prêt, etc.), de volont​ar​iat et d’invent​iv​ité. 
+Le prix libre implique aussi une notion de resp​ons​ab​il​is​at​ion, d’entraide et d’échange. La mise en place d’un prix libre répond à un désir de non-surc​onsomm​at​ion (récup, dons, prêt, etc.), de volont​ar​iat et d’invent​iv​ité.
 
-Par ce concept, ce n’est pas le vend​eur·se qui fixe le prix, mais le consommateur·rice. Il s’agit de part​ic​ip​er à la haut​eur de ses moyens et de ses envies. Quels sont mes moyens ? Quels sont les frais occasionnés par l’organisation du festival ? A quel point ai-je envie de participer ? etc. 
+Par ce concept, ce n’est pas le vend​eur qui fixe le prix, mais le consommateur. Il s’agit de part​ic​ip​er à la haut​eur de ses moyens et de ses envies. Quels sont mes moyens ? Quels sont les frais occasionnés pour le vendeur ? À quel point ai-je envie de participer ? Etc...
 
-On s’éloigne ainsi d’une attit​ude purement consommatrice, où la somme que l’on donne est un geste rapide et automatique.
+On s’éloigne ainsi d’une attitude consommatrice et consumérisme, où la somme que l’on donne est un geste rapide et automatique.
 
 
 <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68984"></script>
