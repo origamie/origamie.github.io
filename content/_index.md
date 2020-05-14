@@ -8,8 +8,7 @@ recent_copy: Playlists récentes
 
 <br/>
 
-{{< youtube s-rX-RpB2y4>}}
+DIMANCHE 17 / 05
+{{< youtube -vRYWqUhJ-w>}}
 
-Première home session Origamie. 
-
-Tomi Marx, réalisée par TSEUe.
+PREMIER NUMÉRO DE Papier CUL. 
