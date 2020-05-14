@@ -1,6 +1,6 @@
 ---
-title: "PQ Le Fanzine"
-description: "Papier Cul, le fanzine qui réhabilite la lecture papier aux toilettes."
+title: "Papier Cul"
+description: "PAPIER CUL, fanzine à lire aux toilettes."
 display_featured_image: true
 featured_image: '/images/pq_couv.png'
 type: page
@@ -25,13 +25,15 @@ menu:
 
 {{<title "Papiel Cul, le fanzine" >}}
 
-Phasellus ipsum neque, vulputate et augue vel, consectetur bibendum orci. Morbi blandit lacinia tortor, sit amet interdum est suscipit ac. 
+Papier Cul est un fanzine de divertissement artistique et engagé. 
 
-Integer imperdiet mi mi, interdum vehicula dolor fringilla ac. Sed sit amet fringilla lectus. Nam vulputate tristique lacus quis consectetur. Nulla commodo lorem at diam auctor, eget feugiat lectus varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Créé en 2020 par le collectif ORIGAMIE, ce fanzine met en avant des artistes indépendants et offre à ceux qui y participent une liberté de ton totale. 
 
-Nam iaculis magna efficitur ullamcorper tincidunt. Duis mattis, urna nec convallis maximus, quam justo tristique nibh, id tristique libero purus et velit. Sed facilisis iaculis lorem, non viverra tortor mollis ac. Ut ac orci a nisl facilisis rhoncus. Integer placerat, neque in eleifend efficitur, ipsum felis semper purus, in sodales elit augue ac urna. Duis sem arcu, lacinia ut hendrerit bibendum, euismod vitae nunc. 
+Le numéro zéro de Papier Cul sort en mai 2020 et doit s’adapter au format webzine pour exister malgré la pandémie du COVID-19.
 
-Quisque pulvinar sem a interdum dictum. Nulla facilisi. Vestibulum interdum ipsum sit amet purus congue, nec pulvinar ligula consectetur. 
+Ce numéro est accessible à prix libre afin de le rendre accessible au plus grand nombre et également de pouvoir dégager des bénéfices afin de pouvoir rémunérer les différents artistes qui ont collaborés. 
+
+Bonne lecture.
 
 {{<title "Pourquoi le prix libre ?" >}}
 
@@ -41,7 +43,7 @@ Le prix libre implique aussi une notion de resp​ons​ab​il​is​at​ion,
 
 Par ce concept, ce n’est pas le vend​eur qui fixe le prix, mais le consommateur. Il s’agit de part​ic​ip​er à la haut​eur de ses moyens et de ses envies. Quels sont mes moyens ? Quels sont les frais occasionnés pour le vendeur ? À quel point ai-je envie de participer ? Etc...
 
-On s’éloigne ainsi d’une attitude consommatrice et consumérisme, où la somme que l’on donne est un geste rapide et automatique.
+On s’éloigne ainsi d’une attitude consommatrice et consumériste, où la somme que l’on donne est un geste rapide et automatique.
 
 
 <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68984"></script>
