@@ -23,7 +23,7 @@ menu:
 	</div>
 </section>
 
-{{<title "Papiel Cul, le fanzine" >}}
+{{<title "Papier Cul, le fanzine" >}}
 
 Papier Cul est un fanzine de divertissement artistique et engagé. 
 
