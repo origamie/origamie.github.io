@@ -11,7 +11,7 @@ illustrator: "Adrien Arthaud"
 
 {{< figure src="/images/sangria_y_flamenco.png" title="#13 Sangria y flamenco" >}}
 
-Le petit Diego, il aime bien la musique gitane, mais maman elle aime pas trop quand kendji Girac lui tape sur le système. Elle préfère voyageait à Buenos aires et ses bus remplis de cumbia et d'accents hispaniques. 
+Le petit Diego, il aime bien la musique gitane, mais maman elle aime pas trop quand kendji Girac lui tape sur le système. Elle préfère voyager à Buenos aires et ses bus remplis de cumbia et d'accents hispaniques. 
 
 Ce qu’elle affectionne par-dessus tout, c’est danser le flamenco avec Antonio sur de la musique andalouse. Tu prends la pomme, tu la manges et tu la jettes. 
 
