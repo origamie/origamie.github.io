@@ -6,7 +6,7 @@ display_featured_image: true
 type: page
 menu:
   main:
-    weight: 4
+    weight: 5
 ---
 
 Nous sommes musiciens, graphistes, informaticiens, acteurs, infirmiers, humoristes, illustrateurs, paysans, professeurs, fonctionnaires, éducateurs, et même tenanciers de bar. Un soir, à l’appel des degrés élevés, nous avons décidés d’abandonner les obscures créations collectives du passé afin de créer Origamie.

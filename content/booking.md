@@ -5,7 +5,7 @@ display_featured_image: false
 type: page
 menu:
   main:
-    weight: 3
+    weight: 4
 ---
 {{<title "Musique" >}}
 
