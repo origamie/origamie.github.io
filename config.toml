@@ -1,6 +1,6 @@
-baseURL = "http://www.origamie.org"
+baseURL = "http://maconnage.origamie.org"
 languageCode = "fr-fr"
-title = "Origamie"
+title = "Origamie Tests"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
