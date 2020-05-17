@@ -1,5 +1,5 @@
 ---
-title: "Origamie site tests"
+title: "Origamie"
 featured_image: '/images/teo.jpg'
 description: "\"Un homme sans culture, c'est comme un zèbre sans rayures.\""
 type: page

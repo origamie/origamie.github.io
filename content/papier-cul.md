@@ -1,6 +1,6 @@
 ---
 title: "Papier Cul"
-description: "PAPIER CUL, fanzine à lire aux toilettes."
+description: "Le fanzine à lire aux toilettes"
 display_featured_image: true
 featured_image: '/images/pq_couv.png'
 type: page
@@ -27,7 +27,7 @@ menu:
 
 Papier Cul est un fanzine de divertissement artistique et engagé. 
 
-Créé en 2020 par le collectif ORIGAMIE, ce fanzine met en avant des artistes indépendants et offre à ceux qui y participent une liberté de ton totale. 
+Créé en 2020 par le collectif Origamie, ce fanzine met en avant des artistes indépendants et offre à ceux qui y participent une liberté de ton totale. 
 
 Le numéro zéro de Papier Cul sort en mai 2020 et doit s’adapter au format webzine pour exister malgré la pandémie du COVID-19.
 
@@ -37,7 +37,7 @@ Bonne lecture.
 
 {{<title "Pourquoi le prix libre ?" >}}
 
-Le prix libre est une prat​iq​ue de solid​ar​ité, chaque individu·e, quels que soient ses reven​us, peut bénéf​ic​ier des mêmes serv​ic​es.
+Le prix libre est une prat​iq​ue de solid​ar​ité, chaque individu, quels que soient ses reven​us, peut bénéf​ic​ier des mêmes serv​ic​es.
 
 Le prix libre implique aussi une notion de resp​ons​ab​il​is​at​ion, d’entraide et d’échange. La mise en place d’un prix libre répond à un désir de non-surc​onsomm​at​ion (récup, dons, prêt, etc.), de volont​ar​iat et d’invent​iv​ité.
 
