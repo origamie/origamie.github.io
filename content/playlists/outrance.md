@@ -1,6 +1,6 @@
 ---
 description: "Playlist #PQ"
-title: "#PQ Outrance"
+title: "#HorsSériePQ Outrance"
 date: 2020-05-19T22:31:59+02:00
 display_featured_image: false
 featured_image: '/images/pq_couv_base.png'
@@ -8,7 +8,7 @@ author: "Team Origamie"
 illustrator: "Team Origamie"
 ---
 
-{{< figure src="/images/pq_couv_base.png" title="#PQ Outrance" link=< ref "/papier-cul">}}
+{{< figure src="/images/pq_couv_base.png" title="#HorsSériePQ Outrance" link=< ref "/papier-cul">}}
 
 La Karo elle s’est raveillée ce matin avec l’envie de sortir. Elle a ravé qu’elle et sa bande de « on arrête pas un peuple qui danse » se sont retrouvés Porte d’Aubervilliers pour fêter le changement d’heure. C'est bien le changement d'heure. 
 
