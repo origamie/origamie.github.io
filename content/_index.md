@@ -11,4 +11,6 @@ recent_copy: Playlists récentes
 DIMANCHE 17 / 05
 {{< youtube -vRYWqUhJ-w>}}
 
-PREMIER NUMÉRO DE Papier CUL. 
+Premier numéro de Papier Cul.
+
+<a href={{< ref "/papier-cul">}}>Disponible ici</a>
