@@ -2,7 +2,6 @@
 title: "#12 Psychedelic time"
 description: "Playlist #12"
 tags: ["playlist"]
-display_featured_image: true
 featured_image: '/images/psychedelic_time.jpg'
 display_featured_image: false
 author: "Émi Hope" 

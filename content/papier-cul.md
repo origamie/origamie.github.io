@@ -1,6 +1,6 @@
 ---
 title: "Papier Cul"
-description: "Le fanzine à lire aux toilettes"
+description: "Le fanzine à lire aux toilettes."
 display_featured_image: true
 featured_image: '/images/pq_couv.png'
 type: page
