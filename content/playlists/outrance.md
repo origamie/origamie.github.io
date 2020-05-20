@@ -3,21 +3,19 @@ description: "Playlist #PQ"
 title: "#HorsSériePQ Outrance"
 date: 2020-05-19T22:31:59+02:00
 display_featured_image: false
-featured_image: '/images/pq_couv_base.png'
-author: "Team Origamie" 
-illustrator: "Team Origamie"
+featured_image: '/images/pq_playlist.png'
+author: "Origamie" 
+illustrator: "Origamie"
 ---
 
-{{< figure src="/images/pq_couv_base.png" title="#HorsSériePQ Outrance" link=< ref "/papier-cul">}}
+{{< figure src="/images/pq_playlist.png" title="#HorsSériePQ Outrance" link=< ref "/papier-cul">}}
 
-La Karo elle s’est raveillée ce matin avec l’envie de sortir. Elle a ravé qu’elle et sa bande de « on arrête pas un peuple qui danse » se sont retrouvés Porte d’Aubervilliers pour fêter le changement d’heure. C'est bien le changement d'heure. 
+BIM BAM & BOOM !
 
-Tout avait commencé en mode tea time avec la tracks d'n'b bien UK qui a mit la machine en route. En vrai il faisait pas chaud du coup Esteban (l’iroquois avec une jambe en placo) lui avait filé son pull trempé, trop sympa Esteban. 
+À l'occasion de la sortie du numéro #0 de "Papier Cul" le nouveau fanzine créé par Origamie, l'équipe vous a concocté une playlist collaborative sur le thème du fanzine qui est : l' OUTRANCE".
 
-{{< youtube-playlist PL3yt8r5HGJ37pZ1LfKgeBZ_JkXG-SUqjR >}}
+{{< youtube-playlist PL3yt8r5HGJ366_4ykhusOC2k1BT_D-x_F >}}
 
-Après la Karo elle a dansé, dansé, dansé avec les pigeons épileptiques et l’ami Nico. Les gens étaient hyper heureux, les chiens aussi, c'était chiadé. 
+Papier Cul, le fanzine à lire aux toilettes.
 
-3 kanettes acid plus tard elle a chanté, chanté, chanté mais elle avait perdu le pull d’Esteban. Pas grave. A la fin c'était un peu hard trance tavu avec des tracks comme à la fête foraine d'Aunou sur Orne. Après la dernière danse on a dû remonter dans la 504 break chargée où dormait Caisson, le chien blanc trop bourré d’Esteban qu’il avait colorié en bleu. C'était cool !
-
-<a href={{< ref "/papier-cul">}}>Papier Cul est disponible à prix libre ici.</a>
+<a href={{< ref "/papier-cul">}}>Disponible à prix libre ici.</a>
