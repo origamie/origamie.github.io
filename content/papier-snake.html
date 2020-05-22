@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Snake</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" href="../papier-snake/assets/css/main.css">
+
+    <script>
+        window.requestAnimationFrame=function(){
+            return window.requestAnimationFrame||window.webkitRequestAnimationFrame||
+                    window.mozRequestAnimationFrame||window.msRequestAnimationFrame||
+                    window.oRequestAnimationFrame||function(f){window.setTimeout(f,1e3/60)}}();
+    </script>
+</head>
+
+<body>
+    <div class="intro">
+        <h2>Papier-Cul Snake</h2>
+        <p><a href="../papier-cul">Papier Cul est disponible à prix libre ici.</a></p>
+    </div>
+
+    <div class="container absolute">
+
+        <canvas id="snake-canvas" autofocus="autofocus" data-full-screen="true"></canvas>
+
+        <div id="scoreboard">
+            <div id="score">
+                Score :
+                <span>0</span>
+            </div>
+
+            <div id="hi-score">
+                Ton meilleur Score :
+                <span>0</span>
+            </div>
+        </div>
+    </div>
+
+<!-- Vendor Component Libraries -->
+<script src="../papier-snake/vendor/zepto/zepto.js" type="application/javascript"></script>
+<script src="../papier-snake/vendor/zepto-touch/zepto-touch.js" type="application/javascript"></script>
+
+<!-- Browserified Build -->
+<script src="../papier-snake/build/snake.build.js" type="application/javascript"></script>
+
+<script>
+    //Start Snake Game
+    $(document).ready(function() {
+        ResponsiveSnake.start({
+            snakePixels    : 14,
+            snakeSize      : 4,
+            bot            : false,
+            explosion      : true
+        });
+    });
+</script>
+</body>
+</html>
