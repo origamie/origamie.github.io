@@ -8,7 +8,7 @@ author: "Origamie"
 illustrator: "Origamie"
 ---
 
-{{< figure src="/images/pq_playlist.png" title="#HorsSériePQ Outrance" link=< ref "/papier-cul">}}
+{{< figure src="/images/pq_playlist.png" title="#HorsSériePQ Outrance" link=< ref "/papier-snake">}}
 
 BIM BAM & BOOM !
 
