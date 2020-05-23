@@ -25,4 +25,4 @@ Papier Cul, le fanzine à lire aux toilettes.
 ...
 <br/>
 
-PS: Un petit jeu est caché sur dans l'illustration, envoie nous ton meilleur score ;)
+PS: Un petit jeu est caché dans l'illustration, envoie nous ton meilleur score ;)
