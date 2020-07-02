@@ -8,7 +8,7 @@ type: page
 
 {{< figure src="/images/pq_couv_base.png">}}
 
-Dans ton panier culturel proposé par Chapelmêle, l’association Origamie t’offre son tout premier webzine intitulé « Papier Cul ».
+Dans ton panier culturel proposé par Chapelmêle, l’association Origamie t’offre son tout premier webzine intitulé <i>Papier Cul</i>.
 
 Le numéro 0 « Outrance » a été créé par une dizaine d’artistes qui ont collaboré au travers de textes, illustrations et photographies sur le thème de l’excès.
 
