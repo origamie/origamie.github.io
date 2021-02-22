@@ -34,6 +34,11 @@
       {{ end }}
     {{ end }}
     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+
+    <style type="text/css">.roboto { font-family: 'Roboto'}</style>
+
     {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
@@ -42,44 +47,9 @@
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://origamie.matomo.cloud/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/origamie.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-    
-    <!-- Start Open Web Analytics Tracker -->
-    <script type="text/javascript">
-    //<![CDATA[
-    var owa_baseUrl = 'https://origamienuage.hostiso.host/stats/';
-    var owa_cmds = owa_cmds || [];
-    owa_cmds.push(['setSiteId', '0a57cbeb02f89ed32e7882d8d9f22b8b']);
-    owa_cmds.push(['trackPageView']);
-    owa_cmds.push(['trackClicks']);
-
-    (function() {
-        var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
-        owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
-        _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
-        var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
-    }());
-    //]]>
-    </script>
-    <!-- End Open Web Analytics Code -->
-
   </head>
 
-  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="ma0 {{ $.Param "body_classes"  | default "roboto bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">

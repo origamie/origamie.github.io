@@ -1,4 +1,4 @@
-baseURL = "https://www.origamie.org"
+baseURL = "https://maconnage.origamie.org"
 languageCode = "fr-fr"
 title = "Origamie"
 theme = "ananke"
@@ -32,6 +32,8 @@ enableRobotsTXT = true
   featured_image = ""
   recent_posts_number = 2
   custom_css = ["css/custom.css"]
+  body_classes = "roboto bg-near-white"
+  post_content_classes = "roboto"
 
 [related]
   threshold = 0
