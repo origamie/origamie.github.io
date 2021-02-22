@@ -8,7 +8,7 @@
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         {{ if eq .Title "Origamie"}}
           {{ with .Site.Params.site_logo_big }}
-              <img src="{{ . }}" alt="{{ $.Site.Title }}" />
+              <img src="{{ . }}" alt="{{ $.Site.Title }}" class="site-image center" />
           {{ else }}
             <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
               {{ .Title | default .Site.Title }}
