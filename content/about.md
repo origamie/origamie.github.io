@@ -3,6 +3,8 @@ description: "Une brève description de ce que nous sommes, ce que nous pensons 
 title: "À propos"
 featured_image: '/images/quisommesnous.jpg'
 display_featured_image: true
+site_logo: 'images/logotype_blanc_menu.png'
+
 type: page
 menu:
   main:
