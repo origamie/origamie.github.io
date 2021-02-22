@@ -41,6 +41,8 @@
 	}
 }
 
+.site-image {}
+
 @media (max-device-width : 880px) {
 	.site-image {
 		width: 200px;
