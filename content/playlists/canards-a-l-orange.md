@@ -1,7 +1,7 @@
 ---
 description: "Playlist #SAINTVAL"
 tags: ["playlist"]
-title: "#HorsSérieSV Cannards À L'Orange"
+title: "#HorsSérieSV Canards À L'Orange"
 featured_image: "/images/canards_a_l_orange.png"
 date: 2021-02-14T14:39:08+02:00
 display_featured_image: false
@@ -9,7 +9,7 @@ author: "Origamie"
 illustrator: "Maxime Renaudet"
 ---
 
-{{< figure src="/images/canards_a_l_orange.png" title="#HorsSerieSV Cannards À L'Orange" >}}
+{{< figure src="/images/canards_a_l_orange.png" title="#HorsSerieSV Canards À L'Orange" >}}
 
 Playlist hors série de l'equipe Origamie spécial Saint-Valentin.
 
