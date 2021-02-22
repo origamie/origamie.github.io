@@ -1,4 +1,4 @@
-baseURL = "https://maconnage.origamie.org"
+baseURL = "http://maconnage.origamie.org"
 languageCode = "fr-fr"
 title = "Origamie"
 theme = "ananke"
