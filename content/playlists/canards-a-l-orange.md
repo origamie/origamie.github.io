@@ -1,7 +1,7 @@
 ---
-description: "Playlist #SAINTVAL"
+description: "Playlist #19"
 tags: ["playlist"]
-title: "#HorsSérieSV Canards À L'Orange"
+title: "#19 Canards À L'Orange"
 featured_image: "/images/canards_a_l_orange.png"
 date: 2021-02-14T14:39:08+02:00
 display_featured_image: false
