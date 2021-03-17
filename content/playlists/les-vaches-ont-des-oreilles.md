@@ -1,5 +1,5 @@
 ---
-description: "Playlist #19"
+description: "Playlist #20"
 tags: ["playlist"]
 title: "#19 Les vaches ont des oreilles"
 featured_image: "/images/les_vaches_ont_des_oreilles.png"
@@ -9,7 +9,7 @@ author: "Félix Leneveu"
 illustrator: "Adrien Arthaud"
 ---
 
-{{< figure src="/images/les_vaches_ont_des_oreilles.png" title="#19 Les vaches ont des oreilles" >}}
+{{< figure src="/images/les_vaches_ont_des_oreilles.png" title="#20 Les vaches ont des oreilles" >}}
 
 La Normandie, c'est la campagne, les vaches normandes, le mont st Michel ou le Breizh cola (oui, je te jure, on l'a racheté).
 
