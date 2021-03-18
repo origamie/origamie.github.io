@@ -1,11 +1,10 @@
 ---
 description: "Playlist #11"
-title: "#11 La rave de karoline"
 tags: ["playlist"]
+title: "#11 La rave de karoline"
+featured_image: "/images/la_rave_de_karoline.png"
 date: 2020-05-06T15:27:41+02:00
 display_featured_image: true
-featured_image: '/images/la_rave_de_karoline.png'
-display_featured_image: false
 author: "Mathieu Génissel" 
 illustrator: "Adrien Arthaud"
 ---

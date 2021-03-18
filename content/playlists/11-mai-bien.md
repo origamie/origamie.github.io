@@ -2,7 +2,6 @@
 description: "Playlist #7"
 title: "#7 11 Mai Bien"
 date: 2020-04-22T13:05:49+02:00
-display_featured_image: true
 tags: ["laurie anderson", "king krule", "the avalanches", "night neats", "anna meredith", "kate bush", "baron rétif", "concepción perez", "malcom", "the postal service", "tory y moi", "erza furman", "sharon van etten", "the skin of my yellow country teeth", "morgan delt", "playlist"]
 featured_image: "/images/11_mai_bien.png"
 display_featured_image: false
