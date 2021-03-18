@@ -2,7 +2,7 @@
 description: "Playlist #21"
 tags:
   - playlist
-title: "#21 La Ligne Bleue Des Vosges"
+title: "#21 La ligne bleue des vosges"
 featured_image: /images/la_ligne_bleue_des_vosges.png
 date: 2021-03-17T14:39:08+02:00
 display_featured_image: false
