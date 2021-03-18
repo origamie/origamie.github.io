@@ -1,13 +1,14 @@
 ---
 description: "Playlist #9"
-tags: ["playlist"]
+tags:
+  - playlist
 title: "#9 Voyage en terrain connu"
-featured_image: "/images/voyage_en_terrain_connu.jpeg"
-date: 2020-04-29T14:39:08+02:00
+featured_image: /images/voyage_en_terrain_connu.jpeg
+date: 2020-04-29T12:40:08.000Z
 display_featured_image: false
-author: "Robin Potereau" 
-illustrator: "Maxime Niol"
-playlist: "PL3yt8r5HGJ36Upvf4dK1nNHuprjXai9AO"
+author: Robin Potereau
+illustrator: Maxime Niol
+playlist: PL3yt8r5HGJ36Upvf4dK1nNHuprjXai9AO
 ---
 
 «Départ, déplacement avec ou sans arrivée, le voyage, pensé ou bien vécu, est autre que le voyage confusément pensé, et illusoirement vécu dans l’imaginaire et les désirs ordinaires du voyageur. La pensée du voyage n’est pas le voyage. Elle est sa demeure...»
