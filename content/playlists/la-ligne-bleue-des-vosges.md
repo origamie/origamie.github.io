@@ -32,7 +32,3 @@ Conçus comme des espaces, des moments à expérimenter, mes travaux sont géné
 En tant qu’auteur, mon travail est réalisé avec des instruments acoustiques, électroniques et phonographique, il est à l'intersection de la composition, de la performance et de l'installation.
 Sonore, évoquant l’auditif ou des lieux imaginaires, mes agencements sondent des processus et des états de perception.
 En continuité de mes recherches, j’interprète, avec le collectif La Novia, des pièces de compositeurs contemporains, je co-dirige les éditions oh cet écho aux presses du réel et enseigne les pratiques sonores et intermédia à la HEAR.
-
-
-
-ceci est un test
