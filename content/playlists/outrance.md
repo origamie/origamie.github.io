@@ -6,15 +6,14 @@ display_featured_image: false
 featured_image: '/images/pq_playlist.png'
 author: "Origamie" 
 illustrator: "Origamie"
+playlist: "PL3yt8r5HGJ366_4ykhusOC2k1BT_D-x_F"
 ---
-
-{{< figure src="/images/pq_playlist.png" title="#HorsSériePQ Outrance" link=< ref "/papier-snake">}}
 
 BIM BAM & BOOM !
 
 À l'occasion de la sortie du numéro #0 de "Papier Cul" le nouveau fanzine créé par Origamie, l'équipe vous a concocté une playlist collaborative sur le thème du fanzine qui est : l' "OUTRANCE".
 
-{{< youtube-playlist PL3yt8r5HGJ366_4ykhusOC2k1BT_D-x_F >}}
+{{< youtube-playlist >}}
 
 Papier Cul, le fanzine à lire aux toilettes.
 
@@ -25,4 +24,4 @@ Papier Cul, le fanzine à lire aux toilettes.
 ...
 <br/>
 
-PS: Un petit jeu est caché dans l'illustration, envoie nous ton meilleur score ;)
+PS: Un petit jeu est disponible <a href={{< ref "/papier-snake">}}>ici</a>, envoie nous ton meilleur score ;)

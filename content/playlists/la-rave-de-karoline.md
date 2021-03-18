@@ -7,15 +7,13 @@ date: 2020-05-06T15:27:41+02:00
 display_featured_image: true
 author: "Mathieu Génissel" 
 illustrator: "Adrien Arthaud"
+playlist: "PL3yt8r5HGJ37pZ1LfKgeBZ_JkXG-SUqjR"
 ---
-
-{{< figure src="/images/la_rave_de_karoline.png" title="#11 La rave de karoline" >}}
-
 La Karo elle s’est raveillée ce matin avec l’envie de sortir. Elle a ravé qu’elle et sa bande de « on arrête pas un peuple qui danse » se sont retrouvés Porte d’Aubervilliers pour fêter le changement d’heure. C'est bien le changement d'heure. 
 
 Tout avait commencé en mode tea time avec la tracks d'n'b bien UK qui a mit la machine en route. En vrai il faisait pas chaud du coup Esteban (l’iroquois avec une jambe en placo) lui avait filé son pull trempé, trop sympa Esteban. 
 
-{{< youtube-playlist PL3yt8r5HGJ37pZ1LfKgeBZ_JkXG-SUqjR >}}
+{{< youtube-playlist >}}
 
 Après la Karo elle a dansé, dansé, dansé avec les pigeons épileptiques et l’ami Nico. Les gens étaient hyper heureux, les chiens aussi, c'était chiadé. 
 

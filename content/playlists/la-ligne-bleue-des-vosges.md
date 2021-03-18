@@ -10,8 +10,6 @@ illustrator: "Maxime Niol"
 playlist: "PL3yt8r5HGJ37Pj3-W90NVVhsNgrp-pee5"
 ---
 
-{{< figure src="/images/la_ligne_bleue_des_vosges.png" title="#21 La Ligne Bleue Des Vosges" >}}
-
 Chaque mois, Origamie propose à un artiste de nous concocter une playlist. Pour ce premier numéro, c’est Yvan Etienne qui s’y colle.
 
 
@@ -24,7 +22,7 @@ Vous trouverez à la fin un extrait de son dernier album de musique électroniqu
 
 <br/>
 
-{{< youtube-playlist .Page.Params.playlist >}}
+{{< youtube-playlist >}}
 
 <br/>
 

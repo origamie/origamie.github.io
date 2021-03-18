@@ -7,9 +7,8 @@ featured_image: '/images/pieds-nus-dans-l-herbe.png'
 display_featured_image: false
 author: "Adèle Leliard" 
 illustrator: "Maxime Niol"
+playlist: "PL3yt8r5HGJ34s4wDQT2DXTKykgr9bXFgj"
 ---
-
-{{< figure src="/images/pieds-nus-dans-l-herbe.png" title="#14 Pieds nus dans l'herbe" >}}
 
 Imagine un soir de mai, la fraîcheur de la nuit commence à tomber et le frais aussi. Tu te retrouves dans un festival au milieu d’un champ ornais. Des couleurs, des lumières, des sourires. Tu viens de finir ta semaine et tout à coup plus rien autour n’existe. Moment suspendu dans l’espace et le temps.
 
@@ -22,7 +21,7 @@ La voix des chanteuses est envoûtante.
 Les yeux sont tous rivés sur cet arbre d’où la musique provient.
 Tout le monde finit par frapper dans les mains en même temps. L’impression de ne faire plus qu’un, comme si les cœurs de toutes les personnes assises dans l’herbe battaient en même temps avec la musique.
 
-{{< youtube-playlist PL3yt8r5HGJ34s4wDQT2DXTKykgr9bXFgj >}}
+{{< youtube-playlist >}}
 
 La musique, la voix des chanteuses, le silence du public ou celui de la campagne, les frissons dûs à la fraîcheur d’un soir de mai ou à la musique qui vient t’envahir, chaque détail participe à l’harmonie de ce moment.
 Les humains sont capables de créer des instants de vie d’une beauté parfaite.

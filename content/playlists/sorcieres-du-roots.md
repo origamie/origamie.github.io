@@ -7,16 +7,14 @@ featured_image: "/images/sorcieres_du_roots.png"
 display_featured_image: false
 author: "Maxime Renaudet" 
 illustrator: "Maxime Renaudet"
+playlist: "PL3yt8r5HGJ35cbWK3CH4GvYz3XMbdJ7EF"
 ---
-
-{{< figure src="/images/sorcieres_du_roots.png" title="#4 Sorcières du roots" >}}
-
 
 Comme le rap, le reggae n'échappe pas à la surdomination masculine, au sexisme et à l'homophobie. 
 
 Dans l'ombre de Bob, Marcia Griffiths, Rita Marley, Judy Mowatt, Phyllis Dillon et Hortense Ellis ont été premières à être "chosifiées" par les mêmes clichés du rap. 
 
-{{< youtube-playlist PL3yt8r5HGJ35cbWK3CH4GvYz3XMbdJ7EF >}}
+{{< youtube-playlist >}}
 
 Mais depuis quelques années, en Jamaïque et en Europe, leurs descendantes haussent le ton et bousculent cette appropriation masculine. 
 

@@ -7,9 +7,8 @@ date: 2020-04-29T14:39:08+02:00
 display_featured_image: false
 author: "Robin Potereau" 
 illustrator: "Maxime Niol"
+playlist: "PL3yt8r5HGJ36Upvf4dK1nNHuprjXai9AO"
 ---
-
-{{< figure src="/images/voyage_en_terrain_connu.jpeg" title="#9 Voyage en terrain connu" >}}
 
 «Départ, déplacement avec ou sans arrivée, le voyage, pensé ou bien vécu, est autre que le voyage confusément pensé, et illusoirement vécu dans l’imaginaire et les désirs ordinaires du voyageur. La pensée du voyage n’est pas le voyage. Elle est sa demeure...»
 
@@ -17,7 +16,7 @@ Le temps d’une playlist, je vous propose un voyage au pays de la sensas’ pur
 
 Allons donc baguenauder... Pas besoin de chausser vos quechua, ici ce sera un trajet direct entre vos enceintes et votre canapé. Entrons dans un univers hybride entre machines et traditions..Chérissez la Gasba, le Dabourka ou la Conga, saluez les cloches, les guimbardes... En route vers le pays des koras, des bousoukis, des Shamisens... N’attachez pas vos ceintures, l’envol sera doux et la trajectoire ascendante... Have fun.
 
-{{< youtube-playlist PL3yt8r5HGJ36Upvf4dK1nNHuprjXai9AO >}}
+{{< youtube-playlist >}}
 
 Petite présentation des artistes accompagnée de suggestions d’albums à dévorer..
 

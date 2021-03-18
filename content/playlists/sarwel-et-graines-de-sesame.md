@@ -7,9 +7,8 @@ featured_image: "/images/sarouel_et_graine_de_sesame.png"
 display_featured_image: false
 author: "Félix Leneveu" 
 illustrator: "Maxime Renaudet"
+playlist: "PL3yt8r5HGJ37ItzLVtkvC02SpP5wm4UuU"
 ---
-
-{{< figure src="/images/sarouel_et_graine_de_sesame.png" title="#5 Sarouel et graines de sésame!" >}}
 
 Oui toi ancien lycéen, rappelle-toi cette époque. Tu as fait, tout comme moi le pèlerinage des festivals du Grand Ouest, t’entendais toujours les mêmes groupes mais le principal, c’était d’avoir ta vieille VOLVO S80 chargée à bloque de Bastion et de copains ! 
 
@@ -17,7 +16,7 @@ Petit flash-back, Art Sonic 1998, juste avant la finale de la coupe du Monde, et
 
 Tu te réveillais le samedi matin, sans ton bracelet de festi’ acheté la veille, et tu retrouvais un cubi de 15 litres de rosé en train de réchauffer au soleil. Quelques copains dans le même état que toi sirotaient un café avec beaucoup de calva. Résultat des courses, tu finissais le week-end à écouter de la musique sur un bon vieux blackberry et tu picolais avec un cœur dessiné sur la gueule ! 
 
-{{< youtube-playlist PL3yt8r5HGJ37ItzLVtkvC02SpP5wm4UuU >}}
+{{< youtube-playlist >}}
 
 T’étais déjà un sacré anar’, t’écoutais du guérilla poubelle et t’enculais la société, tu faisais des chichas ! Avec tes cheveux longs gras d’adolescents t’étais au-dessus de tous ces politiciens ! 
 

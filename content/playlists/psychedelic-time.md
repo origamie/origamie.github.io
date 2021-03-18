@@ -7,9 +7,8 @@ display_featured_image: false
 author: "Émi Hope" 
 illustrator: "Émi Hope"
 date: 2020-05-08T13:29:56+02:00
+playlist: "PL3yt8r5HGJ34iV4ukWL97DnhkiXnWMKSb"
 ---
-
-{{< figure src="/images/psychedelic_time.jpg" title="#12 Psychedelic time" >}}
 
 En ce temps de confinement, rien de mieux que de profiter de son temps pour revoir ses classiques ou bien pour découvrir de nouvelles choses. 
 
@@ -17,7 +16,7 @@ Voici, ici, ma sélection de pépites en matière de clips vidéos issus d’un 
 
 Illustrations, photomontages, collages ou autres techniques sont au rendez-vous. Une nouvelle playist qui aborde le travail remarquable de certains monteur.euses vidéos venu.es des quatres coins du monde. 
 
-{{< youtube-playlist PL3yt8r5HGJ34iV4ukWL97DnhkiXnWMKSb >}}
+{{< youtube-playlist >}}
 
 Laissez-vous transporter par un mélange entre des clips indépendants et d’autres qui sont devenus des incontournables !
 

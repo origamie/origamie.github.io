@@ -7,10 +7,8 @@ featured_image: "/images/11_mai_bien.png"
 display_featured_image: false
 author: "Damien Salomé" 
 illustrator: "Maxime Niol"
+playlist: "PL3yt8r5HGJ37hDQTU4fhuprgur-mJ-YXX"
 ---
-
-{{< figure src="/images/11_mai_bien.png" title="#7: 11 Mai Bien" >}}
-
 Bonjour, 
 
 Après 37 jours de confinement j’espère que vous tenez le coup et n’avez pas emballé dans du papier toilette les cadavres de vos voisins pare que, Non Dylan, on a pas envie de jouer au basket dans le salon avec toi. 
@@ -19,7 +17,7 @@ Certains auront déjà cédé à l’appel des chaînes Facebook et défis de r�
 
 Le confinement c’est donc l’occase d’expérimenter des trucs, à la Laurie Anderson qui s’échappe de sa case « fille qui fait des musiques bizarres » avec le succès imprévu de son, O Superman. (Les commentaires de la vidéo sont cools). On met ses lunettes et on enchaine avec un exercice d’ophtalmologie proposé par King Krule. Prenez aussi le temps de glander, personne n’est derrière vous pour vérifiez que vous avez le meilleur confinement. Prenons exemple sur The Avalanches qui sortent leurs titres tout les 35 ans, celui ci se targue en plus d’une magnifique description. 
 
-{{< youtube-playlist PL3yt8r5HGJ37hDQTU4fhuprgur-mJ-YXX >}}
+{{< youtube-playlist >}}
 
 Pour la suite, laissez vous porter, moi je perds du temps que je pourrais utiliser à ne rien faire. 
 

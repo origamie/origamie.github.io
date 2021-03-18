@@ -7,9 +7,8 @@ display_featured_image: false
 date: 2020-03-31T12:00:00-05:00
 author: "Rémi Mangot" 
 illustrator: "Maxime Renaudet"
+playlist: "PL3yt8r5HGJ37gbL9g_tQXxDwIas7y6Fc3"
 ---
-{{< figure src="/images/coteaux_du_velux.png" title="#1 Coteaux du Velux 2020" >}}
-
 Nous en sommes à la troisième semaine et j’ai beaucoup écouté Jim Croce la première semaine. J’ai acheté récemment le disque qui est un vrai petit bijou de folk 70’s, hippie à souhait. I Got A Name est le morceau qui ouvre l’album, bien que ce soit le seul de l’album qu’il n’a pas écrit, il annonce très bien la chaleur de la suite. C’était parfait pour souhaiter la bienvenue au soleil, à travers les veluxs du salon, après des mois de temps bien normand.
 
 On a beau avoir tous les projets du monde en confinement, même à trois dans un appartement, les plans établis finissent très souvent entre les mains de la procrastination téléphonique quand ce n’est pas en une partie de Jenga. Time Spent Looking At My Phone, c’est le titre de ce morceau de MGMT qui résume en quelque sorte la tragédie d’une génération de futurs bossus, contraints de manger des racines dans des déserts nucléaires.
@@ -18,9 +17,7 @@ Les ballades en fôret commencent à sérieusement me manquer. Et mon chien auss
 
 Est ce que je dois vraiment expliquer ma blague du Dimanche dans la playlist ? Oui . Parce que chaque jour sonne comme un dimanche en ce moment. Un dimanche ensoleillé en plus. Le seum.
 
-
-{{< youtube-playlist PL3yt8r5HGJ37gbL9g_tQXxDwIas7y6Fc3 >}}
-
+{{< youtube-playlist >}}
 
 Alors forcément, comme dit tout juste avant : le seum s’installe. On a envie de chanter comme Noir Boy George, et puis après on a moins envie de chanter. On s’enfonce dans les canapés comme dans l’alcool, à défaut de la ville. Car on ne sait pas quand on la retrouvera.
 

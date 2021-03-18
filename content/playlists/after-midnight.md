@@ -7,9 +7,8 @@ date: 2020-11-18T14:39:08+02:00
 display_featured_image: false
 author: "Maxime Niol" 
 illustrator: "Maxime Niol"
+playlist: "PL3yt8r5HGJ35Pl0mnJB0CyuHYGU3B-w-J"
 ---
-
-{{< figure src="/images/after_midnight.jpeg" title="#15 After Midnight" >}}
 
 Si vous aimiez vous endormir dans des afters dégueulasses avec des inconnus, cette playlist est faite pour vous. 
 
@@ -19,4 +18,4 @@ Vous êtes le passé.
 
 Content de vous revoir.
 
-{{< youtube-playlist PL3yt8r5HGJ35Pl0mnJB0CyuHYGU3B-w-J >}}
+{{< youtube-playlist >}}
