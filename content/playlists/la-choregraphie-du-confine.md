@@ -1,13 +1,27 @@
 ---
 description: "Playlist #8"
-tags: ["l'international challal", "ali hassan kuban", "zohra", "uk layers", "charades", "outkast", "indeep", "kx9000", "kool & the gang", "sylvester", "whirpool production", "zito mowa", "a-star", "playlist"]
-title: "#8 La Chorégraphie Du Confiné"
-featured_image: "/images/choregraphie_du_confine.png"
+tags:
+  - l'international challal
+  - ali hassan kuban
+  - zohra
+  - uk layers
+  - charades
+  - outkast
+  - indeep
+  - kx9000
+  - kool & the gang
+  - sylvester
+  - whirpool production
+  - zito mowa
+  - a-star
+  - playlist
+title: "#8 La chorégraphie du confiné"
+featured_image: /images/choregraphie_du_confine.png
 date: 2020-04-25T15:40:14+02:00
 display_featured_image: false
-author: "Camille Andrieu" 
-illustrator: "Maxime Niol"
-playlist: "PL3yt8r5HGJ350A4ZBDddsGGLAEL1OEovP"
+author: Camille Andrieu
+illustrator: Maxime Niol
+playlist: PL3yt8r5HGJ350A4ZBDddsGGLAEL1OEovP
 ---
 
 L’idée de cette playlist aujourd’hui, c’est de te donner envie de danser dans ton salon, dans ta salle de bain, dans ta chambre, dans ta cuisine. Au programme : musique du monde, disco, et house !
