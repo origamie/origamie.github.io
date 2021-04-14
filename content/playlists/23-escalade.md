@@ -1,7 +1,7 @@
 ---
 description: Playlist 23
 title: "#23 Escalade"
-featured_image: static/images/escalade-playlistv2.png
+featured_image: /images/escalade-playlistv2.png
 date: 2021-04-14T12:25:47.405Z
 display_featured_image: false
 author: Valère Cormier
