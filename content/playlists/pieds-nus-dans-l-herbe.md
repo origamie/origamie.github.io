@@ -2,12 +2,12 @@
 description: "Playlist #14"
 tags:
   - playlist
-title: "#14 TSEUe"
+title: "#14 Pieds nus dans l'herbe"
 featured_image: /images/pieds-nus-dans-l-herbe.png
 date: 2020-05-23T01:26:45+02:00
 display_featured_image: false
 author: Adèle Leliard
-illustrator: Maxime Niol
+illustrator: TSEUe
 playlist: PL3yt8r5HGJ34s4wDQT2DXTKykgr9bXFgj
 ---
 
