@@ -1,13 +1,29 @@
 ---
 description: "Playlist #7"
+tags:
+  - laurie anderson
+  - king krule
+  - the avalanches
+  - night neats
+  - anna meredith
+  - kate bush
+  - baron rétif
+  - concepción perez
+  - malcom
+  - the postal service
+  - tory y moi
+  - erza furman
+  - sharon van etten
+  - the skin of my yellow country teeth
+  - morgan delt
+  - playlist
 title: "#7 11 Mai Bien"
+featured_image: /images/11_mai_bien.png
 date: 2020-04-22T13:05:49+02:00
-tags: ["laurie anderson", "king krule", "the avalanches", "night neats", "anna meredith", "kate bush", "baron rétif", "concepción perez", "malcom", "the postal service", "tory y moi", "erza furman", "sharon van etten", "the skin of my yellow country teeth", "morgan delt", "playlist"]
-featured_image: "/images/11_mai_bien.png"
 display_featured_image: false
-author: "Damien Salomé" 
-illustrator: "Maxime Niol"
-playlist: "PL3yt8r5HGJ37hDQTU4fhuprgur-mJ-YXX"
+author: Damien Salomé
+illustrator: TSEUe
+playlist: PL3yt8r5HGJ37hDQTU4fhuprgur-mJ-YXX
 ---
 Bonjour, 
 
