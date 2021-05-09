@@ -7,7 +7,7 @@ featured_image: /images/la_ligne_bleue_des_vosges.png
 date: 2021-03-17T14:39:08+02:00
 display_featured_image: false
 author: Yvan Etienne
-illustrator: Maxime Niol
+illustrator: TSEUe
 playlist: PL3yt8r5HGJ37Pj3-W90NVVhsNgrp-pee5
 ---
 Chaque mois, Origamie propose à un artiste de nous concocter une playlist. Pour ce premier numéro, c’est Yvan Etienne qui s’y colle.
