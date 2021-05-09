@@ -10,9 +10,6 @@ author: Robin Potereau
 illustrator: TSEUe
 playlist: PL3yt8r5HGJ36QfTctsjq3nuN8UxcXT-br
 ---
-
-{{< figure src="/images/bagnole.png" title="#17 Bagnole" >}}
-
 Et si on prenait la route? 
 
 Rien qu’une fois, une dernière fois et puis promis après on rentre à la maison.
@@ -31,7 +28,4 @@ Quelques rejets de carbone, un chouilla d’oxyde d’azote en de toutes petites
 
 En plus je crois que suis même plus assuré et ma voiture est chez ma mère. 
 
-
-
 Sinon écoute ma playlist, c’est la même.
-
