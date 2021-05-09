@@ -1,13 +1,14 @@
 ---
 description: "Playlist #18"
-tags: ["playlist"]
+tags:
+  - playlist
 title: "#18 Attache Ta Tuque Avec D’La Broche"
-featured_image: "/images/attache_ta_tuque_avec_d_la_broche.png"
+featured_image: /images/attache_ta_tuque_avec_d_la_broche.png
 date: 2021-01-14T14:39:08+02:00
 display_featured_image: false
-author: "Sandra Tassel" 
-illustrator: "Maxime Niol"
-playlist: "PL3yt8r5HGJ355DaNYUS7_u0mOlNRI31l3"
+author: Sandra Tassel
+illustrator: TSEUe
+playlist: PL3yt8r5HGJ355DaNYUS7_u0mOlNRI31l3
 ---
 
 Cher voyageur télépathique, 
