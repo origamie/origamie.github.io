@@ -1,12 +1,14 @@
 ---
 description: "Playlist #17"
-tags: ["playlist"]
+tags:
+  - playlist
 title: "#17 Bagnole"
-featured_image: "/images/bagnole.png"
+featured_image: /images/bagnole.png
 date: 2020-12-09T14:39:08+02:00
 display_featured_image: false
-author: "Robin Potereau" 
-illustrator: "Maxime Niol"
+author: Robin Potereau
+illustrator: TSEUe
+playlist: PL3yt8r5HGJ36QfTctsjq3nuN8UxcXT-br
 ---
 
 {{< figure src="/images/bagnole.png" title="#17 Bagnole" >}}
