@@ -20,7 +20,7 @@ featured_image: /images/choregraphie_du_confine.png
 date: 2020-04-25T15:40:14+02:00
 display_featured_image: false
 author: Camille Andrieu
-illustrator: Maxime Niol
+illustrator: TSEUe
 playlist: PL3yt8r5HGJ350A4ZBDddsGGLAEL1OEovP
 ---
 
