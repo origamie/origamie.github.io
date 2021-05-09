@@ -3,7 +3,7 @@ description: "Playlist #25"
 tags:
   - playlist
 title: "#25 Rétrospective"
-featured_image: /images/RÉTROSP.png
+featured_image: /images/retrospective.png
 date: 2021-05-09T10:02:10.803Z
 display_featured_image: false
 author: Thibault Decaux
