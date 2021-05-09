@@ -7,7 +7,7 @@ featured_image: /images/voyage_en_terrain_connu.jpeg
 date: 2020-04-29T12:40:08.000Z
 display_featured_image: false
 author: Robin Potereau
-illustrator: Maxime Niol
+illustrator: TSEUe
 playlist: PL3yt8r5HGJ36Upvf4dK1nNHuprjXai9AO
 ---
 
