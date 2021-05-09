@@ -1,13 +1,14 @@
 ---
 description: "Playlist #16"
-tags: ["playlist"]
+tags:
+  - playlist
 title: "#16 Chien"
-featured_image: "/images/chien.png"
+featured_image: /images/chien.png
 date: 2020-12-04T14:39:08+02:00
 display_featured_image: false
-author: "Rémi Mangot" 
-illustrator: "Maxime Niol"
-playlist: "PL3yt8r5HGJ37yS62U-dc7-6H2SkDT3Vwz"
+author: Rémi Mangot
+illustrator: TSEUe
+playlist: PL3yt8r5HGJ37yS62U-dc7-6H2SkDT3Vwz
 ---
 
 Si j’étais un chien abandonné sur le bord de la Nationale 12, j’écouterais sûrement cette playlist sur mon WafPod. 
