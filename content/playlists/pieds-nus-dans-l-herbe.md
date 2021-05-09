@@ -1,13 +1,14 @@
 ---
 description: "Playlist #14"
-title: "#14 Pieds nus dans l'herbe"
+tags:
+  - playlist
+title: "#14 TSEUe"
+featured_image: /images/pieds-nus-dans-l-herbe.png
 date: 2020-05-23T01:26:45+02:00
-tags: ["playlist"]
-featured_image: '/images/pieds-nus-dans-l-herbe.png'
 display_featured_image: false
-author: "Adèle Leliard" 
-illustrator: "Maxime Niol"
-playlist: "PL3yt8r5HGJ34s4wDQT2DXTKykgr9bXFgj"
+author: Adèle Leliard
+illustrator: Maxime Niol
+playlist: PL3yt8r5HGJ34s4wDQT2DXTKykgr9bXFgj
 ---
 
 Imagine un soir de mai, la fraîcheur de la nuit commence à tomber et le frais aussi. Tu te retrouves dans un festival au milieu d’un champ ornais. Des couleurs, des lumières, des sourires. Tu viens de finir ta semaine et tout à coup plus rien autour n’existe. Moment suspendu dans l’espace et le temps.
