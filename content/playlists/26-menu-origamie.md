@@ -1,6 +1,6 @@
 ---
 description: "Playlist #26"
-title: "#26 MENU ORIGAMIE"
+title: "#26 Menu Origamie"
 featured_image: /images/illustration-playlist-26.jpg
 date: 2021-05-24T10:06:23.023Z
 display_featured_image: false
