@@ -11,12 +11,24 @@ menu:
 
 Après 3 ans de silence, Tomi Marx sort de sa chambre pour vous faire partager la pop acide de son premier EP.
 
-Accompagné sur scène de trois vieux compagnons de route, vous découvrirez nouveaux et anciens morceaux - vous en reconnaîtrez peut-être certains pour les avoir entendus dans l'autoradio de la célèbre GIZELE 2000*
+Il vous presentera l'EP en live ainsi que plein de surprises lors d'une soirée qui s'annonce endiablée.
 
-Cet EP est le fruit d'un travail en douceur réalisé en l'espace d'un an, à base de produits locaux, beaucoup d'amour et de copains. Tout aura été fait pour vous proposer un bel objet, et une belle soirée pour célébrer la concrétisation de cette jolie aventure.
 
-Ce premier EP concrétise les envies musicales de Tomi, la presse vinyle accompagnée d'un petit fanzine donne corps à son univers.
+<h3>Infos utiles et pratiques</h3>
 
+
+- Samedi 13 novembre, 15H - 00H
+
+- Chapêlmêle, 41 rue des Châtelets, Alençon (61)
+
+- Entrée & repas à prix libre
+
+- De quoi grignoter sur place mais aussi de quoi vous désaltérer.
+
+- !!!! PAS DE CB, PRÉVOIS DU CASH !!!!
+
+
+<h3>Concerts</h3>
 
 <div class="artist-line">
 	{{< artist image="/images/tomi_marx.jpg" 
@@ -34,27 +46,11 @@ Ce premier EP concrétise les envies musicales de Tomi, la presse vinyle accompa
 	>}}
 </div>
 
-Autre concert de la soirée : Kim Giani.
-
-Kim est chanteur multi instrumentiste pop qui chante en plusieurs langues et a sorti plusieurs disques depuis les années 90. Parfois musicien ou auteur ou compositeur - un mélomane plein de surprises... il chantera derrière le piano/saxo/ou autre instrument un joli mélange de son répertoire garni de quelques covers et/ou improvisations.
-
-<h3> Il y a aura aussi : </h3>
+<h3> Il y a aura aussi</h3>
 
 - Atelier serigraphie
 - Brocante Tomi Marx
-
-Et pour l'après midi plusieurs activités vous serons proposées !
-
-
-<h3>Infos utiles et pratiques</h3>
+- Tournoi Mario Kart
 
 
-- Samedi 13 novembre, 15H - 00H
-
-- Chapêlmêle, 41 rue des Châtelets Alençon
-
-- !!!! PAS DE CB, PRÉVOIS DU CASH !!!!
-
-- Entrée & repas à prix libre
-
-- De quoi grignoter sur place mais aussi de quoi vous désaltérer.
+<h4><a href="https://www.facebook.com/events/667365204654356">Évènement Facebook</a></h4>
