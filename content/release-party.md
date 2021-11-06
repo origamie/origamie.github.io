@@ -9,6 +9,9 @@ menu:
     weight: 1
 ---
 
+<iframe style="border: 0; width: 414px; height: 534px; align-self: center;  display: block; margin-left: auto; margin-right: auto" src="https://bandcamp.com/EmbeddedPlayer/album=1773064130/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://tomimarx.bandcamp.com/album/ep">EP by Tomi Marx</a></iframe>
+
+
 Après 3 ans de silence, Tomi Marx sort de sa chambre pour vous faire partager la pop acide de son premier EP.
 
 Il vous presentera l'EP en live ainsi que plein de surprises lors d'une soirée qui s'annonce endiablée.
