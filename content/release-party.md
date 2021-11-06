@@ -55,5 +55,10 @@ Il vous presentera l'EP en live ainsi que plein de surprises lors d'une soirée 
 - Brocante Tomi Marx
 - Tournoi Mario Kart
 
+<h3> After</h3>
+
+- 00h - 06h
+- Le Bayokos, 25 cours Clémenceau, Alençon (61)
+
 
 <h4><a href="https://www.facebook.com/events/667365204654356">Évènement Facebook</a></h4>
