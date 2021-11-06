@@ -9,7 +9,7 @@ menu:
     weight: 1
 ---
 
-<iframe style="border: 0; width: 350px; height: 655px;" src="https://bandcamp.com/EmbeddedPlayer/album=1773064130/size=large/bgcol=333333/linkcol=0f91ff/package=1586387120/transparent=true/" seamless><a href="https://tomimarx.bandcamp.com/album/ep">EP by Tomi Marx</a></iframe>
+<iframe style="border: 0; width: 350px; height: 655px; margin-right: auto; margin-left: auto; align-self: center; display: block;" src="https://bandcamp.com/EmbeddedPlayer/album=1773064130/size=large/bgcol=333333/linkcol=0f91ff/package=1586387120/transparent=true/" seamless><a href="https://tomimarx.bandcamp.com/album/ep">EP by Tomi Marx</a></iframe>
 
 
 Après 3 ans de silence, Tomi Marx sort de sa chambre pour vous faire partager la pop acide de son premier EP.
