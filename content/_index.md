@@ -9,8 +9,8 @@ recent_copy: Playlists récentes
 
 <h3>Tomi Marx - EP</h3>
 
-<a href={{< ref "/release-party">}}>
+<a href={{< ref "/tomi-marx-ep">}}>
 <img src="/images/tomi-marx_release.png"  />
 </a>
 
-Le premier EP de Tomi Marx est sorti, est il est disponible <a href={{< ref "/release-party">}}>ici</a>
+Le premier EP de Tomi Marx est sorti, est il est disponible <a href={{< ref "/tomi-marx-ep">}}>ici</a>
