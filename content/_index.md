@@ -9,5 +9,8 @@ recent_copy: Playlists récentes
 
 <h3>Tomi Marx - EP</h3>
 
-<iframe style="border: 0; width: 350px; height: 655px;" src="https://bandcamp.com/EmbeddedPlayer/album=1773064130/size=large/bgcol=333333/linkcol=0f91ff/package=1586387120/transparent=true/" seamless><a href="https://tomimarx.bandcamp.com/album/ep">EP by Tomi Marx</a></iframe>
-<br/>
+<a href={{< ref "/release-party">}}>
+<img src="/images/tomi-marx_release.png"  />
+</a>
+
+Le premier EP de Tomi Marx est sorti, est il est disponible <a href={{< ref "/release-party">}}>ici</a>
