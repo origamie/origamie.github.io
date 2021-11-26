@@ -9,6 +9,8 @@ author: Maxime Renaudet
 illustrator: Maxime Renaudet
 playlist: PL3yt8r5HGJ37cSnqAyRqfBLQOw127898o
 ---
-La fin de l'année 2021 pointe déjà le bout de son nez et les rues commencent sérieusement à puer l'hiver. Alors pour réchauffer les coeurs et entrevoir des jours meilleurs, embarquons direction les Caraïbes avec une sélection 100% oldies pour les rockers et les lovers. Pon di road !
+La fin de l'année 2021 pointe déjà le bout de son nez et les rues commencent sérieusement à puer l'hiver. Alors pour réchauffer les coeurs et entrevoir des jours meilleurs, embarquons direction les Caraïbes avec une sélection 100% oldies concoctée avec amour.
+
+Au menu : Wayne Jarrett, Johnny Osbourne, The I Threes (Marcia Griffiths, Judy Mowatt et Rita Marley), Cultural Roots, Barry Brown, Sugar Minott, Israel Vibration, Dean Fraser, Deborahe Glasgow, Dennis Brown, Gregory Isaacs, Winston Jarrett, et Ken Boothe. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3yt8r5HGJ37IEICy3w_bk7Jn99GUhR7T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
