@@ -6,8 +6,8 @@ title: "#28 Rêverie"
 featured_image: /images/reverie.jpg
 date: 2022-01-26T10:41:34.937Z
 display_featured_image: false
-author: Charlène & Anne Cé
-illustrator: Charlène & Anne Cé
+author: Seshat & Anne Cécile
+illustrator: Seshat
 playlist: PL3yt8r5HGJ3429p_vlsUwKOeAzJAVhJk6
 ---
 Rêverie 
