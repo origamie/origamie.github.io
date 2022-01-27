@@ -14,7 +14,7 @@ Rêverie 
 
 Instant relaxant, instant enivrant. 
 
-Tout est faisable, notre esprit est maléable. 
+Tout est faisable, notre esprit est malléable. 
 
 Sans difficulté au fond du canapé, recréons la réalité. 
 
@@ -22,7 +22,7 @@ Une idée si douce, un repas sur le pouce, une soirée pleine de secousses.
 
 Un corps détendu, un esprit maintenu. 
 
-En eveil, au soleil. 
+En éveil, au soleil. 
 
 Joie partagée et animée. 
 
