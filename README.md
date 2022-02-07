@@ -10,9 +10,19 @@ Theme from [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke).
 
 ## Installation
 
+Follow the Hugo installation here:
+
 - https://gohugo.io/getting-started/installing
 
+Then:
+
+```shell
+git clone https://github.com/origamie/www.git
+```
+
 ## Usage
+
+Run this command in the repo to run a local server:
 
 ```shell
 hugo server
