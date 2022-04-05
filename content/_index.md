@@ -7,10 +7,10 @@ recent_copy: Playlists récentes
 ---
 <br/>
 
-<h3>Tomi Marx - EP</h3>
+<h3>Oyé Oyé !</h3>
 
 <a href={{< ref "/tomi-marx-ep">}}>
-<img src="/images/tomi-marx_release.png"  />
+<img src="/images/gasseau_baniere.jpg"  />
 </a>
 
-Le premier EP de Tomi Marx est sorti, est il est disponible <a href={{< ref "/tomi-marx-ep">}}>ici</a>
+Notre prochain événement, plus d'infos <a href="https://www.facebook.com/events/505139917726150">ici</a>
