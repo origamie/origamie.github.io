@@ -11,11 +11,14 @@ menu:
     weight: 5
 ---
 
-Fondée en juillet 2019 à Alençon, l’association Origamie a pour objet de promouvoir la culture à l’échelle locale.
+Nous sommes musiciens, graphistes, informaticiens, acteurs, infirmiers, humoristes, illustrateurs, paysans, professeurs, fonctionnaires, éducateurs, et même tenanciers de bar. Un soir, à l’appel des degrés élevés, nous avons décidés d’abandonner les obscures créations collectives du passé afin de créer Origamie.
 
-Dans ce cadre, elle accompagne des jeunes artistes indépendant.e.s dans le lancement de leurs projets : organisation de concerts et d’expositions, pressage de vinyles, micro-édition, aide logistique aux artistes.
+Une association gérée par une bande de potes qui s’est bâtie à Alençon, ville à laquelle nous sommes encore profondément attachés. Mais c’est aussi et surtout devenu un collectif qui repose sur une volonté partagée depuis de nombreuses années : dynamiser et promouvoir la culture locale. Le fait-maison est une de nos marque de fabrique, et nous prônons à cet égard la consommation locale et solidaire. 
 
-L’objectif est de participer au développement de la culture, sous toutes ses formes, et la rendre accessible à tous·tes via l’organisation d’événements.
+Faites-en l’expérience en venant découvrir notre univers bon enfant et décalé au cours des différents événements que nous organisons, que ce soit une exposition, un concert, une performance, ou un Origamix. 
+
+Pliez-vous bien !
+
 <br/>
 
 La team Origamie
