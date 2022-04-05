@@ -1,6 +1,5 @@
 ---
 description: "Playlist #4"
-tags: ["millie small", "jody mowatt", "rita marley", "tanya stephens", "soom t", "mo'kalamity", "rosa shanty", "hempress sativa", "queen omega", "jah9", "koffee", "iseo & dodosound", "playlist"]
 title: "#4 Sorcières du roots"
 date: 2020-04-11T11:14:00+02:00
 featured_image: "/images/sorcieres_du_roots.png"

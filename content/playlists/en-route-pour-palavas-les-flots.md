@@ -1,6 +1,5 @@
 ---
 description: "Playlist #2"
-tags: ["underworld", "soichi terrada", "björk", "nautilus", "chassol", "ait meslayene", "tabu ley rochereau", "cesar mariano & cia.", "diverso", "meco", "playlist"]
 title: "#2 En Route Pour Palavas-Les-Flots"
 date: 2020-04-01T18:37:51+02:00
 featured_image: '/images/en_route_pour_palavalas.png'

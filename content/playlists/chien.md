@@ -1,7 +1,5 @@
 ---
 description: "Playlist #16"
-tags:
-  - playlist
 title: "#16 Chien"
 featured_image: /images/chien.png
 date: 2020-12-04T14:39:08+02:00

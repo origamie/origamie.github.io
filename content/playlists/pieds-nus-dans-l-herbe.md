@@ -1,7 +1,5 @@
 ---
 description: "Playlist #14"
-tags:
-  - playlist
 title: "#14 Pieds nus dans l'herbe"
 featured_image: /images/pieds-nus-dans-l-herbe.png
 date: 2020-05-23T01:26:45+02:00

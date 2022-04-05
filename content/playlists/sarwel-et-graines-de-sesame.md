@@ -1,6 +1,5 @@
 ---
 description: "Playlist #5"
-tags: ["la rue ketanou", "guerilla poubelle", "kiemsa", "g.h.b.", "ska-p", "babylon circus", "mickey 3d", "manu chao", "mano negra", "playlist"]
 title: "#5 Sarouel et graines de sésame!"
 date: 2020-04-14T11:14:00+02:00
 featured_image: "/images/sarouel_et_graine_de_sesame.png"

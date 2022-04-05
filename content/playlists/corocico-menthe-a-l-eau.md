@@ -1,6 +1,5 @@
 ---
 description: "Playlist #3"
-tags: ["lucienne boyer", "philippe katerine", "serge gainsbourg", "hypnolove", "barbara", "alain souchon", "brigitte fontaine", "rachid taha", "mc solaar", "bourvil", "eddy mitchell", "playlist"]
 title: "#3 Corocico & Menthe à l'Eau"
 date: 2020-04-08T11:14:00+02:00
 featured_image: "/images/cocorico_menthe_a_l_eau.png"

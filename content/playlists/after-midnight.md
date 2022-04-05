@@ -1,7 +1,5 @@
 ---
 description: "Playlist #15"
-tags:
-  - playlist
 title: "#15 After Midnight"
 featured_image: /images/after_midnight.jpeg
 date: 2020-11-18T14:39:08+02:00

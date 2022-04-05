@@ -1,7 +1,5 @@
 ---
 description: "Playlist #27"
-tags:
-  - playlist
 title: "#27 Rockers & lovers"
 featured_image: /images/lovers-and-rockers-_-base.jpg
 date: 2021-11-26T18:35:45.304Z

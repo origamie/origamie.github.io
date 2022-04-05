@@ -1,7 +1,5 @@
 ---
 description: "Playlist #18"
-tags:
-  - playlist
 title: "#18 Attache Ta Tuque Avec D’La Broche"
 featured_image: /images/attache_ta_tuque_avec_d_la_broche.png
 date: 2021-01-14T14:39:08+02:00

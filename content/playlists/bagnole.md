@@ -1,7 +1,5 @@
 ---
 description: "Playlist #17"
-tags:
-  - playlist
 title: "#17 Bagnole"
 featured_image: /images/bagnole.png
 date: 2020-12-09T14:39:08+02:00

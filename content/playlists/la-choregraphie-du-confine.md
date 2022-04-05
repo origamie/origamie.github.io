@@ -1,20 +1,5 @@
 ---
 description: "Playlist #8"
-tags:
-  - l'international challal
-  - ali hassan kuban
-  - zohra
-  - uk layers
-  - charades
-  - outkast
-  - indeep
-  - kx9000
-  - kool & the gang
-  - sylvester
-  - whirpool production
-  - zito mowa
-  - a-star
-  - playlist
 title: "#8 La chorégraphie du confiné"
 featured_image: /images/choregraphie_du_confine.png
 date: 2020-04-25T15:40:14+02:00

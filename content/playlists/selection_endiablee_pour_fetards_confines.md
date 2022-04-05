@@ -1,6 +1,5 @@
 ---
 description: "Playlist #6"
-tags: ["benjamin milz", "nathan melja", "santiago uribe", "urulu", "dan shake", "mrTimothy", "donica thornton", "daphni", "paradise", "leonxleon", "faze action", "the jungle giants", "gerd janson", "kendal", "l-vis 1990", "playlist"]
 title: "#6 Sélection endiablée pour fêtards confinés"
 date: 2020-04-17T11:14:00+02:00
 featured_image: "/images/selection_endiablee_pour_fetards_confines.png"

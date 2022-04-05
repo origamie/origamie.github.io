@@ -1,7 +1,5 @@
 ---
 description: "Playlist #9"
-tags:
-  - playlist
 title: "#9 Voyage en terrain connu"
 featured_image: /images/voyage_en_terrain_connu.jpeg
 date: 2020-04-29T12:40:08.000Z

@@ -1,6 +1,5 @@
 ---
 description: "Playlist #20"
-tags: ["playlist"]
 title: "#20 Les vaches ont des oreilles"
 featured_image: "/images/les_vaches_ont_des_oreilles.png"
 date: 2021-03-01T14:39:08+02:00

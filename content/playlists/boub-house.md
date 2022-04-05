@@ -1,7 +1,5 @@
 ---
 description: "Playlist #22"
-tags:
-  - playlist
 title: "#22 Boub' House"
 featured_image: /images/boub_house.png
 date: 2021-03-28T19:03:48.841Z

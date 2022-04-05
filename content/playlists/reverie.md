@@ -1,7 +1,5 @@
 ---
 description: "Playlist #28"
-tags:
-  - playlist
 title: "#28 Rêverie"
 featured_image: /images/reverie.jpg
 date: 2022-01-26T10:41:34.937Z
