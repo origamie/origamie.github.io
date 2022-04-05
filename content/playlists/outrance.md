@@ -11,7 +11,7 @@ playlist: "PL3yt8r5HGJ366_4ykhusOC2k1BT_D-x_F"
 
 BIM BAM & BOOM !
 
-À l'occasion de la sortie du numéro #0 de "Papier Cul" le nouveau fanzine créé par l'association Origamie, l'équipe vous a concocté une playlist collaborative sur le thème du fanzine qui est : l' "OUTRANCE".
+À l'occasion de la sortie du numéro #0 de "Papier Cul" le nouveau fanzine créé par l'Association Origamie, l'équipe vous a concocté une playlist collaborative sur le thème du fanzine qui est : l' "OUTRANCE".
 
 {{< youtube-playlist >}}
 
