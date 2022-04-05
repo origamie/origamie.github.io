@@ -1,5 +1,5 @@
 ---
-title: "Origamie"
+title: "Acceuil"
 featured_image: '/images/teo.jpg'
 description: "\"Un homme sans culture, c'est comme un zèbre sans rayures.\""
 type: page

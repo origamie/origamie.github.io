@@ -1,6 +1,6 @@
 baseURL = "https://www.origamie.org"
 languageCode = "fr-fr"
-title = "Origamie"
+title = "Association Origamie - Production Musicale et Evements Culturels"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
@@ -8,6 +8,12 @@ DefaultContentLanguage = "fr"
 Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
 
 [sitemap]
   changefreq = "monthly"

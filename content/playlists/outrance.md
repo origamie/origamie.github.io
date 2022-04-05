@@ -23,5 +23,3 @@ Papier Cul, le fanzine à lire aux toilettes.
 <br/>
 ...
 <br/>
-
-PS: Un petit jeu est disponible <a href={{< ref "/papier-snake">}}>ici</a>, envoie nous ton meilleur score ;)
