@@ -4,6 +4,9 @@ description: "Origamie te fait danser, chanter, pleurer."
 featured_image: '/images/tomi-marx_release.png'
 display_featured_image: true
 type: page
+menu:
+    main:
+        weight: 4
 ---
 
 {{< mixcloud ORIGAMIE origamix-1 >}}

@@ -4,9 +4,7 @@ description: "Le fanzine à lire aux toilettes."
 display_featured_image: true
 featured_image: '/images/pq_couv.png'
 type: page
-menu:
-  main:
-    weight: 1
+date: 2020-06-01T11:14:00+02:00
 ---
 <section class="fanzine-line">
 	<div class="fanzine-description">

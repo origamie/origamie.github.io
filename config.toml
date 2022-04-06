@@ -42,6 +42,7 @@ defaultMarkdownHandler = "goldmark"
   custom_css = ["css/custom.css"]
   body_classes = "roboto bg-near-white"
   post_content_classes = "roboto"
+  mainSections = ['news']
 
 [related]
   threshold = 0

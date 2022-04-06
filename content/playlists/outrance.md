@@ -17,7 +17,7 @@ BIM BAM & BOOM !
 
 Papier Cul, le fanzine à lire aux toilettes.
 
-<a href={{< ref "/papier-cul">}}>Disponible à prix libre ici.</a>
+<a href={{< ref "/news/papier-cul">}}>Disponible à prix libre ici.</a>
 
 <br/>
 <br/>
