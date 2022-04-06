@@ -1,6 +1,6 @@
 ---
 title: "Origamie"
-featured_image: '/images/teo.jpg'
+featured_image: '/images/wallpaper.jpg'
 description: "Un homme sans culture, c'est comme un zèbre sans rayures."
 type: page
 recent_copy: Actus de l'asso

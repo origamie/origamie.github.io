@@ -1,7 +1,7 @@
 ---
 title: "Origamixs"
 description: "Origamie te fait danser, chanter, pleurer."
-featured_image: '/images/tomi-marx_release.png'
+featured_image: '/images/origamixs.jpg'
 display_featured_image: true
 type: page
 menu:
