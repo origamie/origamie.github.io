@@ -18,7 +18,7 @@ CONCERTS TROPICAUX
 - [Ditti](https://www.facebook.com/dittimusic/) (Curuba Records - La Villette Zoo)
 - [Mauvaise Herbe](https://www.facebook.com/profile.php?id=100063594937609
 ) (Amour Sucré - Brest)
-[Tomi Marx](https://www.facebook.com/tomimarxmusic) (Origamie - Alençongeles)
+- [Tomi Marx](https://www.facebook.com/tomimarxmusic) (Origamie - Alençongeles)
 
 EXPOSITION PHOTO
 

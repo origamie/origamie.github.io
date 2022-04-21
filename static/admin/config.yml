@@ -11,12 +11,23 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image Path (Il faut uploader l image dans l onglet média)', name: 'featured_image', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Display Image (Ne pas activer pour les Playlists)', name: 'display_featured_image', widget: 'boolean' }
+      - { label: 'Grande banière (Ne pas activer pour les Playlists)', name: 'display_featured_image', widget: 'boolean' }
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Illustrator', name: 'illustrator', widget: 'string' }
+      - { label: 'Playlist ID', name: 'playlist', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'news' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Actualités' # Used in the UI, ie.: "New Post"
+    folder: 'content/news' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Image Path (Il faut uploader l image dans l onglet média)', name: 'featured_image', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Grande banière (Ne pas activer pour les Playlists)', name: 'display_featured_image', widget: 'boolean' }
       - { label: 'Playlist ID', name: 'playlist', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
