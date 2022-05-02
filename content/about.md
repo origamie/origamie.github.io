@@ -24,3 +24,7 @@ Pliez-vous bien !
 La team Origamie
 
 contact@origamie.org
+
+<br/>
+
+{{< newsletter >}}

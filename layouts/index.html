@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    {{ .Content }}
+  </article>
+  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+  {{/* Create a variable with that section to use in multiple places. */}}
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{/* Check to see if the section is defined for ranging through it */}}
+  {{ $section_count := len $section }}
+  {{ if ge $section_count 1 }}
+    {{/* Derive the section name  */}}
+    {{ $section_name := index (.Site.Params.mainSections) 0 }}
+
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
+       {{ with .Site.GetPage "section" $section_name }}
+          <h1 class="flex-none">
+            {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+          </h1>
+        {{ end }}
+
+      {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+
+      <section class="w-100 mw8">
+        {{/* Range through the first $n_posts items of the section */}}
+        {{ range (first $n_posts $section) }}
+          <div class="relative w-100 mb4">
+            {{ partial "summary-with-image.html" . }}
+          </div>
+        {{ end }}
+      </section>
+
+      {{ if ge $section_count (add $n_posts 1) }}
+      <section class="w-100">
+        <h1 class="f3">{{ i18n "more" }}</h1>
+        {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
+        {{ range (first 4 (after $n_posts $section))  }}
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="{{ .Permalink }}" class="link black dim">
+              {{ .Title }}
+            </a>
+          </h2>
+        {{ end }}
+
+        {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
+        {{ with .Site.GetPage "section" $section_name }}
+          <a href="{{ .Permalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
+        {{ end }}
+        </section>
+      {{ end }}
+      </div>
+  {{ end }}
+
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{
+      clear:left;
+      font:14px Helvetica,Arial,sans-serif;
+      width:600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+</style>
+<div id="mc_embed_signup">
+  <form action="https://origamie.us7.list-manage.com/subscribe/post?u=7145b6524f02da468573f6625&amp;id=21927604ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Pour ne rien manquer, inscrivez-vous à notre newsletter : </h2>
+    <div class="indicates-required"><span class="asterisk">*</span> champ obligatoire</div>
+    <div class="mc-field-group">
+        <label for="mce-EMAIL">Adresse email  <span class="asterisk">*</span> </label>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    </div>
+        <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7145b6524f02da468573f6625_21927604ea" tabindex="-1" value=""></div>
+            <div class="optionalParent">
+                <div class="clear foot">
+                    <input type="submit" value="S'inscrire" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+{{ end }}
