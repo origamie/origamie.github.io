@@ -1,6 +1,6 @@
 baseURL = "https://www.origamie.org"
 languageCode = "fr-fr"
-title = "Association Origamie - Production Musicale et Evénement Culturels"
+title = "Association Origamie - Production Artistique et Evénement Culturels"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
