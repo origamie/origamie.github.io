@@ -28,9 +28,13 @@ Petite faim ou grande soif ? La team Origamie s'occupe de toi, avec une bière p
 👉 INFOS PRATIQUES ! 👈
 
 GRATUIT
+
 ⏰ 19h - 1h
+
 📍 Rond-point de Lancrel, 61000 Alençon
+
 🔊 Soundsystem calibré by Origamie
+
 
 Si tu as déjà participé à nos évènements (ou pas d'ailleurs), sache que notre association est toujours ouverte aux rencontres ! Que tu sois artiste ou que tu veuilles simplement donner un coup de main, n'hésite pas à venir discuter avec les membres de l'équipe pour plus d'infos ! 😊
 
