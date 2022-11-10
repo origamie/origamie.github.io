@@ -1,7 +1,7 @@
 ---
 title: "Origamie"
 featured_image: '/images/wallpaper.jpg'
-description: "Un homme sans culture, c'est comme un zèbre sans rayures."
+description: "Association loi 1901 - Production Artistique et Evénements Culturels"
 type: page
 recent_copy: Actus de l'asso
 ---
