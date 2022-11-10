@@ -1,5 +1,5 @@
 ---
-description: "Une brève description de ce qui nous sommes."
+description: "Une brève description de qui nous sommes."
 title: "À propos"
 featured_image: '/images/quisommesnous.jpg'
 display_featured_image: true
