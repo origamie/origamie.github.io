@@ -1,0 +1,30 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+<div class="main-photos">
+    {{ .Content }}
+</div>
+<script type="text/javascript">
+    const tabs = document.querySelectorAll('[data-tab-value]')
+    const tabInfos = document.querySelectorAll('[data-tab-info]')
+
+    tabs[0].classList.add('active')
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(_tab => {
+                if (_tab === tab) {
+                    _tab.classList.add('active')
+                } else {
+                    _tab.classList.remove('active')
+                }
+            })
+            const target = document.querySelector(tab.dataset.tabValue);
+
+            tabInfos.forEach(tabInfo => {
+                tabInfo.classList.remove('active')
+            })
+            target.classList.add('active');
+        })
+    })
+</script>
+{{ end }}

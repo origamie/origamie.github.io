@@ -41,9 +41,3 @@ GRATUIT
 📍 Rond-point de Lancrel, 61000 Alençon
 
 🔊 Soundsystem calibré by Origamie
-
-<hr/>
-
-- 📷 GALERIE PHOTOS
-
-{{< gallery dir="/images/fete_musique/" />}} {{< load-photoswipe >}}
