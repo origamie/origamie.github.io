@@ -29,7 +29,7 @@ contact@origamie.org
 
 <hr/>
 
-<h2> Ils parlent de nous dans la presse</h2>
+<h2> Ils parlent de l'asso dans la presse</h2>
 <div style="display: flex; flex-direction: row; justify-content: space-around;">
   <div>
     <a href="https://actu.fr/normandie/alencon_61001/alencon-l-association-origamie-lance-papier-cul-son-fanzine-culturel-a-lire-aux-toilettes_34034959.html">
