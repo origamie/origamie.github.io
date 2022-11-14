@@ -55,6 +55,42 @@
 	}
 }
 
+#mc_embed_signup{
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif;
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-device-width : 880px) {
+	#mc_embed_signup{
+		width:unset !important;
+	}
+}
+
+.press-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+@media (max-device-width : 880px) {
+	.press-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+}
+
+@media (max-device-width : 880px) {
+	.press-info img{
+		height: 40px !important;
+	}
+}
+
+
+
 .roboto { 
 	font-family: 'Roboto'
 }

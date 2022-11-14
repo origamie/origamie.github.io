@@ -30,7 +30,7 @@ contact@origamie.org
 <hr/>
 
 <h2> Ils parlent de l'asso dans la presse</h2>
-<div style="display: flex; flex-direction: row; justify-content: space-around;">
+<div class="press-info">
   <div>
     <a href="https://www.ouest-france.fr/normandie/alencon-61000/alencon-premier-album-et-concert-pour-tomi-marx-a-chapelmele-samedi-dff2bf6e-43cd-11ec-a328-2d975e42f8ff">
       <figure>
