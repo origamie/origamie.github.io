@@ -2,7 +2,7 @@
 description: "Une brève description de qui nous sommes."
 title: "À propos"
 featured_image: '/images/quisommesnous.jpg'
-display_featured_image: true
+display_featured_image: false
 site_logo: 'images/logotype_blanc_menu.png'
 
 type: page
