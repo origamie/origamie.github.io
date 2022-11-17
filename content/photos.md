@@ -20,7 +20,7 @@ menu:
     </div>
     <div data-tab-value="#fete_musique">
         <span class="tab-title">Fête de la musique</span>
-        <span class="tab-info">21 juin 2022 - Alençon</span>
+        <span class="tab-info">21 juin 2022 - Place Lancrel (Alençon)</span>
     </div>
 </div>
 
@@ -50,7 +50,7 @@ menu:
       <div class="tabs__tab" id="fete_musique" data-tab-info>
         <span class="mobile-info">
             <span>21 juin 2022</span>
-            <span>Alençon</span>
+            <span>Place Lancrel (Alençon)</span>
         </span>
         {{< gallery dir="/images/fete_musique/" />}}
         <a style="color: #333333; font-size: 0.8rem; margin-left: 3rem" 
