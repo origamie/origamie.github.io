@@ -1,6 +1,6 @@
 ---
 description: "Une brève description de qui nous sommes."
-title: "À propos"
+title: "L'association"
 featured_image: '/images/quisommesnous.jpg'
 display_featured_image: false
 site_logo: 'images/logotype_blanc_menu.png'
@@ -8,20 +8,18 @@ site_logo: 'images/logotype_blanc_menu.png'
 type: page
 menu:
   main:
-    weight: 5
+    weight: 6
 ---
 
-Nous sommes musiciens, graphistes, informaticiens, acteurs, infirmiers, humoristes, illustrateurs, paysans, professeurs, fonctionnaires, éducateurs, et même tenanciers de bar. Un soir, à l’appel des degrés élevés, nous avons décidés d’abandonner les obscures créations collectives du passé afin de créer Origamie.
+À sa création en 2019, l’association Origamie n’était encore qu’une bande d’ami.e.s alençonnaise partageant un souhait commun depuis plusieurs années : dynamiser et promouvoir la culture locale.
 
-Une association gérée par une bande d'amis qui s’est bâtie à Alençon, ville à laquelle nous sommes encore profondément attachés. Mais c’est aussi et surtout devenu un collectif qui repose sur une volonté partagée depuis de nombreuses années : dynamiser et promouvoir la culture locale. Le fait-maison est une de nos marque de fabrique, et nous prônons à cet égard la consommation locale et solidaire. 
+Aujourd’hui, l’association compte une dizaine de membres actifs, et une vingtaine de bénévoles qui participent à l’organisation d’évènements culturels mêlant concerts, expositions, et diverses animations artistiques.
 
-Faites-en l’expérience en venant découvrir notre univers bon enfant et décalé au cours des différents événements que nous organisons, que ce soit une exposition, un concert, une performance, ou un Origamix. 
+En parallèle, Origamie s’engage à accompagner et promouvoir de jeunes artistes dans le lancement de leurs projets, comme ce fut le cas avec l’aide au pressage du vinyle du premier EP de Tomi Marx, ou le financement de l’édition du fanzine Papier-Cul.
 
-Pliez-vous bien !
+Enfin, le fait-maison étant une de nos marques de fabrique, nous prônons la consommation locale et solidaire, mais aussi l’inclusivité, et ce, afin que chacun.e puisse participer à nos événements.
 
 <br/>
-
-La team Origamie
 
 contact@origamie.org
 
@@ -29,7 +27,7 @@ contact@origamie.org
 
 <hr/>
 
-<h2> Ils parlent de l'asso dans la presse</h2>
+<h2> Ils parlent d'Origamie dans la presse</h2>
 <div class="press-info">
   <div>
     <a href="https://www.ouest-france.fr/normandie/alencon-61000/alencon-premier-album-et-concert-pour-tomi-marx-a-chapelmele-samedi-dff2bf6e-43cd-11ec-a328-2d975e42f8ff">
