@@ -26,7 +26,10 @@ menu:
 
 <div class="tab-content">
     <div class="tabs__tab active" id="tomi_marx_release" data-tab-info>
-        <span class="mobile-info">13 novembre 2021 - Chapêlmêle (Alençon)</span>
+        <span class="mobile-info">
+            <span>13 novembre 2021</span>
+            <span>Chapêlmêle (Alençon)</span>
+        </span>
         {{< gallery dir="/images/tomi_marx/" />}}
         <a style="color: #333333; font-size: 0.8rem; margin-left: 3rem" 
            href={{<ref "/news/tomi-marx-ep" >}}> 
@@ -34,7 +37,10 @@ menu:
         </a>
     </div>
     <div class="tabs__tab" id="maison_gasseau" data-tab-info>
-         <span class="mobile-info">22 mai 2022 - Maison du Gasseau (Saint-Léonard-des-Bois)</span>
+         <span class="mobile-info">
+            <span>22 mai 2022</span>
+            <span>Maison du Gasseau (Saint-Léonard-des-Bois)</span>
+        </span>
         {{< gallery dir="/images/oye_oye/" />}}
         <a style="color: #333333; font-size: 0.8rem; margin-left: 3rem" 
            href={{<ref "/news/oye-oye" >}}> 
@@ -42,7 +48,10 @@ menu:
         </a>
     </div>
       <div class="tabs__tab" id="fete_musique" data-tab-info>
-        <span class="mobile-info">21 juin 2022 - Alençon</span>
+        <span class="mobile-info">
+            <span>21 juin 2022</span>
+            <span>Alençon</span>
+        </span>
         {{< gallery dir="/images/fete_musique/" />}}
         <a style="color: #333333; font-size: 0.8rem; margin-left: 3rem" 
            href={{<ref "/news/origamie-fête-la-musique" >}}> 

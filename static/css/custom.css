@@ -143,7 +143,14 @@
 	border-bottom: 1px solid #333333;
 	border-top: 1px solid #333333;
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
+}
+
+@media (max-device-width : 880px) {
+	.tabs div {
+		font-size: 0.8rem;
+	}
 }
 
 .tabs div .tab-title {
@@ -168,9 +175,10 @@
 	.mobile-info {
 		align-items: center;
 		justify-content: center;
-		display: flex;
 		margin-top: 1rem;
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+		display: flex;
+		flex-direction: column;
 	}
 }
 
