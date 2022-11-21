@@ -11,7 +11,7 @@ menu:
     weight: 6
 ---
 
-À sa création en 2019, l’association Origamie n’était encore qu’une bande d’ami.e.s alençonnaise partageant un souhait commun depuis plusieurs années : dynamiser et promouvoir la culture locale.
+À sa création en 2019, l’association Origamie n’était encore qu’une bande d’ami.e.s alençonnaise partageant un souhait commun : dynamiser et promouvoir la culture locale.
 
 Aujourd’hui, l’association compte une dizaine de membres actifs, et une vingtaine de bénévoles qui participent à l’organisation d’évènements culturels mêlant concerts, expositions, et diverses animations artistiques.
 
