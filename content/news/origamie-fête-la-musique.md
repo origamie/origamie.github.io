@@ -1,6 +1,6 @@
 ---
 description: "[Evènement] Origamie fête la musique !"
-title: Evènement] Origamie fête la musique !
+title: "[Evènement] Origamie fête la musique !"
 featured_image: /images/fete_musique2022.jpg
 date: 2022-06-10T15:11:13.186Z
 display_featured_image: false
