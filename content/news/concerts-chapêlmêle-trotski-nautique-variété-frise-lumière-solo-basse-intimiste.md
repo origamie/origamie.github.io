@@ -1,8 +1,6 @@
 ---
-description: "[Concerts Chapêlmêle] Trotski Nautique (Variété) + Frise Lumière
-  (Solo, basse intimiste)"
-title: "[Concerts Chapêlmêle]  Trotski Nautique (Variété) + Frise Lumière (Solo,
-  basse intimiste)"
+description: "[Concert] Trotski Nautique (Variété) + Frise Lumière (Solo, basse intimiste)"
+title: "[Concert]  Trotski Nautique (Variété) + Frise Lumière (Solo, basse intimiste)"
 featured_image: /images/327074288_1215882715724921_723616097145567060_n.jpg
 date: 2023-02-24T10:55:54.606Z
 display_featured_image: false
