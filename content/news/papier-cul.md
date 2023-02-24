@@ -1,10 +1,11 @@
 ---
-title: "Papier Cul"
-description: "Le fanzine à lire aux toilettes."
+description: Le fanzine à lire aux toilettes.
+title: "[Sortie] Papier Cul"
+featured_image: /images/pq_couv.png
 display_featured_image: true
-featured_image: '/images/pq_couv.png'
 type: page
 date: 2020-06-01T11:14:00+02:00
+playlist: "null"
 ---
 <section class="fanzine-line">
 	<div class="fanzine-description">
