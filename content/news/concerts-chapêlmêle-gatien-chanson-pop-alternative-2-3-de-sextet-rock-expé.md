@@ -1,8 +1,6 @@
 ---
-description: "[Concerts Chapêlmêle] GATIEN (chanson, pop alternative) + 2/3 DE
-  SEXTET (rock expé)"
-title: "[Concerts Chapêlmêle]  GATIEN (chanson, pop alternative) + 2/3 DE SEXTET
-  (rock expé)"
+description: "[Concert] GATIEN (chanson, pop alternative) + 2/3 DE SEXTET (rock expé)"
+title: "[Concert]  GATIEN (chanson, pop alternative) + 2/3 DE SEXTET (rock expé)"
 featured_image: /images/332714496_166124622899920_6520620697719846268_n.jpg
 date: 2023-02-24T11:00:52.394Z
 display_featured_image: false
