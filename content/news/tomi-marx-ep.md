@@ -1,9 +1,10 @@
 ---
-title: "Tomi Marx - EP"
-display_featured_image: false
-featured_image: '/images/tomi-marx_release.png'
-playlist: PL3yt8r5HGJ364QQcCFDImwXaaZnKCkCA5
+description: "[Sortie] Tomi Marx - EP"
+title: "[Sortie] Tomi Marx - EP"
+featured_image: /images/tomi-marx_release.png
 date: 2021-11-13T11:14:00+02:00
+display_featured_image: false
+playlist: PL3yt8r5HGJ364QQcCFDImwXaaZnKCkCA5
 ---
 
 Originaire de Joué-du- Bois (Orne), Tomi Marx a posé ses valises à Alençon en 2017. Il se produit dès l’âge de 15 ans au sein de plusieurs groupes locaux : Lookout, G.H.B, Lemp ou encore My Monkey Got The Key. En tant que membre de ces formations, il participe à plusieurs tremplins et joue aux afterworks de la Luciole. Également DJ sous l’alias Lap1, il mixe régulièrement sur platines numériques et vinyles, au sein de divers collectifs et soirées dans toute la Normandie.
