@@ -8,7 +8,10 @@ date: 2023-02-24T10:55:54.606Z
 display_featured_image: false
 playlist: "null"
 ---
-Samedi 18 Février
+**En partenariat avec Chapêlmêle, Origamie organise une série de concerts.**
+
+\
+**Samedi 18 Février**
 
 Pour le dernier jour de l'exposition "Le Grand Rafale", soirée concert à la Chapêlmêle ! Venez des 18h, profiter de l'exposition au coeur de la chapelle.
 
@@ -27,8 +30,6 @@ Tout part d’une matière brute, d’un mot, d’une sonorité, d’une note…
 [https://tapenaderecords.bandcamp.com/.../platane-sous-soleil](https://tapenaderecords.bandcamp.com/track/platane-sous-soleil?fbclid=IwAR37cV518ZF3ONnVDmLetY0SdTI1RwrBvG93N4guEO6RnAKBhrKTXUiMm4E)\
 [https://www.youtube.com/watch?v=FeMFf6or1AQ](https://www.youtube.com/watch?v=FeMFf6or1AQ&fbclid=IwAR0iEV1BNpy30AagJQDKDrGs0CUBdk5W6K_Du9e9N0JjzLjuAfHo67rnM6A)\
 [https://www.instagram.com/frise_lumiere/](https://www.instagram.com/frise_lumiere/?fbclid=IwAR13WjNdsLTAhu-9Ec2cCcdEqIfDQDq9OgXGDLUYmyoWQWNgtSyxbr0Mn6o)
-
-
 
 ✦ Trotski Nautique
 
