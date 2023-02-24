@@ -1,5 +1,6 @@
 ---
-description: Origamie fête la musique !
+description: "[Concerts Chapêlmêle] Trotski Nautique (Variété) + Frise Lumière
+  (Solo, basse intimiste)"
 title: "[Concerts Chapêlmêle]  Trotski Nautique (Variété) + Frise Lumière (Solo,
   basse intimiste)"
 featured_image: /images/327074288_1215882715724921_723616097145567060_n.jpg
