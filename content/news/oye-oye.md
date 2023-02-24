@@ -1,8 +1,10 @@
 ---
-title: "Oyé Oyé !"
-display_featured_image: false
-featured_image: '/images/gasseau_baniere.jpg'
+description: "[Evènement] Oyé Oyé !"
+title: "[Evènement] Oyé Oyé !"
+featured_image: /images/gasseau_baniere.jpg
 date: 2022-04-05T11:14:00+02:00
+display_featured_image: false
+playlist: "null"
 ---
 
 La maison du Gasseau accueille l'association Origamie pour un dimanche de folie !
