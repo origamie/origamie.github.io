@@ -105,6 +105,15 @@
 	 margin-top: 0.5rem;
  }
 
+.main-caravane {
+	width: 100%;
+}
+
+.caravane-work {
+	width: 60%;
+	margin: auto;
+}
+
 [data-tab-info] {
 	display: none;
 }
