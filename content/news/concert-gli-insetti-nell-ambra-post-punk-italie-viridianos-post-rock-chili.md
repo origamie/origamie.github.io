@@ -3,7 +3,7 @@ description: "[Concert] GLI INSETTI NELL' AMBRA (post punk, Italie) + VIRIDIANOS
   (post rock, Chili)"
 title: "[Concert]  GLI INSETTI NELL' AMBRA (post punk, Italie) + VIRIDIANOS
   (post rock, Chili)"
-featured_image: /images/gli_insetti.jpeg
+featured_image: /images/gli_insetti.jpg
 date: 2023-04-06T12:01:36.209Z
 display_featured_image: false
 playlist: "null"
