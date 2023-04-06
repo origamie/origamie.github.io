@@ -1,7 +1,7 @@
 ---
 description: "[Concert] SINAÏVE (rock psych) + PLAGIAT (pseudo Hip hop)"
 title: "[Concert]  SINAÏVE (rock psych) + PLAGIAT (pseudo Hip hop)"
-featured_image: /images/plagiat.jpeg
+featured_image: /images/plagiat.jpg
 date: 2023-04-06T12:02:47.012Z
 display_featured_image: false
 playlist: "null"
