@@ -1,7 +1,6 @@
 ---
 description: ""
 title: "Photos"
-draft: flase
 layout: photos
 
 type: page
