@@ -25,10 +25,10 @@ si les travaux se déroulent bien, elle nous y accompagnera. On vous tiendra inf
 <br/>
 Aussi, car les travaux demandent beaucoup de ressources, si vous avez envie et si vous le pouvez, votre aide est la bienvenue. 
 
-- Si vous avez des connaissances particulères, conseils à donner, ou si vous avez du materiel (peinture, bois ou autre) qui pourrait nous aider, envoyez nous un mail à contact@origamie.org. 
+- Si vous avez des connaissances particulères (electricité), conseils à donner, ou si vous avez du materiel (peinture, déco ou autre) qui pourrait nous aider, envoyez nous un mail à contact@origamie.org. 
 
 
-- Mais aussi, car ça reste le nerf de la guerre (malheureusement..), vous pouvez aussi nous aider à financer le projet. Il nous reste pas mal de choses à acheter pour finir les travaux et commencer la déco.
+- Mais aussi, vous pouvez participer à une petite cagnotte. Il nous reste pas mal de choses à acheter pour finir les travaux et commencer la déco.
 
 <br/>
 
