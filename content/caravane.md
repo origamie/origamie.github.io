@@ -14,21 +14,21 @@ menu:
 
 On s'est lancé dans une nouvelle aventure, rénover une caravane en vraie machine sonore ambulante !!
 
-Le but est de se garer, sortir les enceintes, inviter des DJs et des musicien.ne.s et vous faire danser autour.
+Le but est de se garer, sortir les enceintes, inviter des DJs et des musicien.ne.s et vous faire danser.
 
 La caravane a été achetée par l'association et les travaux ont commencé depuis mars.
 On aimerait pouvoir vous la présenter pour le début de l'été. On a déjà plusieurs dates de prévues et
-si les travaux se déroulent bien, elle nous y accompagnera. On vous tiendra informés bien sûr !
+si les travaux se déroulent bien, elle nous y accompagnera. On vous tiendra informé.e.s bien sûr !
 
 <br/>
 <hr/>
 <br/>
-Aussi, car les travaux demandent beaucoup de ressources, si vous avez envie et si vous le pouvez, votre aide est la bienvenue. 
+Pour nous aider à aller au bout du projet, votre aide est la bienvenue !
 
-- Si vous avez des connaissances particulères (electricité), conseils à donner, ou si vous avez du materiel (peinture, déco ou autre) qui pourrait nous aider, envoyez nous un mail à contact@origamie.org. 
+- Si vous avez des connaissances en électricité ou si vous avez du matériel (peinture, lumières, déco) qui pourrait nous aider, envoyez nous un mail à contact@origamie.org. 
 
 
-- Mais aussi, vous pouvez participer à une petite cagnotte. Il nous reste pas mal de choses à acheter pour finir les travaux et commencer la déco.
+- Vous pouvez aussi participer à une petite cagnotte. Il nous reste pas mal de choses à acheter pour finir les travaux et commencer la déco.
 
 <br/>
 
@@ -40,7 +40,7 @@ Aussi, car les travaux demandent beaucoup de ressources, si vous avez envie et s
 
 <br/>
 
-Merci à toutes et tous. On compte aussi et surtout sur vous pour venir danser autour quand elle sera prête ! 😀 🎉 🎈
+Merci à toutes et tous. On compte aussi et surtout sur vous pour venir danser quand elle sera prête ! 😀 🎉 🎈
 
 <br/>
 <hr/>
