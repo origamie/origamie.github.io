@@ -3,9 +3,6 @@ title: "Artistes"
 featured_image: '/images/origamix.jpg'
 display_featured_image: false
 type: page
-menu:
-  main:
-    weight: 4
 ---
 {{<title "Musique" >}}
 

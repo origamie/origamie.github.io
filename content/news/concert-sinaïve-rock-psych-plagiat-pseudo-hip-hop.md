@@ -8,9 +8,12 @@ playlist: "null"
 ---
 **En partenariat avec Chapêlmêle, Origamie organise une série de concerts.**
 
-Samedi 27 mai 2023\
+Samedi 27 mai 2023
+
 19h : ouverture des portes + repas prix libre\
 20h : concerts !
+
+<!--more-->
 
 ✦ SINAÏVE ✦\
 Rock psych (info à venir)

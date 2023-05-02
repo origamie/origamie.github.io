@@ -14,6 +14,8 @@ playlist: "null"
 19h : ouverture des portes + repas\
 20h : concerts !
 
+<!--more-->
+
 ✦ GATIEN
 
 Il s'appelle Gatien, c'est à la fois son vrai nom et son nom d'artiste. Il sortira en février 2023 son 1er album : "L'Amour Phoque" (La Souterraine). En live il joue seul et s'accompagne d'une guitare et d'une loopstation.

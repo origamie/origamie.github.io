@@ -15,6 +15,8 @@ Dimanche 26 Mars
 18h (pétante): Concert\
 19h: Repas prix libre
 
+<!--more-->
+
 ✦ SUPERPOCKET
 
 Superpocket est un trio.\

@@ -9,6 +9,8 @@ playlist: "null"
 
 La maison du Gasseau accueille l'association Origamie pour un dimanche de folie !
 
+<!--more-->
+
 **Au menu :**
 
 Un burger porc effiloché ou veggie, accompagné d'un soft ou d'une bière pression 25cl pour 15€. Pensez à réserver pour manger sur place ou prenez à emporter pour manger dans la forêt/ verger/ potager.

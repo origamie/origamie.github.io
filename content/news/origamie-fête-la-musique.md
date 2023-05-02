@@ -8,6 +8,8 @@ playlist: "null"
 ---
 Qui dit fête de la musique dit belle java avec la team Origamie aux manettes ! On vous donne rendez-vous le 21 juin place de Lancrel à Alençon pour célébrer le solstice d'été en grandes pompes, avec la sainte trinité bon son - bonne bière - bons potes !💛
 
+<!--more-->
+
 <hr/>
 
 🥁 Rock / Pop / Word Music / House / Techno / Trance 🥁

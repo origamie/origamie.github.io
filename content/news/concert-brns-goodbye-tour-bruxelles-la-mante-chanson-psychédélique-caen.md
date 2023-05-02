@@ -15,6 +15,8 @@ Samedi 29 avril
 19h : ouverture des portes + repas prix libre\
 20h : concerts !
 
+<!--more-->
+
 ✦ BRNS (2010-2023) - GOODBYE TOUR
 
 Après 13 ans d’existence, BRNS entonne son chant du cygne. Quatre disques, un EP, des centaines de concerts à travers l’Europe et même au-delà, ce n’est pas négligeable ! Pour célébrer cette expérience intense, BRNS fera un dernier tour de piste au printemps prochain : quinze dates en Belgique, France, Suisse et Luxembourg pour se faire dresser les poils une dernière fois avant de tirer sa révérence.

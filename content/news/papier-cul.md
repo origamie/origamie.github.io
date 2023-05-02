@@ -7,6 +7,8 @@ type: page
 date: 2020-06-01T11:14:00+02:00
 playlist: "null"
 ---
+<!--more-->
+
 <section class="fanzine-line">
 	<div class="fanzine-description">
 		{{<title "Acheter le fanzine" >}}

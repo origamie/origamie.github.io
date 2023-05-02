@@ -19,6 +19,8 @@ Concerts : Frise Lumière + Trotski Nautique
 19h : ouverture des portes + repas prix libre\
 20h : concerts !
 
+<!--more-->
+
 ✦ Frise Lumière
 
 Frise Lumière est un projet intimiste de Ludovic Gerst , épurant l’instrumentation uniquement à la basse. Un son prenant racine à la fois dans la musique expérimentale et minimaliste.

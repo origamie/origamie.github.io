@@ -15,6 +15,8 @@ Samedi 6 mai 2023
 19h : ouverture des portes + repas prix libre\
 20h : concerts !
 
+<!--more-->
+
 ✦ GLI INSETTI NELL' AMBRA
 
 Gli insetti nell'ambra, trio italo-franco-japonais, ont passé les derniers cent millions d'années congelés dans de la résine d'arbre fossilisée. Puis, ils ont traversé kraut rock et futurisme italien, new wave européenne et surréalisme sud-américain. Ce soir ils présentent leur nouveau album, qui s'appelle "2072": date prévue pour leur retour dans une DeLorean au plutonium.
