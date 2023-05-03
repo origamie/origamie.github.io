@@ -39,14 +39,14 @@
         {{ range (first 4 (after $n_posts $section))  }}
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="{{ .Permalink }}" class="link black dim">
-              {{ .Title }}
+                • {{ .Title }}
             </a>
           </h2>
         {{ end }}
 
         {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
         {{ with .Site.GetPage "section" $section_name }}
-          <a href="{{ .Permalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
+          <a href="{{ .Permalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim tc f5 fw4 mb4 dib mr3">Voir tout</a>
         {{ end }}
         </section>
       {{ end }}
@@ -56,9 +56,9 @@
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
-  <form action="https://origamie.us7.list-manage.com/subscribe/post?u=7145b6524f02da468573f6625&amp;id=21927604ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <form action="https://origamie.us7.list-manage.com/subscribe/post?u=7145b6524f02da468573f6625&amp;id=21927604ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate roboto" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Pour ne rien manquer, inscrivez-vous à notre newsletter : </h2>
+	<h2 class="mid-gray roboto">Pour ne rien manquer, inscrivez-vous à notre newsletter : </h2>
     <div class="indicates-required"><span class="asterisk">*</span> champ obligatoire</div>
     <div class="mc-field-group">
         <label for="mce-EMAIL">Adresse email  <span class="asterisk">*</span> </label>

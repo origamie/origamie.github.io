@@ -92,8 +92,13 @@
 }
 
 @media (min-device-width : 880px) {
-	.mobile-show {
+	.mobile-only {
 		display: none;
+	}
+
+	.article-img {
+		max-height: 350px;
+		width: unset !important;
 	}
 }
 

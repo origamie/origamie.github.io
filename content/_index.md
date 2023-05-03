@@ -3,7 +3,7 @@ title: "Origamie"
 featured_image: '/images/wallpaper.jpg'
 description: "Association loi 1901 - Production Artistique et Evénements Culturels"
 type: page
-recent_copy: Actus de l'asso
+recent_copy: Actualités de l'asso
 ---
 <br/>
 Fondée en juillet 2019 à Alençon, l’association Origamie a pour objet de promouvoir la culture à l’échelle locale.
