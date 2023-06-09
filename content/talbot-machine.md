@@ -1,10 +1,10 @@
 ---
-description: "Le festival Talbot Machine"
-title: "Talbot Machine Festival"
-featured_image: /images/talbotmachine.png
+description: "Concerts - DJs - Arts Vivants - Expos - Ateliers - Jeux"
+title: "Talbot Machine"
+featured_image: /images/talbot-ban.png
 display_featured_image: false
 type: page
-layout: talbotmachine
+layout: talbot-machine
 menu:
     main:
         weight: 2

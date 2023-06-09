@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr-FR" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Talbot Machine Festival">
+    <link rel="stylesheet" href="/css/talbot.css">
+    <title>Talbot Machine Festival</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+
+        $( window ).on('scroll', function(){
+
+            var scrollTop = $(this).scrollTop();
+            let value;
+            if (scrollTop < 100) {
+                value = '72px';
+            } else {
+                value = (0.15 * scrollTop) +'%'
+            }
+
+            $( '.header' ).css({
+                width: value,
+            });
+
+        });
+
+
+    </script>
+</head>
+<body>
+<header class="header">
+        <a href="/" class="logo fixed-top">
+            <img src="/images/logo-origamie.png" alt="logo-origamie">
+        </a>
+        <span class="fs-16 fs-18-desktop">présente</span>
+</header>
+
+<div class="content background-white my-0">
+
+    <main class="main container" id="page">
+        <section id="home">
+            <section id="intro">
+
+                <article class="f-centered">
+                    <h1 ><span class="title fs-5 fs-1-desktop f-uppercase">Talbot Machine Festival</span></h1>
+                    <h2 class="fs-14 fs-10-desktop ft-primary f-italic">#0 La chapèlle s'en mêle</h2>
+                    <br>
+
+                    <h2 class="fs-14 fs-10-desktop ft-primary f-uppercase ff-sans-serif mt-6">Chapèlemele<br>Alençon (61)<br>25•26 août 2023</h2>
+                </article>
+
+            </section>
+
+            <section id="affiche">
+                <article class="f-centered">
+                    <figure>
+                        <img class="affiche-img"src="/images/talbotmachine.png">
+                    </figure>
+                </article>
+            </section>
+
+            <section id="infos" class="f-centered">
+                <section class="days columns">
+                    <article class="column is-one-thirds-tablet">
+                        <h4 class="title text-info fs-11 fs-8-desktop">Vendredi 25 Août</h4>
+                        <h5 class="text-info fs-15 fs-12-desktop">18h → 2h</h5>
+                    </article>
+                    <article class="column is-one-thirds-tablet">
+                        <h4 class="title text-info fs-11 fs-8-desktop">Samedi 26 Août</h4>
+                        <h5 class="text-info fs-15 fs-12-desktop">14h → 2h</h5>
+                    </article>
+                </section>
+                <p class="fs-14 fs-12-desktop text-info">- Concerts dans la cour des Petits Chatelets.</p>
+                <br/>
+                <p class="fs-14 fs-12-desktop text-info">- DJs sets dans la caravane.</p>
+                <br/>
+                <p class="fs-14 fs-12-desktop text-info">- Ateliers et expositions.</p>
+                <br/>
+                <p class="fs-14 fs-12-desktop text-info">- Bar et restauration sur place.</p>
+                <br/>
+                <p class="fs-14 fs-12-desktop text-info">- Entrée à prix libre.</p>
+                <br/>
+                <h3 class="fs-11 fs-8-desktop f-centered text-info">Chapèlemele<br/>41 Chemin des Châtelets<br/>Alençon (61)<br/>25•26 août 2023</h3>
+
+            </section>
+        </section>
+    </main>
+
+</div>
+
+<footer id="footer" >
+    <article  class="f-centered ">
+        <header>
+            <h2 class="logo">
+                <a href="/" class="logo">
+                    <img src="/images/logo-origamie.png">
+                </a>
+            </h2>
+            <p class="fs-14 fs-12-desktop mt-1">contact@origamie.org<br>6 Cours Georges Clemenceau<br/>Alençon</p>
+
+        </header>
+        <ul class="links">
+            {{ $icon_size := "32px" }}
+            <li>
+                <a href="https://instagram.com/origa1000/">
+                    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com/origa1000/">
+                    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+                </a>
+            </li>
+        </ul>
+    </article>
+</footer>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Talbot Machine festival",
+        "organizer": {
+            "name" :  "Talbot Machine",
+            "url" : "https://talbotmachine.fr"
+        },
+        "description": "Festival talbot machine",
+        "startDate": "2023-08-25T18:00",
+        "endDate": "2023-06-27T02:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Chapelemele",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "",
+                "addressLocality": "Alençon",
+                "postalCode": "61000",
+                "addressCountry": "FR"
+            }
+        }
+    }
+</script>
+</body>
+</html>
+
