@@ -43,11 +43,11 @@
 
             if (window.matchMedia('(max-width: 767px)').matches) {
                 $('.affiche-img').css({
-                    'width': (scrollTop) < 100 ? (scrollTop) + '%' : '100%',
+                    'width': (scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
                 });
             } else {
                 $('.affiche-img').css({
-                    'width': (scrollTop) < 100 ? (scrollTop) + '%' : '100%',
+                    'width': (scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
                 });
             }
 
@@ -149,7 +149,7 @@
                     <div class="column is-half-tablet " id="pres-text">
                         <p class="title fs-10 fs-7-desktop ft-primary">
                             C'est officiel le festival Talbot Machine renaît de ses cendres. <br/>
-                            Concerts dans la cour des Petits Chatelets, DJs set dans la caravane hurlante de l'association Origamie, ateliers, et expositions seront au programme.<br/>
+                            Concerts dans la cour des Petits Chatelets, DJ sets dans la caravane hurlante de l'association Origamie, ateliers et expositions seront au programme.<br/>
                             On vous en dit plus prochainement.
                         </p>
                     </div>
