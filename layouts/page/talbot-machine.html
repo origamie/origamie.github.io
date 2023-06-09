@@ -22,7 +22,24 @@
 
             $( '.header' ).css({
                 width: value,
+                'justify-content': 'space-between'
             });
+
+            if (scrollTop > 600) {
+                $( '.show-scroll' ).css({
+                    display: 'unset',
+                });
+                $( '.header' ).css({
+                    'justify-content': 'space-between'
+                });
+            } else {
+                $( '.show-scroll' ).css({
+                    display: 'none',
+                });
+                $( '.header' ).css({
+                    'justify-content': scrollTop < 32 ? 'center': 'unset'
+                });
+            }
 
         });
 
@@ -31,10 +48,15 @@
 </head>
 <body>
 <header class="header">
+        <div style="display: flex; flex-direction: column">
         <a href="/" class="logo fixed-top">
             <img src="/images/logo-origamie.png" alt="logo-origamie">
         </a>
         <span class="fs-16 fs-18-desktop">présente</span>
+        </div>
+        <div class="fs-13 fs-12-desktop show-scroll" style="display: none">
+            Talbot Machine Festival
+        </div>
 </header>
 
 <div class="content background-white my-0">
