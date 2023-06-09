@@ -41,6 +41,17 @@
                 });
             }
 
+            if (window.matchMedia('(max-width: 767px)').matches) {
+                $('.affiche-img').css({
+                    'width': (scrollTop * 0.2) < 100 ? (scrollTop * 0.2) + '%' : '100%',
+                });
+            } else {
+                $('.affiche-img').css({
+                    'width': (scrollTop * 0.1) < 100 ? (scrollTop * 0.1) + '%' : '100%',
+                });
+            }
+
+
         });
 
 
