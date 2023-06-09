@@ -275,23 +275,23 @@
 @media screen and (min-width: 769px), print {
     #home #picture {
         z-index: 1; } }
-#home #picture #shuffle_image {
+#home #picture #pres-img {
     margin: 0;
     padding: 0; }
 @media screen and (min-width: 769px), print {
-    #home #picture #shuffle_image {
+    #home #picture #pres-img {
         width: 50%;
         display: inline-block; }
-    #home #picture #shuffle_image figure {
+    #home #picture #pres-img figure {
         height: 600px; } }
-#home #picture #shuffle_image:hover .shuffle_btn {
+#home #picture #pres-img:hover .shuffle_btn {
     opacity: 0;
     transform: scale(0.5); }
-#home #picture #shuffle_text {
+#home #picture #pres-text {
     margin: 0;
     padding: 0; }
 @media screen and (min-width: 769px), print {
-    #home #picture #shuffle_text {
+    #home #picture #pres-text {
         width: 50%;
         display: inline-block; } }
 #home #picture figure {

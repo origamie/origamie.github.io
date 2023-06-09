@@ -14,10 +14,10 @@
 
             var scrollTop = $(this).scrollTop();
             let value;
-            if (scrollTop < 10) {
+            if ((0.20 * scrollTop) < 20) {
                 value = '72px';
             } else {
-                value = (0.17 * scrollTop) +'%'
+                value = (0.20 * scrollTop) +'%'
             }
 
             $( '.header' ).css({
@@ -25,7 +25,7 @@
                 'justify-content': 'space-between'
             });
 
-            if (scrollTop > 600) {
+            if (scrollTop > 500) {
                 $( '.show-scroll' ).css({
                     display: 'unset',
                 });
@@ -37,23 +37,17 @@
                     display: 'none',
                 });
                 $( '.header' ).css({
-                    'justify-content': scrollTop < 32 ? 'center': 'unset'
+                    'justify-content': (0.20 * scrollTop) < 20 ? 'center': 'unset'
                 });
             }
 
             if (window.matchMedia('(max-width: 767px)').matches) {
                 $('.affiche-img').css({
-                    'width': (scrollTop * 0.2) < 100 ? (scrollTop * 0.2) + '%' : '100%',
-                });
-                $('.days').css({
-                    'width': (scrollTop * 0.2) < 100 ? (scrollTop * 0.2) + '%' : '100%',
+                    'width': (scrollTop) < 100 ? (scrollTop) + '%' : '100%',
                 });
             } else {
                 $('.affiche-img').css({
-                    'width': (scrollTop * 0.1) < 100 ? (scrollTop * 0.1) + '%' : '100%',
-                });
-                $('.days').css({
-                    'width': (scrollTop * 0.1) < 100 ? (scrollTop * 0.1) + '%' : '100%',
+                    'width': (scrollTop) < 100 ? (scrollTop) + '%' : '100%',
                 });
             }
 
@@ -68,7 +62,7 @@
         <a href="/" class="logo fixed-top">
             <img src="/images/logo-origamie.png" alt="logo-origamie">
         </a>
-        <span class="fs-16 fs-18-desktop">présente</span>
+        <span class="fs-16 fs-18-desktop" style="text-align: center; margin-bottom: 0.5rem">présente</span>
         </div>
         <div class="fs-13 fs-12-desktop show-scroll" style="display: none">
             Talbot Machine Festival
@@ -108,13 +102,13 @@
                         <h5 class="f-default fs-15 fs-12-desktop">18h → 2h</h5>
                         <br/>
                         <p class="mt-1">
-                            <a class="f-default fs-16 fs-13-desktop">- Blow</a>
+                            <a class="f-default fs-14 fs-11-desktop">- Blow</a>
                         </p>
                         <p class="mt-1">
-                            <a class="f-default fs-16 fs-13-desktop">- Jean-Paul Dub (feat Feu Rouge)</a>
+                            <a class="f-default fs-14 fs-11-desktop">- Jean-Paul Dub (feat Feu Rouge)</a>
                         </p>
                         <p class="mt-1">
-                            <a class="f-default fs-16 fs-13-desktop">+ à venir...</a>
+                            <a class="f-default fs-14 fs-11-desktop">+ à venir...</a>
                         </p>
                     </article>
                     <article class="column" id="day2">
@@ -122,13 +116,13 @@
                         <h5 class="f-default fs-15 fs-12-desktop">14h → 2h</h5>
                         <br/>
                         <p class="mt-1">
-                            <a class="f-default fs-16 fs-13-desktop">- Grife</a>
+                            <a class="f-default fs-14 fs-11-desktop">- Grife</a>
                         </p>
                         <p class="mt-1">
-                            <a class="f-default fs-16 fs-13-desktop">- Earl Nest</a>
+                            <a class="f-default fs-14 fs-11-desktop">- Earl Nest</a>
                         </p>
                         <p class="mt-1">
-                            <a class="f-default fs-16 fs-13-desktop">+ à venir...</a>
+                            <a class="f-default fs-14 fs-11-desktop">+ à venir...</a>
                         </p>
                     </article>
                 </section>
@@ -147,12 +141,12 @@
             </section>
             <section id="picture">
                 <article class="has-text-centered columns">
-                    <div class="column" id="shuffle_image">
+                    <div class="column" id="pres-img">
                         <figure>
                             <img src="/images/wallpaper.jpg">
                         </figure>
                     </div>
-                    <div class="column is-half-tablet " id="shuffle_text">
+                    <div class="column is-half-tablet " id="pres-text">
                         <p class="title fs-10 fs-7-desktop ft-primary">
                             C'est officiel le festival Talbot Machine renaît de ses cendres. <br/>
                             Concerts dans la cour des Petits Chatelets, DJs set dans la caravane hurlante de l'association Origamie, ateliers, et expositions seront au programme.<br/>
