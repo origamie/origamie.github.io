@@ -45,12 +45,17 @@
                 $('.affiche-img').css({
                     'width': (scrollTop * 0.2) < 100 ? (scrollTop * 0.2) + '%' : '100%',
                 });
+                $('.days').css({
+                    'width': (scrollTop * 0.2) < 100 ? (scrollTop * 0.2) + '%' : '100%',
+                });
             } else {
                 $('.affiche-img').css({
                     'width': (scrollTop * 0.1) < 100 ? (scrollTop * 0.1) + '%' : '100%',
                 });
+                $('.days').css({
+                    'width': (scrollTop * 0.1) < 100 ? (scrollTop * 0.1) + '%' : '100%',
+                });
             }
-
 
         });
 
@@ -77,7 +82,8 @@
             <section id="intro">
 
                 <article class="f-centered">
-                    <h1 ><span class="title fs-5 fs-1-desktop f-uppercase">Talbot Machine Festival</span></h1>
+                    <h1 ><span class="title fs-5 fs-1-desktop f-uppercase">Talbot Machine</span></h1>
+                    <h1 ><span class="title fs-5 fs-1-desktop f-uppercase">Festival</span></h1>
                     <h2 class="fs-14 fs-10-desktop ft-primary f-italic">#1 La chapelle s'en mêle</h2>
                     <br>
 
@@ -96,7 +102,7 @@
 
             <section id="infos" class="f-centered">
                 <section class="days columns">
-                    <article class="column">
+                    <article class="column" id="day1">
                         <h4 class="title f-default fs-11 fs-8-desktop">Vendredi 25 Août</h4>
                         <h5 class="f-default fs-15 fs-12-desktop">18h → 2h</h5>
                         <br/>
@@ -110,7 +116,7 @@
                             <a class="f-default fs-16 fs-13-desktop">+ à venir...</a>
                         </p>
                     </article>
-                    <article class="column is-one-thirds-tablet">
+                    <article class="column" id="day2">
                         <h4 class="title f-default fs-11 fs-8-desktop">Samedi 26 Août</h4>
                         <h5 class="f-default fs-15 fs-12-desktop">14h → 2h</h5>
                         <br/>
@@ -137,6 +143,22 @@
                 <br/>
                 <h3 class="fs-11 fs-8-desktop f-centered f-default">Chapèlemele<br/>41 Chemin des Châtelets<br/>Alençon (61)<br/>25•26 août 2023</h3>
 
+            </section>
+            <section id="picture">
+                <article class="has-text-centered columns">
+                    <div class="column" id="shuffle_image">
+                        <figure>
+                            <img src="/images/wallpaper.jpg">
+                        </figure>
+                    </div>
+                    <div class="column is-half-tablet " id="shuffle_text">
+                        <p class="title fs-10 fs-7-desktop ft-primary">
+                            C'est officiel le festival Talbot Machine renaît de ses cendres. <br/>
+                            Concerts dans la cour des Petits Chatelets, DJs set dans la caravane hurlante de l'association Origamie, ateliers, et expositions seront au programme.<br/>
+                            On vous en dit plus prochainement.
+                        </p>
+                    </div>
+                </article>
             </section>
         </section>
     </main>
