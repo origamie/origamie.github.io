@@ -14,7 +14,7 @@
 
             var scrollTop = $(this).scrollTop();
             let value;
-            if ((0.20 * scrollTop) < 20) {
+            if ((0.20 * scrollTop) < 10) {
                 value = '72px';
             } else {
                 value = (0.20 * scrollTop) +'%'
@@ -43,11 +43,11 @@
 
             if (window.matchMedia('(max-width: 767px)').matches) {
                 $('.affiche-img').css({
-                    'width': (scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
+                    'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
                 });
             } else {
                 $('.affiche-img').css({
-                    'width': (scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
+                    'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
                 });
             }
 
