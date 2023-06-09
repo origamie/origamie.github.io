@@ -2531,10 +2531,10 @@ a.has-text-link-dark:hover, a.has-text-link-dark:focus {
 .has-background-link-dark {
     background-color: #d13f00 !important; }
 
-.text-info {
+.f-default {
     color: #e0cd89 !important; }
 
-a.text-info:hover, a.text-info:focus {
+a.f-default:hover, a.f-default:focus {
     color: #bdad74 !important; }
 
 .has-background-info {
