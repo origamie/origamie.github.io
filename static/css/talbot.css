@@ -152,6 +152,11 @@
 #home #affiche .affiche-img {
     object-fit: cover;
 }
+@media screen and (min-width: 1024px) {
+    .text-img {
+        width: 0;
+    }
+}
 
 #day1 {
     margin-right: 500px;

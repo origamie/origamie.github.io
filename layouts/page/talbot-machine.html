@@ -41,16 +41,18 @@
                 });
             }
 
-            if (window.matchMedia('(max-width: 767px)').matches) {
-                $('.affiche-img').css({
-                    'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
-                });
-            } else {
-                $('.affiche-img').css({
-                    'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
+
+            $('.affiche-img').css({
+                'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
+            });
+
+            scrollTop = scrollTop -1000
+
+            if (!window.matchMedia('(max-width: 767px)').matches) {
+                $('.text-img').css({
+                    'width': (0.040 * scrollTop) < 50 ? (0.040 * scrollTop) + '%' : '50%',
                 });
             }
-
         });
 
 
@@ -146,8 +148,8 @@
                             <img src="/images/wallpaper.jpg">
                         </figure>
                     </div>
-                    <div class="column is-half-tablet " id="pres-text">
-                        <p class="title fs-10 fs-7-desktop ft-primary">
+                    <div class="column is-half-tablet text-img">
+                        <p class="title fs-10 fs-7-desktop ft-primary ">
                             C'est officiel le festival Talbot Machine renaît de ses cendres. <br/>
                             Concerts dans la cour des Petits Chatelets, DJ sets dans la caravane hurlante de l'association Origamie, ateliers et expositions seront au programme.<br/>
                             On vous en dit plus prochainement.
