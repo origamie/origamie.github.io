@@ -158,6 +158,18 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    #home #affiche .home-img-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #home #affiche .home-img {
+        display: none;
+    }
+}
+
 #day1 {
     margin-right: 500px;
 }
@@ -167,7 +179,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    #home #affiche .affiche-img {
+    #home #affiche .home-img {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #home #affiche .home-img-mobile {
         max-width: 600px;
     }
 }
