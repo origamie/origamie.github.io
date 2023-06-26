@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="/css/talbot.css">
     <title>Talbot Machine Festival</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script>
 
         $( window ).on('scroll', function(){
@@ -105,6 +108,12 @@
                         <h5 class="f-default fs-15 fs-12-desktop">17h → 2h</h5>
                         <br/>
                         <p class="mt-1">
+                            <a class="f-default fs-14 fs-11-desktop" href="#griffe" rel="modal:open">
+                                - Griffe
+                            </a>
+                        </p>
+                        <br/>
+                        <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop">+ à venir...</a>
                         </p>
                     </article>
@@ -113,7 +122,7 @@
                         <h5 class="f-default fs-15 fs-12-desktop">15h → 2h</h5>
                         <br/>
                         <p class="mt-1">
-                            <a class="f-default fs-14 fs-11-desktop">- à venir...</a>
+                            <a class="f-default fs-14 fs-11-desktop">+ à venir...</a>
                         </p>
                     </article>
                 </section>
@@ -148,7 +157,39 @@
             </section>
         </section>
     </main>
+</div>
 
+
+<div id="griffe" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/griffe.jpg">
+        <br/>
+
+        GRIFE est un groupe de musique français originaire d’Orléans et composé de Diane Borderieux et Victoria James Geiseler. Membres créatrices et actives du même collectif artistique, La Mue Collective, elles fondent le duo en octobre 2021, après un
+        concert du groupe occitan Cocanha.
+        <br/>
+        Depuis, GRIFE est l’incarnation de deux voix de femmes percutantes à la fois par leurs textes et par leur instrumentation. Adolescentes bercées par le matrimoine pop rock et la musique alternative, Diane et Victoria sont hantées aussi bien par les chants populaires que par le punk et la musique baroque.
+
+        <ul>
+            <li>
+                <a href="https://grife.bandcamp.com/">
+                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.instagram.com/grrrife/">
+                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.facebook.com/lamuecollective">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=K8QreDs9bgU">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
 
 <footer id="footer" >

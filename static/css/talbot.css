@@ -149,6 +149,27 @@
     padding: 1rem 1rem 37px;
 }
 
+.modal {
+    top:60px
+}
+
+.modal-content {
+    height: 100%;
+    color: #02071d;
+}
+.modal-content img {
+    margin-bottom: 1rem;
+
+    width: 400px;
+}
+
+.modal-content ul {
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
 #home #affiche .affiche-img {
     object-fit: cover;
 }
