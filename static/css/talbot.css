@@ -24,6 +24,19 @@
     margin-bottom: 40vh;
 }
 
+.button-artist {
+    background-color: #01061c;
+    color: #f9f9b8;
+    border: 1px solid #f9f9b8;
+    padding: 0.3rem;
+    border-radius: 0.1rem;
+}
+
+.button-artist:hover {
+    background-color: #f9f9b8;
+    color: #01061c !important;
+}
+
 .header {
     padding: 1rem;
     max-width: 100%;
