@@ -169,11 +169,17 @@
 .modal-content {
     height: 100%;
     color: #02071d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .modal-content img {
     margin-bottom: 1rem;
 
     width: 400px;
+}
+.modal-content .modal-hour {
+   font-size: 1.2rem;
 }
 
 .modal-content ul {

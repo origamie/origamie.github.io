@@ -107,6 +107,18 @@
                         <h4 class="title f-default fs-11 fs-8-desktop">Vendredi 25 Août</h4>
                         <h5 class="f-default fs-15 fs-12-desktop">17h → 2h</h5>
                         <br/>
+                        <p class="mt-1" style="display: none">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#michelle" rel="modal:open">
+                                - Michelle et les Garçons <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
+                        <br/>
+                        <p class="mt-1" style="display:none;">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#jpdub" rel="modal:open">
+                                - Jean-Paul Dub (w/ Feu Rouge) <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
+                        <br/>
                         <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop">+ à venir...</a>
                         </p>
@@ -114,6 +126,12 @@
                     <article class="column" id="day2">
                         <h4 class="title f-default fs-11 fs-8-desktop">Samedi 26 Août</h4>
                         <h5 class="f-default fs-15 fs-12-desktop">15h → 2h</h5>
+                        <br/>
+                        <p class="mt-1" style="display: none">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#pasta" rel="modal:open">
+                                - Pasta grows on trees <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
                         <br/>
                         <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop is-clickable" href="#griffe" rel="modal:open">
@@ -164,6 +182,8 @@
     <div class="modal-content">
         <img src="/images/talbot/griffe.jpg">
         <br/>
+        <span class="modal-hour">21h - 22h</span>
+        <br/>
 
         GRIFE est un groupe de musique français originaire d’Orléans et composé de Diane Borderieux et Victoria James Geiseler. Membres créatrices et actives du même collectif artistique, La Mue Collective, elles fondent le duo en octobre 2021, après un
         concert du groupe occitan Cocanha.
@@ -185,6 +205,80 @@
                 </a>
 
                 <a href="https://www.youtube.com/watch?v=K8QreDs9bgU">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="michelle" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/michelle.png">
+        <br/>
+        <span class="modal-hour">22h - 23h</span>
+        <br/>
+        La pop arty et délurée de Michelle & Les Garçons sera également de la partie lors de la Talbot Machine Festival .
+        <br/><br/>
+        Après une entrée en trombe sur la scène française, avec comme seul étendard leur premier single “Bizarre” à l’automne 2022, le groupe enchaîne des concerts brûlants et écrit les premières pages de son aventure (FIP, France Culture, MaMA, Bars en Trans...), avant de sortir un premier EP éponyme le 28 avril dernier.
+        <br/><br/>
+        Iels nous racontent leurs histoires d'amour et de vie à travers une pop aux couleurs plurielles : la chaleur des roses profonds, la mélancolie des bleus tièdes. On y danse sur les lumières des années 80, les ombres des sentiments flirtent avec des corps avides de sensations et des visages pailletés.
+
+
+        <ul>
+            <li>
+                <a  href="https://wiseband.lnk.to/michelle-et-les-garcons-michelle-et-les-garcons">
+                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.instagram.com/michelle_et_les_garcons/">
+                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.facebook.com/michelle.lesgarcons/">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=_mBCLq5NQ-Y">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
+                </a>
+                <a href="https://www.youtube.com/watch?v=4S8vVR0cPJQ">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="pasta" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/pasta.png">
+        <br/>
+        <span class="modal-hour">20h - 21h</span>
+        <br/>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/pastagrowsontrees">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="jpdub" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/jpdub.png">
+        <br/>
+        <span class="modal-hour">00h - 01h15</span>
+        <br/>
+        Depuis maintenant 10 ans et plus de 300 prestations au compteur, Jean-Paul Dub (Pablo Géléoc) parcourt la France et l’étranger (Belgique, Pologne, Canada, Ukraine, …) pour diffuser sa musique : un reggae-dub ethnique aux influences multiples et marqué par l’esprit « Dub it yourself » des années 90.
+        <br/><br/>
+        Également fondateur du label Vaticaen Records, et du collectif audiovisuel Bandit visions, Jean-Paul Dub sera accompagné du rappeur caennais Feu Rouge (ex The Shellys, Mandale, Poney Crevé, Cemented Minds), qui a sorti son 1er EP, « En Vers et contre tout », en novembre 2022.
+        <ul>
+            <li>
+                <a  href="https://vaticaen.bandcamp.com/">
+                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=BeKCEluO2UU">
                     {{ partial "svg/youtube.svg" (dict "size" 30) }}
                 </a>
             </li>
