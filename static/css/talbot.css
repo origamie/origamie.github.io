@@ -243,9 +243,36 @@
     color: #fdf9b7;
     padding: 1rem 1rem 37px;
 }
+
+#home #infos .playlist a img {
+    width: 55%;
+    margin-bottom: 2rem;
+    transform: rotate(-3deg);
+    border-radius: 15px;
+}
+
+
 @media screen and (min-width: 1024px) {
-    #home #infos {
-        padding-top: 60px;
+
+    #home #infos .playlist {
+        position: absolute;
+        right: 15rem;
+        transform: rotate(-2deg);
+        filter: brightness(70%);
+        cursor: pointer;
+    }
+
+    #home #infos .playlist a img {
+        border-radius: 15px;
+        width: 300px;
+    }
+
+    #home #infos .playlist:hover {
+
+        transform: rotate(-5deg);
+        filter: brightness(100%);
+        cursor: pointer;
+
     }
 }
 #home #infos h2, #home #infos p {
