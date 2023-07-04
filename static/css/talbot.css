@@ -180,6 +180,13 @@
 }
 .modal-content .modal-hour {
    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.modal-content .modal-style {
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .modal-content ul {
