@@ -251,6 +251,14 @@
     border-radius: 15px;
 }
 
+#home #infos .playlist a .playlist-button {
+    display: none;
+}
+
+#home #infos .playlist a .playlist-button-arrow {
+    display: inline-block;
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -273,6 +281,22 @@
         filter: brightness(100%);
         cursor: pointer;
 
+    }
+
+    #home #infos .playlist a .playlist-button {
+        display: inline-block;
+    }
+
+    #home #infos .playlist a .playlist-button-arrow {
+        display: none;
+    }
+
+    #home #infos .playlist:hover a .playlist-button-arrow {
+        display: inline;
+    }
+
+    #home #infos .playlist:hover a .playlist-button {
+        display: none;
     }
 }
 #home #infos h2, #home #infos p {
