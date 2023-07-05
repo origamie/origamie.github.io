@@ -145,6 +145,12 @@
                         <h5 class="f-default fs-15 fs-12-desktop">15h → 2h</h5>
                         <br/>
                         <p class="mt-1">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#jokari" rel="modal:open">
+                                - Jokari <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
+                        <br/>
+                        <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop is-clickable" href="#pasta" rel="modal:open">
                                 - Pasta grows on trees <i class="bi bi-plus-circle"></i>
                             </a>
@@ -153,12 +159,6 @@
                         <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop is-clickable" href="#griffe" rel="modal:open">
                                 - GRIFE <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#culture" rel="modal:open">
-                                - Culture émotion <i class="bi bi-plus-circle"></i>
                             </a>
                         </p>
                         <br/>
@@ -365,6 +365,63 @@
         </ul>
     </div>
 </div>
+<div id="jokari" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/jokari.png">
+        <br/>
+        <span class="modal-style">(Pop Rock - Toulouse)</span>
+        <br/>
+        <span class="modal-hour">19h30 - 20h30</span>
+        <br/>
+        Jokari est le projet solo de Marion Josserand, qui a sorti son album “Main Gauche” en décembre 2021. L’artiste toulousaine propose des chansons en français fabriquées sur l'orgue ou la guitare, et jouées dans leur version solo intimiste, douce, à nu.
+        <br/><br/>
+        Bouquet de cailloux: enfance, nostalgie, un peu de rigolade et quelques torsions de cœur, voilà ce qui vous attend en découvrant Jokari en concert.
+        <ul>
+            <li>
+                <a  href="https://www.facebook.com/Marionjokari">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+                <a  href="https://www.instagram.com/jokari_coupletrefrain/">
+                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
+                </a>
+                <a  href="https://cheptelrecords.bandcamp.com/album/chptl-056-main-gauche">
+                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=6wOmKAoxaQY">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="antoine" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/antoine.png">
+        <br/>
+        <span class="modal-style">(Zouk Rock - Pont-l’Abbé)</span>
+        <br/>
+        <span class="modal-hour">20h - 21h</span>
+        <br/>
+        Originaire de Pont-l’Abbé (Finistère), Antoine Garrec est un aventurier de l'ordinaire qui se dévoile dans ses chansons avec un romantisme brut et une sincérité désarmante. Armé de synthétiseurs, il oscille entre un lyrisme pop empreint de variété française et une énergie brutale et primitive issue du post-punk.
+        <br/><br/>
+        Inspiré par Sonic Youth, Christophe, Grandaddy, et même Daniel Balavoine, le Bigouden a sorti en 2020, Plastique Sahara. Un premier album remarqué sur lequel il chante le drame romantique pour déclamer le quotidien. Des aventures sentimentales qui ne commencent pas à ses histoires d'amour qui durent son temps. Antoine Garrec vous conte ses vies multiples entre synthé et boîte à rythmes.
+        <ul>
+            <li>
+                <a  href="https://www.facebook.com/antoinegarreclebigouden">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://www.antoinegarrec.fr">
+                    {{ partial "svg/website.svg" (dict "size" 30) }}
+                </a>
+                <a href="https://souterraine.bandcamp.com/album/plastique-sahara">
+                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 <footer id="footer" >
     <article  class="f-centered ">
         <header>
@@ -373,16 +430,19 @@
                     <img src="/images/logo-origamie.png">
                 </a>
             </h2>
-            <p class="fs-14 fs-12-desktop mt-1">contact@origamie.org<br>
-            <p class="fs-14 fs-12-desktop mt-1">
-                <a href="https://drive.google.com/file/d/1D-mkxYqz25gGnZh5FQEZJGoBQg3hsFvK/view">Dossier de presse</a>
-            </p>
+            <p class="fs-14 fs-12-desktop mt-1">festival@talbotmachine.fr</p><br>
+
+            <a href="https://drive.google.com/file/d/1D-mkxYqz25gGnZh5FQEZJGoBQg3hsFvK/view">
+                <p class="fs-16 fs-14-desktop mt-1">
+                    Dossier de presse
+                </p>
+            </a>
 
         </header>
         <ul class="links">
             {{ $icon_size := "32px" }}
             <li>
-                <a href="https://instagram.com/origa1000/">
+                <a href="https://www.instagram.com/talbotmachine/">
                     {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
                 </a>
             </li>
