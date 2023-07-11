@@ -264,7 +264,7 @@
 
     #home #infos .playlist {
         position: absolute;
-        right: 15rem;
+        right: 15%;
         transform: rotate(-2deg);
         filter: brightness(70%);
         cursor: pointer;
@@ -272,7 +272,7 @@
 
     #home #infos .playlist a img {
         border-radius: 15px;
-        width: 300px;
+        width: 200px;
     }
 
     #home #infos .playlist:hover {
@@ -386,50 +386,55 @@
         background: #E9BAE5; } }
 
 
-#home #picture {
+#home .picture {
     width: 100%;
     background: #552ee7;
     padding: 0;
     margin: 0;
     z-index: 5;
     position: relative; }
+
+#home .picture2 {
+    background: #dc0095;
+}
+
 @media screen and (min-width: 769px), print {
-    #home #picture {
+    #home .picture {
         z-index: 1; } }
-#home #picture #pres-img {
+#home .picture .pres-img {
     margin: 0;
     padding: 0; }
 @media screen and (min-width: 769px), print {
-    #home #picture #pres-img {
+    #home .picture .pres-img {
         width: 50%;
         display: inline-block; }
-    #home #picture #pres-img figure {
+    #home .picture .pres-img figure {
         height: 600px; } }
-#home #picture #pres-img:hover .shuffle_btn {
+#home .picture .pres-img:hover .shuffle_btn {
     opacity: 0;
     transform: scale(0.5); }
-#home #picture #pres-text {
+#home .picture #pres-text {
     margin: 0;
     padding: 0; }
 @media screen and (min-width: 769px), print {
-    #home #picture #pres-text {
+    #home .picture #pres-text {
         width: 50%;
         display: inline-block; } }
-#home #picture figure {
+#home .picture figure {
     /*            max-width: 640px;*/
     margin: 0 auto;
     cursor: pointer;
     position: relative;
     width: 100%; }
-#home #picture figure img {
+#home .picture figure img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover; }
-#home #picture p {
+#home .picture p {
     margin: 0 auto;
     padding: 50px 40px 28px; }
-#home #picture h4 {
+#home .picture h4 {
     margin: 0;
     padding: 0 18px; }
 
@@ -1205,8 +1210,7 @@ div.icon-text {
     display: block;
     flex-basis: 0;
     flex-grow: 1;
-    flex-shrink: 1;
-    padding: 6px; }
+    flex-shrink: 1;}
 .columns.is-mobile > .column.is-narrow {
     flex: none;
     width: unset; }
