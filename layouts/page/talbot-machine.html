@@ -67,11 +67,11 @@
                 'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
             });
 
-            scrollTop = scrollTop - 1000
+            scrollTop = scrollTop - 1000;
 
             if (!window.matchMedia('(max-width: 767px)').matches) {
                 $('.text-img').css({
-                    'width': (0.055 * scrollTop) < 50 ? (0.055 * scrollTop) + '%' : '50%',
+                    'width': (0.040 * scrollTop) < 50 ? (0.040 * scrollTop) + '%' : '50%',
                 });
             }
         });
@@ -112,8 +112,8 @@
             <section id="affiche">
                 <article class="f-centered">
                     <figure>
-                        <img class="affiche-img home-img" src="/images/talbot_ban.jpg">
-                        <img class="affiche-img home-img-mobile" src="/images/talbotmachine.png">
+                        <img class="affiche-img home-img" src="/images/talbot/ban.png">
+                        <img class="affiche-img home-img-mobile" src="/images/talbot/affiche.png">
                     </figure>
                 </article>
             </section>
@@ -123,6 +123,12 @@
                     <article class="column" id="day1">
                         <h4 class="title f-default fs-11 fs-8-desktop">Vendredi 25 Août</h4>
                         <h5 class="f-default fs-15 fs-12-desktop">17h → 2h</h5>
+                        <br/>
+                        <p class="mt-1">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#antoine" rel="modal:open">
+                                - Antoine Garrec <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
                         <br/>
                         <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop is-clickable" href="#michelle" rel="modal:open">
@@ -145,6 +151,12 @@
                         <h5 class="f-default fs-15 fs-12-desktop">15h → 2h</h5>
                         <br/>
                         <p class="mt-1">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#tony" rel="modal:open">
+                                - Tony Dola <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
+                        <br/>
+                        <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop is-clickable" href="#jokari" rel="modal:open">
                                 - Jokari <i class="bi bi-plus-circle"></i>
                             </a>
@@ -159,6 +171,12 @@
                         <p class="mt-1">
                             <a class="f-default fs-14 fs-11-desktop is-clickable" href="#griffe" rel="modal:open">
                                 - GRIFE <i class="bi bi-plus-circle"></i>
+                            </a>
+                        </p>
+                        <br/>
+                        <p class="mt-1">
+                            <a class="f-default fs-14 fs-11-desktop is-clickable" href="#earl" rel="modal:open">
+                                - Earl Nest <i class="bi bi-plus-circle"></i>
                             </a>
                         </p>
                         <br/>
@@ -398,15 +416,15 @@
 </div>
 <div id="antoine" class="modal">
     <div class="modal-content">
-        <img src="/images/talbot/antoine.png">
+        <img src="/images/talbot/antoine.jpg">
         <br/>
-        <span class="modal-style">(Zouk Rock - Pont-l’Abbé)</span>
+        <span class="modal-style">(Chanteur à synthétiseur - Pont l’Abbé)</span>
         <br/>
         <span class="modal-hour">20h - 21h</span>
         <br/>
-        Originaire de Pont-l’Abbé (Finistère), Antoine Garrec est un aventurier de l'ordinaire qui se dévoile dans ses chansons avec un romantisme brut et une sincérité désarmante. Armé de synthétiseurs, il oscille entre un lyrisme pop empreint de variété française et une énergie brutale et primitive issue du post-punk.
+        Armé de synthétiseurs, le Bigouden oscille entre un lyrisme pop empreint de variété française et une énergie brutale et primitive issue du post-punk. Inspiré par Sonic Youth, Christophe, Grandaddy, et même Daniel Balavoine, il a sorti en 2020, "Plastique Sahara".
         <br/><br/>
-        Inspiré par Sonic Youth, Christophe, Grandaddy, et même Daniel Balavoine, le Bigouden a sorti en 2020, Plastique Sahara. Un premier album remarqué sur lequel il chante le drame romantique pour déclamer le quotidien. Des aventures sentimentales qui ne commencent pas à ses histoires d'amour qui durent son temps. Antoine Garrec vous conte ses vies multiples entre synthé et boîte à rythmes.
+        Un premier album remarqué sur lequel Antoine Garrec chante le drame romantique pour déclamer le quotidien. Des aventures sentimentales qui ne commencent pas à ses histoires d'amour qui durent son temps. Antoine Garrec vous conte ses vies multiples entre synthé et boîte à rythmes.
         <ul>
             <li>
                 <a  href="https://www.facebook.com/antoinegarreclebigouden">
@@ -418,6 +436,62 @@
                 </a>
                 <a href="https://souterraine.bandcamp.com/album/plastique-sahara">
                     {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="earl" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/earl.jpg">
+        <br/>
+        <span class="modal-style">(Techno/Trip-Hop/Drum and bass - Rennes)</span>
+        <br/>
+        <span class="modal-hour">00h15 - 01h30</span>
+        <br/>
+        Charles Genestoux aka Earl Nest s’attache à créer une musique électronique détournée de ses codes, inspirée par des artistes tels que Rone, The Clash, Feu Chatterton ou encore Clark. À la croisée de la cold-wave, de l’acid, ou encore de la bass music. La musique d’Earl Nest ne s’embarrasse d’aucune règle.
+        <br/><br/>
+        À l’image de son créateur qui se refuse aux catégorisations et se donne pour seule ambition de partager un bout de son univers et de sa sensibilité avec le reste du monde. Accompagné en live de sa guitare basse , de sa voix et de ses machines. Earl Nest donne vie à ses morceaux dans des performances aventureuses, prometteuses et engagées
+        <ul>
+            <li>
+                <a  href="https://www.facebook.com/earl.nest">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+
+                <a href="https://soundcloud.com/earlnest">
+                    {{ partial "svg/soundcloud.svg" (dict "size" 30) }}
+                </a>
+                <a href="https://instagram.com/earl_nest">
+                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
+                </a>
+                <a href="https://www.youtube.com/watch?v=LhzkZ8wBKrA">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="tony" class="modal">
+    <div class="modal-content">
+        <img src="/images/talbot/tony.jpg">
+        <br/>
+        <span class="modal-style">(Surf Chanson - Paris)</span>
+        <br/>
+        <span class="modal-hour"></span>
+        <br/>
+        Son rêve devient réalité, il a des chansons, des chansons en français qu’il ne reniera pas. C’est bien là ce qui a tracassé Tony Dola pendant des années : s’assurer qu’il ne regrettera pas dans l’avenir, ce qu’il a décidé de chanter à un moment donné.
+        <br/><br/>
+        Du rock’n’roll sauce Périgord, auquel il a fallu un cadre, quelque chose de difficile à remettre en cause, d’où la référence au quartier de glacière à Paris, où il travaille en tant qu’épicier. De là des chansons sur ses collègues, sur son rapport au travail, sur l’appartenance à un endroit et sur cet endroit comme point de départ pour l’aventure !
+        <ul>
+            <li>
+                <a  href="https://www.facebook.com/profile.php?id=100070004626143">
+                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
+                </a>
+                <a href="https://www.instagram.com/tonydola/">
+                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
+                </a>
+                <a href="https://www.youtube.com/watch?v=c-UfaSZa56A">
+                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
                 </a>
             </li>
         </ul>
