@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr-FR" >
+<html lang="fr-FR">
 <head>
 
     <meta charset="UTF-8">
@@ -12,53 +12,55 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
     <!-- Matomo -->
     <script>
         var _paq = window._paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//stats.origamie.org/";
-            _paq.push(['setTrackerUrl', u+'matomo.php']);
+        (function () {
+            var u = "//stats.origamie.org/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
             _paq.push(['setSiteId', '1']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
         })();
     </script>
     <!-- End Matomo Code -->
 
     <script>
 
-        $( window ).on('scroll', function(){
+        $(window).on('scroll', function () {
 
             var scrollTop = $(this).scrollTop();
             let value;
             if ((0.20 * scrollTop) < 10) {
                 value = '72px';
             } else {
-                value = (0.20 * scrollTop) +'%'
+                value = (0.20 * scrollTop) + '%'
             }
 
-            $( '.header' ).css({
+            $('.header').css({
                 width: value,
                 'justify-content': 'space-between'
             });
 
             if (scrollTop > 500) {
-                $( '.show-scroll' ).css({
+                $('.show-scroll').css({
                     display: 'unset',
                 });
-                $( '.header' ).css({
+                $('.header').css({
                     'justify-content': 'space-between'
                 });
             } else {
-                $( '.show-scroll' ).css({
+                $('.show-scroll').css({
                     display: 'none',
                 });
-                $( '.header' ).css({
-                    'justify-content': (0.20 * scrollTop) < 20 ? 'center': 'unset'
+                $('.header').css({
+                    'justify-content': (0.20 * scrollTop) < 20 ? 'center' : 'unset'
                 });
             }
 
@@ -71,10 +73,10 @@
 
             if (!window.matchMedia('(max-width: 767px)').matches) {
                 $('.text-img1').css({
-                    'width': (0.040 * scrollTop) < 50 ? (0.040 * scrollTop) + '%' : '50%',
+                    'width': (0.035 * scrollTop) < 50 ? (0.035 * scrollTop) + '%' : '50%',
                 });
                 $('.text-img2').css({
-                    'width': (0.028 * scrollTop) < 50 ? (0.028 * scrollTop) + '%' : '50%',
+                    'width': (0.025 * scrollTop) < 50 ? (0.025 * scrollTop) + '%' : '50%',
                 });
             }
         });
@@ -84,15 +86,15 @@
 </head>
 <body>
 <header class="header">
-        <div style="display: flex; flex-direction: column">
+    <div style="display: flex; flex-direction: column">
         <a href="/" class="logo fixed-top">
             <img src="/images/logo-origamie.png" alt="logo-origamie">
         </a>
         <span class="fs-16 fs-18-desktop" style="text-align: center; margin-bottom: 0.5rem">présente</span>
-        </div>
-        <div class="fs-13 fs-12-desktop show-scroll" style="display: none">
-            Talbot Machine Festival
-        </div>
+    </div>
+    <div class="fs-13 fs-12-desktop show-scroll" style="display: none">
+        Talbot Machine Festival
+    </div>
 </header>
 
 <div class="content background-white my-0">
@@ -101,10 +103,11 @@
         <section id="home">
             <section id="intro">
 
-                <article class="f-centered" style="display: flex; flex-direction: column; justify-content: space-between ">
+                <article class="f-centered"
+                         style="display: flex; flex-direction: column; justify-content: space-between ">
                     <div style="margin: auto">
-                        <h1 ><span class="title fs-5 fs-1-desktop f-uppercase">Talbot Machine<br>Festival</span></h1>
-                        </div>
+                        <h1><span class="title fs-5 fs-1-desktop f-uppercase">Talbot Machine<br>Festival</span></h1>
+                    </div>
                     <div>
                         <h2 class="fs-14 fs-10-desktop ft-primary f-uppercase ff-sans-serif mb-3">Chapèlemele<br>Alençon (61)<br>25•26 août 2023</h2>
                     </div>
@@ -216,7 +219,8 @@
                 <br/>
                 <p class="fs-13 fs-11-desktop f-default">- Entrée à prix libre</p>
                 <br/>
-                <h3 class="fs-11 fs-8-desktop f-centered f-default">Chapèlemele<br/>41 Chemin des Châtelets<br/>Alençon (61)<br/>25•26 août 2023</h3>
+                <h3 class="fs-11 fs-8-desktop f-centered f-default">Chapèlemele<br/>41 Chemin des Châtelets<br/>Alençon
+                    (61)<br/>25•26 août 2023</h3>
 
             </section>
             <section class="picture">
@@ -227,75 +231,50 @@
                         </figure>
                     </div>
                     <div class="column is-half-tablet text-img1">
-                        <p class="title fs-17 fs-14-desktop ft-primary ">
-                            L'édition 0 de la
-                            Talbot Machine, une soirée privée organisée en
-                            2015 à Saint Aubin des Coudrais
-                            (72) avait
-                            réuni une centaine de personnes,
-                            autour d'un géant de pierre, d'un
-                            sound system, d'un bar
-                            participatif, et d'une vieille voiture
-                            Talbot repeinte pour l'occasion.
+                        <p class="title fs-10 fs-11-desktop ft-primary ">
+                            L'édition 0 de la Talbot Machine, une soirée privée organisée en 2015 à Saint Aubin des Coudrais (72) avait réuni une centaine de personnes, autour d'un géant de pierre, d'un sound system, d'un bar participatif, et d'une vieille voiture Talbot repeinte pour l'occasion.
                             <br/><br>
-                            Huit ans plus tard, la même
-                            équipe ou presque est aux
-                            manettes, et notre souhait est le
-                            même. Mais entre temps,
-                            l'association Origamie est née
-                            autour de cette envie de
-                            promouvoir la culture à l’échelle
-                            locale, de manière plus
-                            organisée et récurrente. De
-                            nombreuses soirées et
-                            événements ont été organisés, un
-                            disque produit, un fanzine publié
-                            et une caravane sonore rénovée.
-                            En parallèle, le souhait
-                            d'organiser un festival trottait
-                            toujours dans l'esprit des
-                            bénévoles de l'association. Ce
-                            qui a abouti il y a plusieurs mois,
-                            avec la recherche active d'un lieu
-                            pour faire la fête le dernier week-
-                            end d'août. Et pour ça, quoi de
-                            mieux que Chapêlmêle ?
+                            Huit ans plus tard, la même équipe ou presque est aux manettes, et notre souhait est le même. Mais entre temps, l'association Origamie est née autour de cette envie de promouvoir la culture à l’échelle locale, de manière plus organisée et récurrente. De nombreuses soirées et événements ont été organisés, un disque produit, un fanzine publié et une caravane sonore rénovée.
+                            <br/><br>
+                            Le souhait d'organiser un festival trottait toujours dans l'esprit des bénévoles de l'association. Ce qui a abouti il y a plusieurs mois, avec la recherche active d'un lieu pour faire la fête le dernier week- end d'août. Et pour ça, quoi de mieux que Chapêlmêle ?
                         </p>
                     </div>
                 </article>
             </section>
             <section class="picture picture2">
-            <article class="has-text-centered columns">
-                <div class="column is-half-tablet text-img2">
-                    <p class="title fs-17 fs-14-desktop ft-primary ">
-                        À sa création en 2019, l’association Origamie n’était encore qu’une bande d’ami.e.s alençonnaise partageant un souhait commun : dynamiser et  promouvoir la culture locale.
-                        <br/><br/>
-                        Aujourd’hui, l’association compte une dizaine de
-                        membres actifs, et une vingtaine de bénévoles qui
-                        participent à l’organisation d’évènements culturels
-                        mêlant concerts, expositions, et diverses animations
-                        artistiques.
-                        <br/><br/>
-                        En parallèle, Origamie s’engage à accompagner et
-                        promouvoir de jeunes artistes dans le lancement de
-                        leurs projets, comme ce fut le cas avec l’aide au
-                        pressage du vinyle du premier EP de Tomi Marx, ou
-                        le financement de l’édition du fanzine Papier-Cul.
-                        Enfin, le fait-maison étant une de nos marques de
-                        fabrique, nous prônons la consommation locale et
-                        solidaire, mais aussi l’inclusivité, et ce, afin que
-                        chacun.e puisse participer à nos événements, où
-                        aucun comportement raciste, sexiste, homophobe,
-                        validiste, et transphobe n'est toléré.
-                    </p>
-                </div>
-                <div class="column" class="pres-img">
-                    <figure>
-                        <img src="/images/playlists.jpg">
-                    </figure>
-                </div>
-            </article>
-        </section>
+                <article class="has-text-centered columns">
+                    <div class="column is-half-tablet text-img2">
+                        <p class="title fs-10 fs-11-desktop ft-primary ">
+                            À sa création en 2019, l’association Origamie n’était encore qu’une bande d’ami.e.s
+                            alençonnaise partageant un souhait commun : dynamiser et promouvoir la culture locale.
+                            <br/><br/>
+                            L’association Origamie compte une dizaine de
+                            membres actifs et une vingtaine de bénévoles qui
+                            participent à l’organisation d’évènements culturels
+                            mêlant concerts, expositions, et diverses animations
+                            artistiques.
+                            <br/><br/>
+                            En parallèle, Origamie s’engage à accompagner et
+                            promouvoir de jeunes artistes dans le lancement de
+                            leurs projets, comme ce fut le cas avec l’aide au
+                            pressage du vinyle du premier EP de Tomi Marx, ou
+                            le financement de l’édition du fanzine Papier-Cul.
+                            <br/><br/>
+                            Enfin, le fait-maison étant une de nos marques de
+                            fabrique, nous prônons la consommation locale et
+                            solidaire, mais aussi l’inclusivité, et ce, afin que
+                            chacun.e puisse participer à nos événements, où
+                            aucun comportement raciste, sexiste, homophobe,
+                            validiste, et transphobe n'est toléré.
+                        </p>
+                    </div>
+                    <div class="column" class="pres-img">
+                        <figure>
+                            <img src="/images/playlists.jpg">
+                        </figure>
+                    </div>
+                </article>
+            </section>
         </section>
     </main>
 </div>
@@ -308,7 +287,9 @@
         <br/>
         <span class="modal-hour">18h30 - 19h00</span>
         <br/>
-        Emma est une artiste que Chapêlmêle connaît bien puisqu’elle y est résidente depuis plusieurs années. Habituée à peindre ou graver dans son atelier, elle présentera ses chansons de jardin intérieur, doucement plaintives ou douloureusement célébratives, le tout accompagnées de mélodies d’inspiration folk/pop.
+        Emma est une artiste que Chapêlmêle connaît bien puisqu’elle y est résidente depuis plusieurs années. Habituée à
+        peindre ou graver dans son atelier, elle présentera ses chansons de jardin intérieur, doucement plaintives ou
+        douloureusement célébratives, le tout accompagnées de mélodies d’inspiration folk/pop.
     </div>
 </div>
 <div id="griffe" class="modal">
@@ -319,10 +300,14 @@
         <br/>
         <span class="modal-hour">21h30 - 22h30</span>
         <br/>
-        GRIFE est un groupe de musique français originaire d’Orléans et composé de Diane Borderieux et Victoria James Geiseler. Membres créatrices et actives du même collectif artistique, La Mue Collective, elles fondent le duo en octobre 2021, après un
+        GRIFE est un groupe de musique français originaire d’Orléans et composé de Diane Borderieux et Victoria James
+        Geiseler. Membres créatrices et actives du même collectif artistique, La Mue Collective, elles fondent le duo en
+        octobre 2021, après un
         concert du groupe occitan Cocanha.
         <br/>
-        Depuis, GRIFE est l’incarnation de deux voix de femmes percutantes à la fois par leurs textes et par leur instrumentation. Adolescentes bercées par le matrimoine pop rock et la musique alternative, Diane et Victoria sont hantées aussi bien par les chants populaires que par le punk et la musique baroque.
+        Depuis, GRIFE est l’incarnation de deux voix de femmes percutantes à la fois par leurs textes et par leur
+        instrumentation. Adolescentes bercées par le matrimoine pop rock et la musique alternative, Diane et Victoria
+        sont hantées aussi bien par les chants populaires que par le punk et la musique baroque.
 
         <ul>
             <li>
@@ -353,16 +338,21 @@
         <br/>
         <span class="modal-hour">23h - 00h</span>
         <br/>
-        La pop arty et délurée de Michelle & Les Garçons sera également de la partie lors de la Talbot Machine Festival .
+        La pop arty et délurée de Michelle & Les Garçons sera également de la partie lors de la Talbot Machine Festival
+        .
         <br/><br/>
-        Après une entrée en trombe sur la scène française, avec comme seul étendard leur premier single “Bizarre” à l’automne 2022, le groupe enchaîne des concerts brûlants et écrit les premières pages de son aventure (FIP, France Culture, MaMA, Bars en Trans...), avant de sortir un premier EP éponyme le 28 avril dernier.
+        Après une entrée en trombe sur la scène française, avec comme seul étendard leur premier single “Bizarre” à
+        l’automne 2022, le groupe enchaîne des concerts brûlants et écrit les premières pages de son aventure (FIP,
+        France Culture, MaMA, Bars en Trans...), avant de sortir un premier EP éponyme le 28 avril dernier.
         <br/><br/>
-        Iels nous racontent leurs histoires d'amour et de vie à travers une pop aux couleurs plurielles : la chaleur des roses profonds, la mélancolie des bleus tièdes. On y danse sur les lumières des années 80, les ombres des sentiments flirtent avec des corps avides de sensations et des visages pailletés.
+        Iels nous racontent leurs histoires d'amour et de vie à travers une pop aux couleurs plurielles : la chaleur des
+        roses profonds, la mélancolie des bleus tièdes. On y danse sur les lumières des années 80, les ombres des
+        sentiments flirtent avec des corps avides de sensations et des visages pailletés.
 
 
         <ul>
             <li>
-                <a  href="https://wiseband.lnk.to/michelle-et-les-garcons-michelle-et-les-garcons">
+                <a href="https://wiseband.lnk.to/michelle-et-les-garcons-michelle-et-les-garcons">
                     {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
                 </a>
 
@@ -392,9 +382,16 @@
         <br/>
         <span class="modal-hour">20h30 - 21h30</span>
         <br/>
-        S’il fallait résumer les 4 dernières années du parcours de Pasta Grows On Trees en une séquence cinématographique, ce serait certainement par celle d’un plan travelling autoroutier. Après un premier EP 5 titres - résolument lo-fi - sorti en 2017, le Dijonnais décide de s’installer à Prague pour suivre des études de droit international. Un tournant qui permettra à l’étudiant de revenir avec 9 titres sortis en 2019 en 🇫🇷 et au 🇯🇵.
+        S’il fallait résumer les 4 dernières années du parcours de Pasta Grows On Trees en une séquence
+        cinématographique, ce serait certainement par celle d’un plan travelling autoroutier. Après un premier EP 5
+        titres - résolument lo-fi - sorti en 2017, le Dijonnais décide de s’installer à Prague pour suivre des études de
+        droit international. Un tournant qui permettra à l’étudiant de revenir avec 9 titres sortis en 2019 en 🇫🇷 et
+        au 🇯🇵.
         <br/>
-        Un retour pour mieux repartir, puisque s’ensuit une tournée solo en 🇫🇷, en 🇩🇪 et en 🇨🇿 dans la foulée. Après la sortie de plusieurs single, plus de 60 dates et un déménagement à Paris, c’est dans une chambre du 19e arrondissement que « Tout ce temps passé là » voit le jour. Ou plutôt la nuit : toujours écrit, produit, et composé seul, l’album est un condensé de chansons psychédéliques brumeuses et intimistes.
+        Un retour pour mieux repartir, puisque s’ensuit une tournée solo en 🇫🇷, en 🇩🇪 et en 🇨🇿 dans la foulée.
+        Après la sortie de plusieurs single, plus de 60 dates et un déménagement à Paris, c’est dans une chambre du 19e
+        arrondissement que « Tout ce temps passé là » voit le jour. Ou plutôt la nuit : toujours écrit, produit, et
+        composé seul, l’album est un condensé de chansons psychédéliques brumeuses et intimistes.
 
         <ul>
             <li>
@@ -427,15 +424,19 @@
         <br/>
         <span class="modal-hour">00h15 - 01h30</span>
         <br/>
-        Depuis maintenant 10 ans et plus de 300 prestations au compteur, Jean-Paul Dub (Pablo Géléoc) parcourt la France et l’étranger (Belgique, Pologne, Canada, Ukraine, …) pour diffuser sa musique : un reggae-dub ethnique aux influences multiples et marqué par l’esprit « Dub it yourself » des années 90.
+        Depuis maintenant 10 ans et plus de 300 prestations au compteur, Jean-Paul Dub (Pablo Géléoc) parcourt la France
+        et l’étranger (Belgique, Pologne, Canada, Ukraine, …) pour diffuser sa musique : un reggae-dub ethnique aux
+        influences multiples et marqué par l’esprit « Dub it yourself » des années 90.
         <br/><br/>
-        Également fondateur du label Vaticaen Records, et du collectif audiovisuel Bandit visions, Jean-Paul Dub sera accompagné du rappeur caennais Feu Rouge (ex The Shellys, Mandale, Poney Crevé, Cemented Minds), qui a sorti son 1er EP, « En Vers et contre tout », en novembre 2022.
+        Également fondateur du label Vaticaen Records, et du collectif audiovisuel Bandit visions, Jean-Paul Dub sera
+        accompagné du rappeur caennais Feu Rouge (ex The Shellys, Mandale, Poney Crevé, Cemented Minds), qui a sorti son
+        1er EP, « En Vers et contre tout », en novembre 2022.
         <ul>
             <li>
-                <a  href="https://jeanpauldub.fr/">
+                <a href="https://jeanpauldub.fr/">
                     {{ partial "svg/website.svg" (dict "size" 30) }}
                 </a>
-                <a  href="https://vaticaen.bandcamp.com/">
+                <a href="https://vaticaen.bandcamp.com/">
                     {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
                 </a>
 
@@ -454,12 +455,19 @@
         <br/>
         <span class="modal-hour">22h45 - 23h45</span>
         <br/>
-        Culture Emotion est un duo formé de deux personnes vivantes différentes. L'une de ces deux personnes joue de la batterie (l'instrument) pendant que l'autre joue de la guitare électrique. Mais par un système de branchement ingénieux permettant de traiter le signal en temps réel, le son de la guitare - sur une simple pression du pied - se transforme en gros son de basse qui blaste.
+        Culture Emotion est un duo formé de deux personnes vivantes différentes. L'une de ces deux personnes joue de la
+        batterie (l'instrument) pendant que l'autre joue de la guitare électrique. Mais par un système de branchement
+        ingénieux permettant de traiter le signal en temps réel, le son de la guitare - sur une simple pression du pied
+        - se transforme en gros son de basse qui blaste.
         <br/><br/>
-        Cette dynamique est au cœur de cette proposition musicale. L'ingénieur ou l'ingénieure du son serait bien avisé.e de la prendre en compte pour ne pas obtenir un simple bon concert de rock, là où il est question de vivre une expérience sonore puissante qui invite copieusement à danser jusqu'à arriver, parfois, à nous faire oublier temporairement que l'on déteste la Police. Il y a toujours une reprise musclée d'un vieux tube français des années quatre-vingt, ce qui est bien.
+        Cette dynamique est au cœur de cette proposition musicale. L'ingénieur ou l'ingénieure du son serait bien
+        avisé.e de la prendre en compte pour ne pas obtenir un simple bon concert de rock, là où il est question de
+        vivre une expérience sonore puissante qui invite copieusement à danser jusqu'à arriver, parfois, à nous faire
+        oublier temporairement que l'on déteste la Police. Il y a toujours une reprise musclée d'un vieux tube français
+        des années quatre-vingt, ce qui est bien.
         <ul>
             <li>
-                <a  href="https://www.facebook.com/cultureemotion/">
+                <a href="https://www.facebook.com/cultureemotion/">
                     {{ partial "svg/facebook.svg" (dict "size" 30) }}
                 </a>
 
@@ -478,18 +486,21 @@
         <br/>
         <span class="modal-hour">19h30 - 20h30</span>
         <br/>
-        Jokari est le projet solo de Marion Josserand, qui a sorti son album “Main Gauche” en décembre 2021. L’artiste toulousaine propose des chansons en français fabriquées sur l'orgue ou la guitare, et jouées dans leur version solo intimiste, douce, à nu.
+        Jokari est le projet solo de Marion Josserand, qui a sorti son album “Main Gauche” en décembre 2021. L’artiste
+        toulousaine propose des chansons en français fabriquées sur l'orgue ou la guitare, et jouées dans leur version
+        solo intimiste, douce, à nu.
         <br/><br/>
-        Bouquet de cailloux: enfance, nostalgie, un peu de rigolade et quelques torsions de cœur, voilà ce qui vous attend en découvrant Jokari en concert.
+        Bouquet de cailloux: enfance, nostalgie, un peu de rigolade et quelques torsions de cœur, voilà ce qui vous
+        attend en découvrant Jokari en concert.
         <ul>
             <li>
-                <a  href="https://www.facebook.com/Marionjokari">
+                <a href="https://www.facebook.com/Marionjokari">
                     {{ partial "svg/facebook.svg" (dict "size" 30) }}
                 </a>
-                <a  href="https://www.instagram.com/jokari_coupletrefrain/">
+                <a href="https://www.instagram.com/jokari_coupletrefrain/">
                     {{ partial "svg/instagram.svg" (dict "size" 30) }}
                 </a>
-                <a  href="https://cheptelrecords.bandcamp.com/album/chptl-056-main-gauche">
+                <a href="https://cheptelrecords.bandcamp.com/album/chptl-056-main-gauche">
                     {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
                 </a>
 
@@ -508,12 +519,16 @@
         <br/>
         <span class="modal-hour">20h - 21h</span>
         <br/>
-        Armé de synthétiseurs, le Bigouden oscille entre un lyrisme pop empreint de variété française et une énergie brutale et primitive issue du post-punk. Inspiré par Sonic Youth, Christophe, Grandaddy, et même Daniel Balavoine, il a sorti en 2020, "Plastique Sahara".
+        Armé de synthétiseurs, le Bigouden oscille entre un lyrisme pop empreint de variété française et une énergie
+        brutale et primitive issue du post-punk. Inspiré par Sonic Youth, Christophe, Grandaddy, et même Daniel
+        Balavoine, il a sorti en 2020, "Plastique Sahara".
         <br/><br/>
-        Un premier album remarqué sur lequel Antoine Garrec chante le drame romantique pour déclamer le quotidien. Des aventures sentimentales qui ne commencent pas à ses histoires d'amour qui durent son temps. Antoine Garrec vous conte ses vies multiples entre synthé et boîte à rythmes.
+        Un premier album remarqué sur lequel Antoine Garrec chante le drame romantique pour déclamer le quotidien. Des
+        aventures sentimentales qui ne commencent pas à ses histoires d'amour qui durent son temps. Antoine Garrec vous
+        conte ses vies multiples entre synthé et boîte à rythmes.
         <ul>
             <li>
-                <a  href="https://www.facebook.com/antoinegarreclebigouden">
+                <a href="https://www.facebook.com/antoinegarreclebigouden">
                     {{ partial "svg/facebook.svg" (dict "size" 30) }}
                 </a>
 
@@ -535,12 +550,17 @@
         <br/>
         <span class="modal-hour">00h15 - 01h30</span>
         <br/>
-        Charles Genestoux aka Earl Nest s’attache à créer une musique électronique détournée de ses codes, inspirée par des artistes tels que Rone, The Clash, Feu Chatterton ou encore Clark. À la croisée de la cold-wave, de l’acid, ou encore de la bass music. La musique d’Earl Nest ne s’embarrasse d’aucune règle.
+        Charles Genestoux aka Earl Nest s’attache à créer une musique électronique détournée de ses codes, inspirée par
+        des artistes tels que Rone, The Clash, Feu Chatterton ou encore Clark. À la croisée de la cold-wave, de l’acid,
+        ou encore de la bass music. La musique d’Earl Nest ne s’embarrasse d’aucune règle.
         <br/><br/>
-        À l’image de son créateur qui se refuse aux catégorisations et se donne pour seule ambition de partager un bout de son univers et de sa sensibilité avec le reste du monde. Accompagné en live de sa guitare basse , de sa voix et de ses machines. Earl Nest donne vie à ses morceaux dans des performances aventureuses, prometteuses et engagées
+        À l’image de son créateur qui se refuse aux catégorisations et se donne pour seule ambition de partager un bout
+        de son univers et de sa sensibilité avec le reste du monde. Accompagné en live de sa guitare basse , de sa voix
+        et de ses machines. Earl Nest donne vie à ses morceaux dans des performances aventureuses, prometteuses et
+        engagées
         <ul>
             <li>
-                <a  href="https://www.facebook.com/earl.nest">
+                <a href="https://www.facebook.com/earl.nest">
                     {{ partial "svg/facebook.svg" (dict "size" 30) }}
                 </a>
 
@@ -565,12 +585,17 @@
         <br/>
         <span class="modal-hour"></span>
         <br/>
-        Son rêve devient réalité, il a des chansons, des chansons en français qu’il ne reniera pas. C’est bien là ce qui a tracassé Tony Dola pendant des années : s’assurer qu’il ne regrettera pas dans l’avenir, ce qu’il a décidé de chanter à un moment donné.
+        Son rêve devient réalité, il a des chansons, des chansons en français qu’il ne reniera pas. C’est bien là ce qui
+        a tracassé Tony Dola pendant des années : s’assurer qu’il ne regrettera pas dans l’avenir, ce qu’il a décidé de
+        chanter à un moment donné.
         <br/><br/>
-        Du rock’n’roll sauce Périgord, auquel il a fallu un cadre, quelque chose de difficile à remettre en cause, d’où la référence au quartier de glacière à Paris, où il travaille en tant qu’épicier. De là des chansons sur ses collègues, sur son rapport au travail, sur l’appartenance à un endroit et sur cet endroit comme point de départ pour l’aventure !
+        Du rock’n’roll sauce Périgord, auquel il a fallu un cadre, quelque chose de difficile à remettre en cause, d’où
+        la référence au quartier de glacière à Paris, où il travaille en tant qu’épicier. De là des chansons sur ses
+        collègues, sur son rapport au travail, sur l’appartenance à un endroit et sur cet endroit comme point de départ
+        pour l’aventure !
         <ul>
             <li>
-                <a  href="https://www.facebook.com/profile.php?id=100070004626143">
+                <a href="https://www.facebook.com/profile.php?id=100070004626143">
                     {{ partial "svg/facebook.svg" (dict "size" 30) }}
                 </a>
                 <a href="https://www.instagram.com/tonydola/">
@@ -583,8 +608,8 @@
         </ul>
     </div>
 </div>
-<footer id="footer" >
-    <article  class="f-centered ">
+<footer id="footer">
+    <article class="f-centered ">
         <header>
             <h2 class="logo">
                 <a href="/" class="logo">
@@ -621,8 +646,8 @@
         "@type": "Event",
         "name": "Talbot Machine festival",
         "organizer": {
-            "name" :  "Talbot Machine",
-            "url" : "https://talbotmachine.fr"
+            "name": "Talbot Machine",
+            "url": "https://talbotmachine.fr"
         },
         "description": "Festival talbot machine",
         "startDate": "2023-08-25T18:00",
