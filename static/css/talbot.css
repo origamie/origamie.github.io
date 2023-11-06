@@ -37,6 +37,10 @@
     color: #01061c !important;
 }
 
+.header-carvane {
+    background-color: #209bbd !important;
+}
+
 .header {
     padding: 1rem;
     max-width: 100%;

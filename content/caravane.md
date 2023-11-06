@@ -1,11 +1,15 @@
 ---
 description: "Le projet caravane"
-title: "La caravane"
+title: "Caravane"
 layout: caravane
 
 featured_image: /images/caravane/home.jpg
 date: 2023-06-06T12:01:36.209Z
 display_featured_image: false
+
+menu:
+    main:
+        weight: 2
 
 type: page
 ---
