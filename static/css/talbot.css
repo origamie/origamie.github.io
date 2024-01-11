@@ -166,6 +166,12 @@
     padding: 8rem 1rem 37px;
 }
 
+@media screen and (max-width: 1024px) {
+    .text-mobile-new {
+        height: 100% !important;
+    }
+}
+
 .modal {
     top:60px
 }

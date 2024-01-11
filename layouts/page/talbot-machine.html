@@ -37,10 +37,10 @@
 
             var scrollTop = $(this).scrollTop();
             let value;
-            if ((0.20 * scrollTop) < 10) {
+            if ((0.40 * scrollTop) < 10) {
                 value = '72px';
             } else {
-                value = (0.20 * scrollTop) + '%'
+                value = (0.40 * scrollTop) + '%'
             }
 
             $('.header').css({
@@ -48,7 +48,7 @@
                 'justify-content': 'space-between'
             });
 
-            if (scrollTop > 500) {
+            if (scrollTop > 200) {
                 $('.show-scroll').css({
                     display: 'unset',
                 });
@@ -93,613 +93,38 @@
         <span class="fs-16 fs-18-desktop" style="text-align: center; margin-bottom: 0.5rem">présente</span>
     </div>
     <div class="fs-13 fs-12-desktop show-scroll" style="display: none">
-        Talbot Machine Festival
+        Talbot Machine Festival #2
     </div>
 </header>
 
 <div class="content background-white my-0">
 
+
     <main class="main container" id="page">
         <section id="home">
             <section id="intro">
+                <article class="f-centered"  style="height: unset !important;">
+                        <img src="/images/talbot/ban.jpg" style="width: 90%; margin: auto; transform: rotate(-2deg);" class="mb-3">
+                </article>
 
-                <article class="f-centered"
-                         style="display: flex; flex-direction: column; justify-content: space-between ">
+                <article class="f-centered text-mobile-new" style="display: flex; flex-direction: column; justify-content: space-between">
+
                     <div style="margin: auto">
-                        <h1><span class="title fs-5 fs-1-desktop f-uppercase">Talbot Machine<br>Festival</span></h1>
+                        <h1><span class="title fs-8 fs-2-desktop f-uppercase">Talbot Machine<br>Festival #2</span></h1>
+                    </div>
+                    <div style="margin: auto">
+                        <h1><span class="title fs-14 fs-4-desktop f-uppercase">revient <br/>les 23 et 24 août <br/> 2024</h1>
+                        <h1><span class="title fs-16 fs-8-desktop">Plus d'infos prochainement...</h1>
                     </div>
                     <div>
-                        <h2 class="fs-14 fs-10-desktop ft-primary f-uppercase ff-sans-serif mb-3">Chapêlmêle<br>Alençon (61)<br>25•26 août 2023</h2>
+                        <h2 class="fs-14 fs-10-desktop ft-primary f-uppercase ff-sans-serif mb-3">Chapêlmêle<br>Alençon (61)</h2>
                     </div>
                 </article>
 
             </section>
 
-            <section id="affiche">
-                <article class="f-centered">
-                    <figure>
-                        <img class="affiche-img home-img" src="/images/talbot/ban.png">
-                        <img class="affiche-img home-img-mobile" src="/images/talbot/affiche.png">
-                    </figure>
-                </article>
-            </section>
-
-            <section id="infos" class="f-centered">
-                <section class="days columns">
-                    <article class="column" id="day1">
-                        <h4 class="title f-default fs-11 fs-8-desktop">Vendredi 25 Août</h4>
-                        <h5 class="f-default fs-15 fs-12-desktop">16h → 1h30</h5>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#blow" rel="modal:open">
-                                - Blow <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#emma" rel="modal:open">
-                                - Emma <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#trotski" rel="modal:open">
-                                - Trotski Nautique <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#antoine" rel="modal:open">
-                                - Antoine Garrec <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#michelle" rel="modal:open">
-                                - Michelle & les Garçons <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#jpdub" rel="modal:open">
-                                - Jean-Paul Dub (w/ Feu Rouge) <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                    </article>
-                    <article class="column" id="day2">
-                        <h4 class="title f-default fs-11 fs-8-desktop">Samedi 26 Août</h4>
-                        <h5 class="f-default fs-15 fs-12-desktop">14h → 1h30</h5>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#fourmi" rel="modal:open">
-                                - Fourmi rage <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#tony" rel="modal:open">
-                                - Tony Dola <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#jokari" rel="modal:open">
-                                - Jokari <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#pasta" rel="modal:open">
-                                - Pasta grows on trees <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#griffe" rel="modal:open">
-                                - GRIFE <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#culture" rel="modal:open">
-                                - Culture emotion <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#earl" rel="modal:open">
-                                - Earl Nest <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                        <br/>
-                        -
-                        <br/>
-                        <br/>
-                        <p class="mt-1">
-                            <a class="f-default fs-12 fs-11-desktop is-clickable" href="#elsa" rel="modal:open">
-                                - Elsa Maigne <i class="bi bi-plus-circle"></i>
-                            </a>
-                        </p>
-                    </article>
-                </section>
-                <div class="playlist">
-                    <a href="https://tinyurl.com/57tkjd9n">
-                        <img class="playlist-button" src="/images/talbot/playlist.png">
-                        <img class="playlist-button-arrow" src="/images/talbot/playlist-arrow.png">
-                    </a>
-                </div>
-                <p class="fs-13 fs-11-desktop f-default">- Concerts</p>
-                <br/>
-                <p class="fs-13 fs-11-desktop f-default">- Performances</p>
-                <br/>
-                <p class="fs-13 fs-11-desktop f-default">- Ateliers et expositions</p>
-                <br/>
-                <a  class="is-clickable" href="#kaune" rel="modal:open">
-                <p class="fs-13 fs-11-desktop f-default">- Tatouages avec KAUNE <i class="bi bi-plus-circle"></i></p>
-                </a>
-                <br/>
-                <p class="fs-13 fs-11-desktop f-default">- Bar et restauration sur place</p>
-                <br/>
-                <p class="fs-13 fs-11-desktop f-default">- Entrée à prix libre</p>
-                <br/>
-                <h3 class="fs-11 fs-8-desktop f-centered f-default">Chapèlemele<br/>41 Chemin des Châtelets<br/>Alençon
-                    (61)<br/>25•26 août 2023</h3>
-
-            </section>
-            <section class="picture">
-                <article class="has-text-centered columns">
-                    <div class="column" class="pres-img">
-                        <figure>
-                            <img src="/images/wallpaper.jpg">
-                        </figure>
-                    </div>
-                    <div class="column is-half-tablet text-img1">
-                        <p class="title fs-13 fs-11-desktop ft-primary ">
-                            L'édition 0 de la Talbot Machine, une soirée privée organisée en 2015 dans la Sarthe, avait réuni une centaine de personnes autour d'un géant de pierre, d'un sound system, d'un bar participatif, et d'une vieille voiture Talbot repeinte pour l'occasion.
-                            <br/><br/>
-                            8 ans plus tard, la même équipe ou presque est aux manettes, et notre souhait est le même. Mais entre temps, l'association Origamie est née, de nombreuses soirées et événements ont été organisés, des vinyles pressés, un fanzine publié et une caravane sonore rénovée.
-                            <br/><br/>
-                            Le souhait d'organiser un festival trottait toujours dans l'esprit des bénévoles de l'association. Ce qui a abouti il y a plusieurs mois, avec la recherche d'un lieu pour fêter la fin de l’été. Et pour ça, quoi de mieux que Chapêlmêle ?
-                        </p>
-                    </div>
-                </article>
-            </section>
-            <section class="picture picture2">
-                <article class="has-text-centered columns">
-                    <div class="column is-half-tablet text-img2">
-                        <p class="title fs-13 fs-11-desktop ft-primary ">
-                            À sa création en 2019, Origamie n’était encore qu’une bande d’ami.e.s alençonnaise partageant un souhait commun : dynamiser et promouvoir la culture locale. Aujourd’hui, l’association compte une dizaine de membres actifs et une vingtaine de bénévoles qui participent à l’organisation d’évènements culturels mêlant concerts, expositions, performances, et diverses animations.
-                            <br/><br/>
-                            Enfin, le fait-maison étant une de nos marques de fabrique, nous prônons la consommation locale et solidaire, mais aussi l’inclusivité, et ce, afin que
-                            chacun.e puisse participer à nos événements, où aucun comportement raciste, sexiste, homophobe, validiste, et transphobe n'est toléré.
-                        </p>
-                    </div>
-                    <div class="column" class="pres-img">
-                        <figure>
-                            <img src="/images/playlists.jpg">
-                        </figure>
-                    </div>
-                </article>
-            </section>
         </section>
     </main>
-</div>
-<div id="kaune" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/kaune.jpg">
-        <br/>
-        <span class="modal-style">(Tatouages - Alençon)</span>
-        <br/>
-        À l'aise avec les platines, KAUNE l'est aussi avec sa machine à tatouer. Fidèle acolyte de l'association Origamie, ce tatoueur ornais réalise des tatouages noir-et-gris, souvent avec la technique de l'engraving, qui tend à reproduire la gravure sur bois.        <br/><br/>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/kaune.art/">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="trotski" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/trotski.jpg">
-        <br/>
-        <span class="modal-style">(Variété/Lo-fi - Paris)</span>
-        <br/>
-        <span class="modal-hour">16h - 16h30</span>
-        <br/>
-        Comme on est dans le futur des années 2000 depuis un moment, Trotski Nautique ne voit pas l’intérêt de jouer avec une batterie qui prend toute la place dans le camion, ce qui est bien pratique parce que Trotski Nautique n’a pas de camion et préfère le train.
-        <br/><br/>
-        Alors Trotski Nautique joue de la boîte à rythmes : il suffit d’appuyer sur un bouton et ça envoie le bois comme disent les jeunes. L’avantage de la boîte à rythmes, c’est que Trotski Nautique peut jouer n’importe où, aussi bien au stade de France que dans ta salle de bain. Bob Dylan aussi, il peut jouer au stade de France comme dans ta salle de bain me direz-vous, et bien Trotski Nautique est d’accord mais Trotski Nautique aime bien quand ça fait Poum Tchack avec de la caisse claire qui claque.
-        <ul>
-            <li>
-                <a href="https://trotskinautique.bandcamp.com/album/marx-exotique">
-                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100063074506942s">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.youtube.com/watch?v=ZOFzqeV62PU">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="fourmi" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/fourmi.jpg">
-        <br/>
-        <span class="modal-style">(Chanson acoustique - Paris)</span>
-        <br/>
-        <span class="modal-hour">16h - 16h30</span>
-        <br/>
-        Une fourmi en burn out a croqué la cigale et volé sa guitare. Fourmi rage - c'est son nom - ne se déplacera pas cette fois à Chapêlmêle avec ses bombes aérosol, mais avec ses ballades  monstrueuses et ses tubes de l'hiver. Frisson garanti.
-    </div>
-</div>
-<div id="blow" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/blow.png">
-        <br/>
-        <span class="modal-style">(Pop/Folk - Alençon)</span>
-        <br/>
-        <span class="modal-hour">18h - 18h30</span>
-        <br/>
-        Créé il y a maintenant deux ans, Blow est un groupe de pop-folk composé de quatre artistes qui se sont rencontré.e.s via l’option musique du lycée Marguerite de Navarre à Alençon. Récent vainqueur du tremplin Festi’Bahuts, Blow lancera les hostilités musicales de la Talbot Machine le vendredi 25 août.
-    </div>
-</div>
-<div id="elsa" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/elsa.jpg">
-        <br/>
-        <span class="modal-style">(Artiste clown - Alençon)</span>
-        <br/>
-        Il n'y aura pas que de la musique à la Talbot Machine. En effet, Elsa Maigne - artiste plasticienne, artiste clown et pédagogue - réalisera une performance.
-        <br/>
-        Sa volonté de décloisonner ne date pas d'hier. Aux Beaux-Arts à Marseille, celle qui pratique la danse depuis 10 ans axe son travail sur la performance et l'installation. S’en suit une école de clown et de théâtre gestuel, puis la création avec Adriano Riva la compagnie Bureau des Pensées Perdues.
-        <br/>
-        Le corps, la déformation et la monstruosité sont les thèmes de prédilection d’Elsa Maigne, et sont au centre de son projet spectacle « CoRps à CoudRe », qui est une forme hybride entre le spectacle vivant et l'art plastique, sur le thème de notre rapport au corps.
-        <ul>
-            <li>
-                <a href="https://www.bureaudespenseesperdues.com/les-bios/elsa-maigne/">
-                    {{ partial "svg/website.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.facebook.com/bureaudespenseesperdues">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-
-    </div>
-</div>
-<div id="emma" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/emma.jpg">
-        <br/>
-        <span class="modal-style">(Pop/Folk - Alençon)</span>
-        <br/>
-        <span class="modal-hour">18h30 - 19h00</span>
-        <br/>
-        Emma est une artiste que Chapêlmêle connaît bien puisqu’elle y est résidente depuis plusieurs années. Habituée à
-        peindre ou graver dans son atelier, elle présentera ses chansons de jardin intérieur, doucement plaintives ou
-        douloureusement célébratives, le tout accompagnées de mélodies d’inspiration folk/pop.
-    </div>
-</div>
-<div id="griffe" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/griffe.jpg">
-        <br/>
-        <span class="modal-style">(Pink Punk - Orléans)</span>
-        <br/>
-        <span class="modal-hour">21h30 - 22h30</span>
-        <br/>
-        GRIFE est un groupe de musique français originaire d’Orléans et composé de Diane Borderieux et Victoria James
-        Geiseler. Membres créatrices et actives du même collectif artistique, La Mue Collective, elles fondent le duo en
-        octobre 2021, après un
-        concert du groupe occitan Cocanha.
-        <br/>
-        Depuis, GRIFE est l’incarnation de deux voix de femmes percutantes à la fois par leurs textes et par leur
-        instrumentation. Adolescentes bercées par le matrimoine pop rock et la musique alternative, Diane et Victoria
-        sont hantées aussi bien par les chants populaires que par le punk et la musique baroque.
-
-        <ul>
-            <li>
-                <a href="https://grife.bandcamp.com/">
-                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.instagram.com/grrrife/">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.facebook.com/lamuecollective">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=K8QreDs9bgU">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="michelle" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/michelle.png">
-        <br/>
-        <span class="modal-style">(Pop/Rock Pailletée - Angers)</span>
-        <br/>
-        <span class="modal-hour">23h - 00h</span>
-        <br/>
-        La pop arty et délurée de Michelle & Les Garçons sera également de la partie lors de la Talbot Machine Festival
-        .
-        <br/><br/>
-        Après une entrée en trombe sur la scène française, avec comme seul étendard leur premier single “Bizarre” à
-        l’automne 2022, le groupe enchaîne des concerts brûlants et écrit les premières pages de son aventure (FIP,
-        France Culture, MaMA, Bars en Trans...), avant de sortir un premier EP éponyme le 28 avril dernier.
-        <br/><br/>
-        Iels nous racontent leurs histoires d'amour et de vie à travers une pop aux couleurs plurielles : la chaleur des
-        roses profonds, la mélancolie des bleus tièdes. On y danse sur les lumières des années 80, les ombres des
-        sentiments flirtent avec des corps avides de sensations et des visages pailletés.
-
-
-        <ul>
-            <li>
-                <a href="https://wiseband.lnk.to/michelle-et-les-garcons-michelle-et-les-garcons">
-                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.instagram.com/michelle_et_les_garcons/">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.facebook.com/michelle.lesgarcons/">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=_mBCLq5NQ-Y">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.youtube.com/watch?v=4S8vVR0cPJQ">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="pasta" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/pasta.png">
-        <br/>
-        <span class="modal-style">(Pop/Lo-fi - Paris)</span>
-        <br/>
-        <span class="modal-hour">20h30 - 21h30</span>
-        <br/>
-        S’il fallait résumer les 4 dernières années du parcours de Pasta Grows On Trees en une séquence
-        cinématographique, ce serait certainement par celle d’un plan travelling autoroutier. Après un premier EP 5
-        titres - résolument lo-fi - sorti en 2017, le Dijonnais décide de s’installer à Prague pour suivre des études de
-        droit international. Un tournant qui permettra à l’étudiant de revenir avec 9 titres sortis en 2019 en 🇫🇷 et
-        au 🇯🇵.
-        <br/>
-        Un retour pour mieux repartir, puisque s’ensuit une tournée solo en 🇫🇷, en 🇩🇪 et en 🇨🇿 dans la foulée.
-        Après la sortie de plusieurs single, plus de 60 dates et un déménagement à Paris, c’est dans une chambre du 19e
-        arrondissement que « Tout ce temps passé là » voit le jour. Ou plutôt la nuit : toujours écrit, produit, et
-        composé seul, l’album est un condensé de chansons psychédéliques brumeuses et intimistes.
-
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/pastagrowsontrees">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.instagram.com/pastagrowsontrees">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://soundcloud.com/pastagrowsontrees/sets/tout-ce-temps-passe-la">
-                    {{ partial "svg/soundcloud.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=eHgBh1XPgP4">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.youtube.com/watch?v=3WXXhmis4-k">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="jpdub" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/jpdub.png">
-        <br/>
-        <span class="modal-style">(Ethno-Dub/Rap - Caen)</span>
-        <br/>
-        <span class="modal-hour">00h15 - 01h30</span>
-        <br/>
-        Depuis maintenant 10 ans et plus de 300 prestations au compteur, Jean-Paul Dub (Pablo Géléoc) parcourt la France
-        et l’étranger (Belgique, Pologne, Canada, Ukraine, …) pour diffuser sa musique : un reggae-dub ethnique aux
-        influences multiples et marqué par l’esprit « Dub it yourself » des années 90.
-        <br/><br/>
-        Également fondateur du label Vaticaen Records, et du collectif audiovisuel Bandit visions, Jean-Paul Dub sera
-        accompagné du rappeur caennais Feu Rouge (ex The Shellys, Mandale, Poney Crevé, Cemented Minds), qui a sorti son
-        1er EP, « En Vers et contre tout », en novembre 2022.
-        <ul>
-            <li>
-                <a href="https://jeanpauldub.fr/">
-                    {{ partial "svg/website.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://vaticaen.bandcamp.com/">
-                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=BeKCEluO2UU">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="culture" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/culture.jpg">
-        <br/>
-        <span class="modal-style">(Pop-Core - Rennes)</span>
-        <br/>
-        <span class="modal-hour">22h45 - 23h45</span>
-        <br/>
-        Culture Emotion est un duo formé de deux personnes vivantes différentes. L'une de ces deux personnes joue de la
-        batterie (l'instrument) pendant que l'autre joue de la guitare électrique. Mais par un système de branchement
-        ingénieux permettant de traiter le signal en temps réel, le son de la guitare - sur une simple pression du pied
-        - se transforme en gros son de basse qui blaste.
-        <br/><br/>
-        Cette dynamique est au cœur de cette proposition musicale. L'ingénieur ou l'ingénieure du son serait bien
-        avisé.e de la prendre en compte pour ne pas obtenir un simple bon concert de rock, là où il est question de
-        vivre une expérience sonore puissante qui invite copieusement à danser jusqu'à arriver, parfois, à nous faire
-        oublier temporairement que l'on déteste la Police. Il y a toujours une reprise musclée d'un vieux tube français
-        des années quatre-vingt, ce qui est bien.
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/cultureemotion/">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=ET4P-IX6GCw ">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="jokari" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/jokari.png">
-        <br/>
-        <span class="modal-style">(Pop Rock - Toulouse)</span>
-        <br/>
-        <span class="modal-hour">19h30 - 20h30</span>
-        <br/>
-        Jokari est le projet solo de Marion Josserand, qui a sorti son album “Main Gauche” en décembre 2021. L’artiste
-        toulousaine propose des chansons en français fabriquées sur l'orgue ou la guitare, et jouées dans leur version
-        solo intimiste, douce, à nu.
-        <br/><br/>
-        Bouquet de cailloux: enfance, nostalgie, un peu de rigolade et quelques torsions de cœur, voilà ce qui vous
-        attend en découvrant Jokari en concert.
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/Marionjokari">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.instagram.com/jokari_coupletrefrain/">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://cheptelrecords.bandcamp.com/album/chptl-056-main-gauche">
-                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.youtube.com/watch?v=6wOmKAoxaQY">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="antoine" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/antoine.jpg">
-        <br/>
-        <span class="modal-style">(Chanteur à synthétiseur - Pont l’Abbé)</span>
-        <br/>
-        <span class="modal-hour">20h - 21h</span>
-        <br/>
-        Armé de synthétiseurs, le Bigouden oscille entre un lyrisme pop empreint de variété française et une énergie
-        brutale et primitive issue du post-punk. Inspiré par Sonic Youth, Christophe, Grandaddy, et même Daniel
-        Balavoine, il a sorti en 2020, "Plastique Sahara".
-        <br/><br/>
-        Un premier album remarqué sur lequel Antoine Garrec chante le drame romantique pour déclamer le quotidien. Des
-        aventures sentimentales qui ne commencent pas à ses histoires d'amour qui durent son temps. Antoine Garrec vous
-        conte ses vies multiples entre synthé et boîte à rythmes.
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/antoinegarreclebigouden">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://www.antoinegarrec.fr">
-                    {{ partial "svg/website.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://souterraine.bandcamp.com/album/plastique-sahara">
-                    {{ partial "svg/bandcamp.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="earl" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/earl.jpg">
-        <br/>
-        <span class="modal-style">(Techno/Trip-Hop/Drum and bass - Rennes)</span>
-        <br/>
-        <span class="modal-hour">00h15 - 01h30</span>
-        <br/>
-        Charles Genestoux aka Earl Nest s’attache à créer une musique électronique détournée de ses codes, inspirée par
-        des artistes tels que Rone, The Clash, Feu Chatterton ou encore Clark. À la croisée de la cold-wave, de l’acid,
-        ou encore de la bass music. La musique d’Earl Nest ne s’embarrasse d’aucune règle.
-        <br/><br/>
-        À l’image de son créateur qui se refuse aux catégorisations et se donne pour seule ambition de partager un bout
-        de son univers et de sa sensibilité avec le reste du monde. Accompagné en live de sa guitare basse , de sa voix
-        et de ses machines. Earl Nest donne vie à ses morceaux dans des performances aventureuses, prometteuses et
-        engagées
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/earl.nest">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-
-                <a href="https://soundcloud.com/earlnest">
-                    {{ partial "svg/soundcloud.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://instagram.com/earl_nest">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.youtube.com/watch?v=LhzkZ8wBKrA">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="tony" class="modal">
-    <div class="modal-content">
-        <img src="/images/talbot/tony.jpg">
-        <br/>
-        <span class="modal-style">(Surf Chanson - Paris)</span>
-        <br/>
-        <span class="modal-hour"></span>
-        <br/>
-        Son rêve devient réalité, il a des chansons, des chansons en français qu’il ne reniera pas. C’est bien là ce qui
-        a tracassé Tony Dola pendant des années : s’assurer qu’il ne regrettera pas dans l’avenir, ce qu’il a décidé de
-        chanter à un moment donné.
-        <br/><br/>
-        Du rock’n’roll sauce Périgord, auquel il a fallu un cadre, quelque chose de difficile à remettre en cause, d’où
-        la référence au quartier de glacière à Paris, où il travaille en tant qu’épicier. De là des chansons sur ses
-        collègues, sur son rapport au travail, sur l’appartenance à un endroit et sur cet endroit comme point de départ
-        pour l’aventure !
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100070004626143">
-                    {{ partial "svg/facebook.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.instagram.com/tonydola/">
-                    {{ partial "svg/instagram.svg" (dict "size" 30) }}
-                </a>
-                <a href="https://www.youtube.com/watch?v=c-UfaSZa56A">
-                    {{ partial "svg/youtube.svg" (dict "size" 30) }}
-                </a>
-            </li>
-        </ul>
-    </div>
 </div>
 <footer id="footer">
     <article class="f-centered ">
@@ -711,9 +136,9 @@
             </h2>
             <p class="fs-14 fs-12-desktop mt-1">festival@talbotmachine.fr</p><br>
 
-            <a href="https://drive.google.com/file/d/1D-mkxYqz25gGnZh5FQEZJGoBQg3hsFvK/view">
+            <a href="/talbot-machine-2023">
                 <p class="fs-16 fs-14-desktop mt-1">
-                    Dossier de presse
+                    Edition 2023
                 </p>
             </a>
 
