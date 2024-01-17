@@ -1,12 +1,12 @@
 ---
-description: "Concerts - DJs - Arts Vivants - Expos - Ateliers - Jeux"
-title: "[Evènement] Festival Talbot Machine"
-featured_image: /images/talbot-ban.png
+featured_image: /images/talbotmachine.png
 display_featured_image: false
-type: page
 layout: talbot-machine
+title: "[Evènement] Festival Talbot Machine"
 date: 2023-08-09T11:14:00+02:00
 playlist: "null"
+type: page
+description: Concerts - DJs - Arts Vivants - Expos - Ateliers - Jeux
 ---
 
 C'est officiel le festival Talbot Machine renaît de ses cendres. <br/>
