@@ -76,6 +76,7 @@
         </div>
     </header>
 
+    <!--
     <section class="hp__music all" id="music">
         <div class="container">
             <div class="artist__select selector">
@@ -306,7 +307,7 @@
             </div>
         </div>
     </section>
-
+    -->
     <div id="modal-kerrichandler" class="modal modal--artist">
         <div class="modal-content samedi">
             <a class="modal-close sans-serif"><svg class="icon icon-close">
@@ -857,7 +858,7 @@
     </section>
 
     <section class="hp__parc" id="parc">
-        <h2 class="fat small-box">le parc des impressionnistes</h2>
+        <h2 class="fat small-box">chapêlmêle</h2>
         <div class="parc__photos">
             <div class="parc-row">
                 <div class="left-column">
@@ -888,10 +889,10 @@
                 <h4>quand ?</h4>
                 <div class="info-tiny">
                     <p>
-                        Samedi 23 septembre 2023
+                        Vendredi 23 aout 2024
                     </p>
                     <p>
-                        15:00 - 00:00
+                        19:00 - 04:00
                     </p>
                 </div>
             </div>
@@ -899,19 +900,19 @@
                 <h4 style="visibility: hidden;"></h4>
                 <div class="info-tiny">
                     <p>
-                        Dimanche 24 septembre 2023
+                        Samedi 24 aout 2024
                     </p>
-                    <p>15:00 - 22:00</p>
+                    <p>16:00 - 04:00</p>
                 </div>
             </div>
             <div class="info-row">
                 <h4>où ?</h4>
                 <div class="info-tiny">
                     <p>
-                        Parc des Impressionnistes
+                        Chapêlmêle
                     </p>
                     <p>
-                        92110 Clichy
+                        Alençon (61)
                     </p>
                 </div>
 
@@ -935,39 +936,9 @@
     </section>
 </main>
 
-<img src="/images/talbot-2024/vache.jpg" alt="talbot machine festival 2024" />
+<img src="/images/talbot-2024/background.png" alt="talbot machine festival 2024" />
 
 <footer id="footer" class="footer">
-    <div class="container">
-        <header>
-            <h2 class="logo">
-                <a href="/" class="logo">
-                    <img src="/images/logo-origamie.png">
-                </a>
-            </h2>
-            <p class="fs-14 fs-12-desktop mt-1">festival@talbotmachine.fr</p><br>
-
-            <a href="https://drive.google.com/file/d/1D-mkxYqz25gGnZh5FQEZJGoBQg3hsFvK/view">
-                <p class="fs-16 fs-14-desktop mt-1">
-                    Dossier de presse
-                </p>
-            </a>
-
-        </header>
-        <ul class="links">
-            {{ $icon_size := "32px" }}
-            <li>
-                <a href="https://www.instagram.com/talbotmachine/">
-                    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
-                </a>
-            </li>
-            <li>
-                <a href="https://facebook.com/origa1000/">
-                    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
-                </a>
-            </li>
-        </ul>
-    </div>
     <div class="container">
         <div class="footer__bottom">
             <p class="small">
@@ -981,6 +952,7 @@
     </div>
 </footer>
 
+<script src="/js/talbot.js" type="text/javascript" defer></script>
 <script>
     !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
