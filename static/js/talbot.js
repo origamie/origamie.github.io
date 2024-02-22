@@ -1,18 +1,3 @@
-document.querySelectorAll(".circle a:not(.ext)").forEach((trigger) => {
-    trigger.onclick = function(e) {
-        e.preventDefault();
-        let hash = "#" + this.getAttribute("href").split("#")[1];
-        let target = document.querySelector(hash);
-        let headerOffset = 0;
-        let elementPosition = target.offsetTop;
-        let offsetPosition = elementPosition - headerOffset;
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth",
-        });
-    };
-});
-
 window.addEventListener("scroll", parallax);
 function parallax() {
     var offset = window.pageYOffset;
@@ -20,9 +5,9 @@ function parallax() {
     var threshold = 800;
 
     if (offset <= threshold) {
-        parallax.style.transform = "translateY(" + offset * 0.2 + "px)";
+        parallax.style.transform = "translateY(" + offset * 0.4 + "px)";
     } else {
-        parallax.style.transform = "translateY(" + threshold * 0.2 + "px)";
+        parallax.style.transform = "translateY(" + threshold * 0.4 + "px)";
     }
 }
 
@@ -105,7 +90,7 @@ $("#prog").click(function() {
 
 $("#lieu").click(function() {
     $('html,body').animate({
-        scrollTop: $("#parc").offset().top
+        scrollTop: $("#access").offset().top
     },'slow');
 });
 
@@ -114,4 +99,16 @@ $("#talbot").click(function() {
     $('html,body').animate({
         scrollTop: $("header").offset().top
     },'slow');
+});
+
+$(window).on('scroll', function () {
+
+    var scrollTop = $(this).scrollTop();
+    if (scrollTop > $('.container__cover').height() + 24) {
+        $('.menu-main').css({background: 'url(/images/talbot-2024/nav.png)',  });
+    } else {
+        $('.menu-main').css({background: 'unset', });
+
+    }
+
 });
