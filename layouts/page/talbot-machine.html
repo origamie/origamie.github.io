@@ -1,321 +1,190 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="fr-FR">
 <head>
-    <title>Talbot Machine Festival 2024</title>
 
-    <meta name="description" content="Talbot Machine Festival | 23 &amp; 24 aout 2024 | Chapêlmêle, Alençon (61)" />
-    <link rel="canonical" href="https://talbotmachine.fr/" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Talbot Machine Festival">
+    <link rel="stylesheet" href="/css/talbot.css">
+    <title>Talbot Machine Festival</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//stats.origamie.org/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
 
-    <link rel="stylesheet" href="/css/talbot-2024.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
 
-    <link rel="shortcut icon" href="https://talbotmachine.fr/img/favicon.jpg" type="image/x-icon" />
+        $(window).on('scroll', function () {
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Talbot Machine Festival 2024" />
-    <meta property="og:description" content="Talbot Machine Festival | 23 &amp; 24 aout 2024 | Chapêlmêle, Alençon (61)" />
-    <meta property="og:site_name" content="Talbot Machine" />
-    <meta property="og:url" content="https://talbotmachine.fr/" />
+            var scrollTop = $(this).scrollTop();
+            let value;
+            if ((0.40 * scrollTop) < 10) {
+                value = '72px';
+            } else {
+                value = (0.40 * scrollTop) + '%'
+            }
 
-    <meta property="og:locale" content="fr" />
-    <meta property="og:type" content="website" />
+            $('.header').css({
+                width: value,
+                'justify-content': 'space-between'
+            });
+
+            if (scrollTop > 200) {
+                $('.show-scroll').css({
+                    display: 'unset',
+                });
+                $('.header').css({
+                    'justify-content': 'space-between'
+                });
+            } else {
+                $('.show-scroll').css({
+                    display: 'none',
+                });
+                $('.header').css({
+                    'justify-content': (0.20 * scrollTop) < 20 ? 'center' : 'unset'
+                });
+            }
+
+
+            $('.affiche-img').css({
+                'width': (0.20 * scrollTop) < 100 ? (0.20 * scrollTop) + '%' : '100%',
+            });
+
+            scrollTop = scrollTop - 1000;
+
+            if (!window.matchMedia('(max-width: 767px)').matches) {
+                $('.text-img1').css({
+                    'width': (0.035 * scrollTop) < 50 ? (0.035 * scrollTop) + '%' : '50%',
+                });
+                $('.text-img2').css({
+                    'width': (0.025 * scrollTop) < 50 ? (0.025 * scrollTop) + '%' : '50%',
+                });
+            }
+        });
+
+
+    </script>
 </head>
+<body>
+<header class="header">
+    <div style="display: flex; flex-direction: column">
+        <a href="/" class="logo fixed-top">
+            <img src="/images/logo-origamie.png" alt="logo-origamie">
+        </a>
+        <span class="fs-16 fs-18-desktop" style="text-align: center; margin-bottom: 0.5rem">présente</span>
+    </div>
+    <div class="fs-13 fs-12-desktop show-scroll" style="display: none">
+        Talbot Machine Festival #2
+    </div>
+</header>
 
-<body class="body">
-<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1"
-     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <symbol id="icon-facebook" viewBox="0 0 20 20">
-            <path
-                    d="M17 1h-14c-1.1 0-2 0.9-2 2v14c0 1.101 0.9 2 2 2h7v-7h-2v-2.475h2v-2.050c0-2.164 1.212-3.684 3.766-3.684l1.803 0.002v2.605h-1.197c-0.994 0-1.372 0.746-1.372 1.438v1.69h2.568l-0.568 2.474h-2v7h4c1.1 0 2-0.899 2-2v-14c0-1.1-0.9-2-2-2z">
-            </path>
-        </symbol>
-        <symbol id="icon-instagram" viewBox="0 0 20 20">
-            <path
-                    d="M17 1h-14c-1.1 0-2 0.9-2 2v14c0 1.101 0.9 2 2 2h14c1.1 0 2-0.899 2-2v-14c0-1.1-0.9-2-2-2zM9.984 15.523c3.059 0 5.538-2.481 5.538-5.539 0-0.338-0.043-0.664-0.103-0.984h1.581v7.216c0 0.382-0.31 0.69-0.693 0.69h-12.614c-0.383 0-0.693-0.308-0.693-0.69v-7.216h1.549c-0.061 0.32-0.104 0.646-0.104 0.984 0 3.059 2.481 5.539 5.539 5.539zM6.523 9.984c0-1.912 1.55-3.461 3.462-3.461s3.462 1.549 3.462 3.461-1.551 3.462-3.462 3.462c-1.913 0-3.462-1.55-3.462-3.462zM16.307 6h-1.615c-0.382 0-0.692-0.312-0.692-0.692v-1.617c0-0.382 0.31-0.691 0.691-0.691h1.615c0.384 0 0.694 0.309 0.694 0.691v1.616c0 0.381-0.31 0.693-0.693 0.693z">
-            </path>
-        </symbol>
-        <symbol id="icon-youtube" viewBox="0 0 20 20">
-            <path
-                    d="M10 2.3c-9.828 0-10 0.874-10 7.7s0.172 7.7 10 7.7 10-0.874 10-7.7-0.172-7.7-10-7.7zM13.205 10.334l-4.49 2.096c-0.393 0.182-0.715-0.022-0.715-0.456v-3.948c0-0.433 0.322-0.638 0.715-0.456l4.49 2.096c0.393 0.184 0.393 0.484 0 0.668z">
-            </path>
-        </symbol>
-        <symbol id="icon-close" viewBox="0 0 32 32">
-            <path
-                    d="M16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16c8.8 0 16-7.2 16-16s-7.2-16-16-16zM16 30.6c-8 0-14.6-6.6-14.6-14.6s6.6-14.6 14.6-14.6c8 0 14.6 6.6 14.6 14.6s-6.6 14.6-14.6 14.6z">
-            </path>
-            <path d="M23.6 7.3l-7.6 7.7-7.6-7.7-1.1 1.1 7.7 7.6-7.7 7.6 1.1 1.1 7.6-7.7 7.6 7.7 1.1-1.1-7.7-7.6 7.7-7.6z">
-            </path>
-        </symbol>
-    </defs>
-</svg>
-<main>
-    <header class="menu-main">
-        <ul>
-            <li>Programmation</li>
-            <li>Infos</li>
+<div class="content background-white my-0">
+
+
+    <main class="main container" id="page">
+        <section id="home">
+            <section id="intro">
+                <article class="f-centered"  style="height: unset !important;">
+                    <img src="/images/talbot/ban.jpg" style="width: 90%; margin: auto; transform: rotate(-2deg);" class="mb-3">
+                </article>
+
+                <article class="f-centered text-mobile-new" style="display: flex; flex-direction: column; justify-content: space-between">
+
+                    <div style="margin: auto">
+                        <h1><span class="title fs-8 fs-2-desktop f-uppercase">Talbot Machine<br>Festival #2</span></h1>
+                    </div>
+                    <div style="margin: auto">
+                        <h1><span class="title fs-14 fs-4-desktop f-uppercase">revient <br/>les 23 et 24 août <br/> 2024</h1>
+                        <h1><span class="title fs-16 fs-8-desktop">Plus d'infos prochainement...</h1>
+                    </div>
+                    <div>
+                        <h2 class="fs-14 fs-10-desktop ft-primary f-uppercase ff-sans-serif mb-3">Chapêlmêle<br>41 Chemin des Châtelets<br/>Alençon (61)</h2>
+                    </div>
+                </article>
+
+            </section>
+
+        </section>
+    </main>
+</div>
+<footer id="footer">
+    <article class="f-centered ">
+        <header>
+            <h2 class="logo">
+                <a href="/" class="logo">
+                    <img src="/images/logo-origamie.png">
+                </a>
+            </h2>
+            <p class="fs-14 fs-12-desktop mt-1">festival@talbotmachine.fr</p><br>
+
+            <a href="/talbot-machine-2023">
+                <p class="fs-16 fs-14-desktop mt-1">
+                    Edition 2023
+                </p>
+            </a>
+
+        </header>
+        <ul class="links">
+            {{ $icon_size := "32px" }}
+            <li>
+                <a href="https://www.instagram.com/talbotmachine/">
+                    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com/origa1000/">
+                    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+                </a>
+            </li>
         </ul>
-    </header>
-    <div class="container__cover">
-        <div class="parallax-wrapper box">
-            <h1>
-                <div class="top">
-                    <div class="info">23-24 aout 2024</div>
-                    <div class="info">Chapêlmêle</div>
-                    <div class="info">Alençon (61)</div>
-                </div>
-                <div class="middle">
-                    <h1 class="fat">Talbot Machine Festival</h1>
-                </div>
-                <div class="bottom">
-                    <a href="https://www.facebook.com/origa1000/" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="https://www.instagram.com/talbotmachine/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </h1>
-        </div>
-    </div>
-
-    <section class="container__infos">
-        <div>
-            <li>- Concerts</li>
-            <li>- Performances</li>
-            <li>- Ateliers et expositions</li>
-            <li>- Tatouages avec KAUNE</li>
-            <li>- Bar et restauration sur place</li>
-            <li>- Entrée à prix libre</li>
-        </div>
-    </section>
-
-
-    <section class="container__music all" id="music">
-        <div class="container">
-            <div class="artist__select selector">
-                <div class="all">full line-up</div>
-                <div class="vendredi">vendredi 23.09</div>
-                <div class="samedi">samedi 24.09</div>
-            </div>
-
-            <div class="grid-list grid-list--artists">
-                <div class="grid">
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
-                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="/images/talbot/culture.jpg" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">💥</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
-                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="/images/talbot/antoine.jpg" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">💥</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
-                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="/images/talbot/blow.png" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">💥</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
-                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="/images/talbot/blow.png" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">💥</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="/images/talbot/blow.png" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">💥</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="/images/talbot/tony.jpg" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">💥</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div id="modal-culture" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Culture Emotion</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/kerrichandler/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/kerri-chandler" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/kerrichandler" target="_blank">RA</a>
-                </div>
-                <div>
-                    Samedi 23 août<br />
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Nul besoin de présenter la légende Kerri Chandler, tant l’évocation de son nom sur un plateau est à elle
-                    seule la caution d’une soirée réussie. Ses envolées de piano, ses kicks métronomiques et surtout l’émotion
-                    qui transpire de ses sets deep-house teintés de soul et de jazz ont bâti la notoriété de cet incontestable
-                    pionnier. Kerri Chandler est une signature, un gage d’excellence, une référence et, n’ayons pas peur des
-                    mots, une légende vivante au sein de la constellation des musiques électroniques. </p>
-            </div>
-        </div>
-    </div>
-
-    <section class="container__parc" id="parc">
-        <div class="parc__photos">
-            <div class="parc-row">
-                <div class="left-column">
-                    <img src="/images/talbot-2024/chapelmele.jpg" alt="" />
-                </div>
-                <div class="right-column">
-                    <div class="small-container">
-                        <p><span style="color: #FF6D5E;">Chapêlmêle</span> est installée dans une ancienne congrégation
-                            religieuse de plus de 2000m2, devenue depuis le tiers-lieu des Petits Châtelets, Chapêlmêle
-                            est entourée d'une ribambelle d'artistes, artisans, et volontaires de tous horizons.
-                            Bénévoles de l'association, ils marquent le quotidien du lieu par leur énergie,
-                            leurs projets, et leurs propositions artistiques.</p>
-                    </div>
-                    <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.9720071405272!2d0.06761607685378614!3d48.4378770302067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e20b763bb7d071%3A0xe6a1f43fd651cac4!2zTGEgQ2hhcMOqbG3DqGxl!5e0!3m2!1sfr!2sfr!4v1708613775616!5m2!1sfr!2sfr"
-                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container__photo">
-        <div>
-            <div class="grid">
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/playlists.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/caravane/cara4.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/caravane/cara3.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/caravane/cara5.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
-
-<footer id="footer" class="footer">
-    <div class="container">
-
-        <div class="footer__bottom">
-            <p class="small footer__logo">
-                <a href="/">
-                    <img src="/images/logo-origamie.png" alt="logo-origamie">
-                </a>
-            </p>
-            <p class="small">
-                festival@talbotmachine.fr
-            </p>
-            <p>
-                <a href="https://www.facebook.com/origa1000/" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a href="https://www.instagram.com/talbotmachine/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </p>
-            <p class="small">
-                Illustration :
-                <a href="https://www.instagram.com/tseue3000/">Tseue</a> -
-                Web :
-                <a mailto="contact@martinpotel.dev">Martin Potel</a> -
-                Photographies : Jocelyn Bigot
-            </p>
-
-        </div>
-    </div>
+    </article>
 </footer>
-
-<script src="/js/talbot.js" type="text/javascript" defer></script>
-<script>
-    !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-            n.callMethod
-                ? n.callMethod.apply(n, arguments)
-                : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-    })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-    );
-    fbq("init", "1011979256186555");
-    fbq("track", "PageView");
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Talbot Machine festival",
+        "organizer": {
+            "name": "Talbot Machine",
+            "url": "https://talbotmachine.fr"
+        },
+        "description": "Festival talbot machine",
+        "startDate": "2023-08-25T18:00",
+        "endDate": "2023-08-27T02:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+            "@type": "Place",
+            "name": "Chapêlmêle",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "",
+                "addressLocality": "Alençon",
+                "postalCode": "61000",
+                "addressCountry": "FR"
+            }
+        }
+    }
 </script>
-<noscript><img height="1" width="1" style="display: none"
-               src="https://www.facebook.com/tr?id=1011979256186555&ev=PageView&noscript=1" /></noscript>
 </body>
-
 </html>
+

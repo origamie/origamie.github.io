@@ -20,9 +20,9 @@ function parallax() {
     var threshold = 800;
 
     if (offset <= threshold) {
-        parallax.style.transform = "translateY(" + offset * 0.6 + "px)";
+        parallax.style.transform = "translateY(" + offset * 0.2 + "px)";
     } else {
-        parallax.style.transform = "translateY(" + threshold * 0.6 + "px)";
+        parallax.style.transform = "translateY(" + threshold * 0.2 + "px)";
     }
 }
 
@@ -97,8 +97,21 @@ closeBtnsArtists.forEach(function(btn) {
 });
 
 
-$("button").click(function() {
+$("#prog").click(function() {
     $('html,body').animate({
-            scrollTop: $(".second").offset().top},
-        'slow');
+            scrollTop: $("#music").offset().top
+    },'slow');
+});
+
+$("#lieu").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#parc").offset().top
+    },'slow');
+});
+
+
+$("#talbot").click(function() {
+    $('html,body').animate({
+        scrollTop: $("header").offset().top
+    },'slow');
 });
