@@ -53,7 +53,13 @@
     </defs>
 </svg>
 <main>
-    <header class="hp__cover">
+    <header class="menu-main">
+        <ul>
+            <li>Programmation</li>
+            <li>Infos</li>
+        </ul>
+    </header>
+    <div class="container__cover">
         <div class="parallax-wrapper box">
             <h1>
                 <div class="top">
@@ -74,25 +80,34 @@
                 </div>
             </h1>
         </div>
-    </header>
+    </div>
 
-    <!--
-    <section class="hp__music all" id="music">
+    <section class="container__infos">
+        <div>
+            <li>- Concerts</li>
+            <li>- Performances</li>
+            <li>- Ateliers et expositions</li>
+            <li>- Tatouages avec KAUNE</li>
+            <li>- Bar et restauration sur place</li>
+            <li>- Entrée à prix libre</li>
+        </div>
+    </section>
+
+
+    <section class="container__music all" id="music">
         <div class="container">
             <div class="artist__select selector">
                 <div class="all">full line-up</div>
-                <div class="samedi">samedi 23.09</div>
-                <div class="dimanche">dimanche 24.09</div>
+                <div class="vendredi">vendredi 23.09</div>
+                <div class="samedi">samedi 24.09</div>
             </div>
 
             <div class="grid-list grid-list--artists">
                 <div class="grid">
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-kerrichandler" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/kerrichandler.jpg" />
-                            <div class="name">
-                                <div>KERRI CHANDLER</div>
-                            </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
+                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
+                            <img class="photo" src="/images/talbot/culture.jpg" />
+
                             <div class="overlay">
                                 <div>
                                     <div class="more">💥</div>
@@ -100,205 +115,57 @@
                             </div>
                         </a>
                     </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist dimanche artists">
-                        <a data-modal="modal-ihatemodels" data-video="https://www.youtube.com/embed/Kz9uoNiQJiI?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/ihatemodels.jpg" />
-                            <div class="name">
-                                <div>I HATE MODELS</div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">🎈</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-vtss" data-video="https://www.youtube.com/embed/Ko0hAh1iriE?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/vtss.jpg" />
-                            <div class="name">
-                                <div>VTSS</div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">☀️</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 samedi artists">
-                        <a class="artist" data-modal="modal-kink"
-                           data-video="https://www.youtube.com/embed/cmGySEYDMMQ?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/kink.jpg" />
+                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
+                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
+                            <img class="photo" src="/images/talbot/antoine.jpg" />
 
                             <div class="overlay">
-                                <div>
-                                    <div class="more">🪩</div>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a class="artist-b2b" data-modal="modal-labat"
-                           data-video="https://www.youtube.com/embed/gnDuKKKjPG0?autoplay=1">
-                            <img class="photo b2b" src="https://contoursfestival.fr/img/artists/labat.jpg" />
-
-                            <div class="overlay-b2b">
-                                <div>
-                                    <div class="more">🔊</div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="name">
-                            <div>KINK <span style="color:#498EC5;">B2B</span> LB AKA LABAT <span style="color:#FF6D5E;">(LIVE
-                    HYBRID)</span></div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist dimanche artists">
-                        <a data-modal="modal-camion-bazar" data-video="https://www.youtube.com/embed/bZ6_x7aca3w?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/camion-bazar.jpg" />
-                            <div class="name">
-                                <div>CAMION BAZAR <span style="color:#FF6D5E;">LIVE A/V</span></div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more"> 🦋</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-soichi-terada" data-video="https://www.youtube.com/embed/m9b_zMEQ5Dk?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/soichi-terada.jpg" />
-                            <div class="name">
-                                <div>SOICHI TERADA <span style="color:#FF6D5E;">LIVE</span></div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more"> 🦋</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist dimanche artists">
-                        <a data-modal="modal-infravision" data-video="https://www.youtube.com/embed/fteU8YHLBqY?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/infravision.jpg" />
-                            <div class="name">
-                                <div>INFRAVISION (PABLO BOZZI & KENDAL)</div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">☀️</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist dimanche artists">
-                        <a data-modal="modal-jeremy-underground"
-                           data-video="https://www.youtube.com/embed/iDsVTBix5_U?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/jeremy-underground.jpg" />
-                            <div class="name">
-                                <div>JEREMY UNDERGROUND</div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">🪩</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-surusinghe"
-                           data-video="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1493767909&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/surusinghe.jpg" />
-                            <div class="name">
-                                <div>SURUSINGHE</div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">🔊</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 samedi artists">
-                        <a class="artist" data-modal="modal-teki"
-                           data-video="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1158437338&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/teki.jpg" />
-
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">🔊</div>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a class="artist-b2b" data-modal="modal-saku"
-                           data-video="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1158437338&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-                            <img class="photo b2b" src="https://contoursfestival.fr/img/artists/saku.jpg" />
-
-                            <div class="overlay-b2b">
-                                <div>
-                                    <div class="more"> 🦋</div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="name">
-                            <div>TEKI LATEX <span style="color:#498EC5;">B2B</span> SAKU SAHARA</div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist dimanche artists">
-                        <a data-modal="modal-king-lefto" data-video="https://www.youtube.com/embed/fHjPy5nh4yI?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/king-halloumi.jpg" />
-                            <div class="name">
-                                <div>KING HALLOUMI (ALIA & LEFTO EARLY BIRD)</div>
-                            </div>
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">🪩</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 dimanche artists">
-                        <a class="artist" data-modal="modal-lisa"
-                           data-video="https://www.youtube.com/embed/t3Pj7v2KKIA?autoplay=1">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/lisa.jpg" />
-                            <div class="overlay">
-                                <div>
-                                    <div class="more">☀️</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="artist-b2b" data-modal="modal-roni"
-                           data-video="https://www.youtube.com/embed/t3Pj7v2KKIA?autoplay=1">
-                            <img class="photo b2b" src="https://contoursfestival.fr/img/artists/roni.jpg" />
-                            <div class="overlay-b2b">
                                 <div>
                                     <div class="more">💥</div>
                                 </div>
                             </div>
                         </a>
-                        <div class="name">
-                            <div>LISA MORE <span style="color:#498EC5;">B2B</span> RONI</div>
-                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
-                        <a data-modal="modal-rinse" data-video="">
-                            <img class="photo" src="https://contoursfestival.fr/img/artists/rinse.jpg" />
-                            <div class="name">
-                                <div>RINSE DJ’S</div>
-                            </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
+                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
+                            <img class="photo" src="/images/talbot/blow.png" />
+
                             <div class="overlay">
                                 <div>
-                                    <div class="more">🎈</div>
+                                    <div class="more">💥</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 artist vendredi artists">
+                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
+                            <img class="photo" src="/images/talbot/blow.png" />
+
+                            <div class="overlay">
+                                <div>
+                                    <div class="more">💥</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
+                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
+                            <img class="photo" src="/images/talbot/blow.png" />
+
+                            <div class="overlay">
+                                <div>
+                                    <div class="more">💥</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 artist samedi artists">
+                        <a data-modal="modal-culture" data-video="https://www.youtube.com/embed/K6XiDub2Wc4?autoplay=1">
+                            <img class="photo" src="/images/talbot/tony.jpg" />
+
+                            <div class="overlay">
+                                <div>
+                                    <div class="more">💥</div>
                                 </div>
                             </div>
                         </a>
@@ -307,13 +174,12 @@
             </div>
         </div>
     </section>
-    -->
-    <div id="modal-kerrichandler" class="modal modal--artist">
+    <div id="modal-culture" class="modal modal--artist">
         <div class="modal-content samedi">
             <a class="modal-close sans-serif"><svg class="icon icon-close">
                 <use xlink:href="#icon-close"></use>
             </svg></a>
-            <h3 class="title big">Kerri Chandler</h3>
+            <h3 class="title big">Culture Emotion</h3>
             <div class="video responsive-video">
                 <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -324,8 +190,7 @@
                     <a href="https://ra.co/dj/kerrichandler" target="_blank">RA</a>
                 </div>
                 <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
+                    Samedi 23 août<br />
                 </div>
             </div>
             <div class="text tiny">
@@ -339,502 +204,31 @@
         </div>
     </div>
 
-    <div id="modal-ihatemodels" class="modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">I Hate Models</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/ihatemodels1/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/ihatemodels" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/ihatemodels" target="_blank">RA</a>
+    <section class="container__parc" id="parc">
+        <div class="parc__photos">
+            <div class="parc-row">
+                <div class="left-column">
+                    <img src="/images/talbot-2024/chapelmele.jpg" alt="" />
                 </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
+                <div class="right-column">
+                    <div class="small-container">
+                        <p><span style="color: #FF6D5E;">Chapêlmêle</span> est installée dans une ancienne congrégation
+                            religieuse de plus de 2000m2, devenue depuis le tiers-lieu des Petits Châtelets, Chapêlmêle
+                            est entourée d'une ribambelle d'artistes, artisans, et volontaires de tous horizons.
+                            Bénévoles de l'association, ils marquent le quotidien du lieu par leur énergie,
+                            leurs projets, et leurs propositions artistiques.</p>
+                    </div>
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.9720071405272!2d0.06761607685378614!3d48.4378770302067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e20b763bb7d071%3A0xe6a1f43fd651cac4!2zTGEgQ2hhcMOqbG3DqGxl!5e0!3m2!1sfr!2sfr!4v1708613775616!5m2!1sfr!2sfr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Le joyau de la techno française mêlant nostalgie, passion et rêve retournera Contours avec sa musique entre
-                    Synthwave, Early Trance, Cold-Wave et Musique Industrielle. L’intriguant Dj cultive le mystère autour de sa
-                    personne en ne donnant aucune interview. C’est par sa musique qu’il fait parler de lui, comme avec ses
-                    derniers opus sur son label Disco Inferno. Personne ne sait qui se cache derrière le masque, mais une chose
-                    est sûre, en live, I Hate Models est immanquable.
-                </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="modal-vtss" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">VTSS</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/vtss.pl/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/vtss" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/vtss" target="_blank">RA</a>
-                </div>
-                <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    La DJ et productrice VTSS aime la techno quand elle est rapide et puissante ! Immergée très tôt dans la
-                    culture rave en se faufilant dans les clubs de Varsovie dès l’âge de 14 ans, l’artiste, désormais basée à
-                    Londres, s’est depuis forgée une solide culture musicale. D’abord comme une figure clef de la scène radicale
-                    polonaise, VTSS s’est rapidement imposée ces dernières années comme l’un des nouveaux talents techno les
-                    plus en vue et les plus implacables. Incarnant ce que la culture rave a de meilleur, VTSS, célèbre pour ses
-                    sets en fusion qui mélangent indus, acid et EBM, aime la techno qui secoue les corps et les consciences.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-kink" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Kink</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/kink303/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/kink" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/kink" target="_blank">RA</a>
-                </div>
-                <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Leurs synthétiseurs dégagent une énérgie folle. La rencontre au sommet du surdoué bulgare, KiNK avec le
-                    profil français le plus en vue du moment LB aka LABAT sera sans nul doute l’un des highlights du festival.
-                    Un live hybrid exclusif, pour la première fois à Contours.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-labat" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">LB aka LABAT</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/lbakalabat/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/lb-aka-labat " target="_blank">SC</a>
-                    <a href="https://ra.co/dj/lbakalabat" target="_blank">RA</a>
-                </div>
-                <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Leurs synthétiseurs dégagent une énérgie folle. La rencontre au sommet du surdoué bulgare, KiNK avec le
-                    profil français le plus en vue du moment LB aka LABAT sera sans nul doute l’un des highlights du festival.
-                    Un live hybrid exclusif, pour la première fois à Contours.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-camion-bazar" class="modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Camion Bazar (live A/V)</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/camionbazar/ " target="_blank">IG</a>
-                    <a href="https://soundcloud.com/camionbazar" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/camionbazar" target="_blank">RA</a>
-                </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    On ne présente plus le duo un peu dingo Camion Bazar, rencontre de Romain Play et de Benedetta, artistes aux
-                    milles et une facettes. Après avoir baroudé pendant près de 10 ans dans des centaines de fêtes, traversant
-                    les continents avec leurs bacs de disques pour se produire en DJ set, les voilà désormais aux commandes d’un
-                    LIVE audiovisuel. « Alteration » est conçu comme un trip psychédélique qui rend hommage à la nature,
-                    sensibilise et lui restitue sa place universelle.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-soichi-terada" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Soichi Terada (live)</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://soundcloud.com/soichi-terada" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/soichiterada" target="_blank">RA</a>
-                </div>
-                <div>
-                    samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Depuis les années 80, le producteur japonais Soichi Terada compose une House visionnaire et aventureuse.
-                    Producteur compulsif, il est l’auteur d’une innombrable flopée de sorties au cours des années 90 (notamment
-                    sur son label Far East Recs) et devient dès lors l’un des artistes les plus influents du pays du soleil
-                    levant.
-                    <br>
-                    Désormais, Soichi se produit en live : programmé sur les plus grands rendez-vous mondiaux et membre de la
-                    première heure de l’écurie Rush Hour (Antal, Hunee, San Proper, Kamma & Masalo…), le japonais possède une
-                    palette musicale singulière, composée de beats analogiques et d’anthem ultra fédérateurs..
-
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-infravision" class=" modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Infravision (Kendal & Pablo Bozzi)</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/infravision.music/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/infravision-music" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/infravision" target="_blank">RA</a>
-                </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Imaginez la bande-son d’un futur dystopique, inspirée des films de science-fiction et d’anticipation des
-                    années ‘80 et ‘90, confronté à la période trouble dans laquelle nous vivons. Voilà où se situe l'univers
-                    INFRAVISION, né du désir de Kendal & Pablo Bozzi de pousser plus loin l’hybridation sonore qu’ils aiment
-                    appeler ‘Italo Body Music’, un mélange détonant d’italo-disco, EBM et de early trance.
-                    <br>
-                    Partageant une approche commune des sonorités électroniques, les deux Toulousains ont récemment sorti quatre
-                    EP solos très remarqués : Manifesto (Moustache Records) et Inferno (Dischi Autunno) de Kendal, Walk on Wire
-                    (Bite) et Last Moscow Mule (Dischi Autunno) de Pablo Bozzi.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-jeremy-underground" class="modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Jeremy Underground</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/jeremyunderground/ " target="_blank">IG</a>
-                    <a href="https://soundcloud.com/jeremyunderground " target="_blank">SC</a>
-                    <a href="https://ra.co/dj/jeremyunderground" target="_blank">RA</a>
-                </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Né en 1986 en banlieue parisienne, Jeremy est un passionné et collectionneur de disques invétéré. Très vite,
-                    le DJ tombe amoureux de la Deep House et passe son adolescence chez les disquaires parisiens en quête des
-                    meilleures pépites importées des US. Après la création en 2010 de son label “My Love is Underground”, tout
-                    s’accélère : le français se hisse vite au rang de DJ international et fait plusieurs fois le tour du monde.
-                    Depuis, son label prend de l’ampleur, ses soirées éponymes au Rex Club cartonnent et ses DJ sets mettent le
-                    feu aux plus grandes scènes underground…
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-surusinghe" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Surusinghe</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/surusinghe/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/surusinghe" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/surusinghe " target="_blank">RA</a>
-                </div>
-                <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Bienvenue dans le monde passionnant de Surusinghe. La productrice puise ses influences dans des sonorités
-                    percussives, innovantes et relie les dancefloors à son héritage sri-lankais. Ses sets très énergiques et ses
-                    tubes lui ont permis d’être programmée sur les meilleurs dancefloors d’Europe : Fields Days, AVA festival,
-                    Printworks et même le Panorama Bar. Surusinghe enchaîne les sorties immanquables avec déjà 2 EP sur le label
-                    de Mall Grab (rien que ça). Après s'être installé à Londres, l’artiste est à coup sûr l’une des artistes
-                    émergentes les plus intransigeantes avec des choix musicaux tranchés et une esthétique hors du commun.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-teki" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Teki Latex</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/tekilatex/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/teki-latex" target="_blank">SC</a>
-                    <a href="https://ra.co/dj/tekilatex" target="_blank">RA</a>
-                </div>
-                <div>
-                    samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Mon premier est producteur, rappeur, ancien curateur de Boiler Room Paris, le “DJ de tes DJs préférés” et
-                    roi du mélange des genres. De l’aventure TTC aux meilleurs dancefloors de la capitale, la bible Teki Latex
-                    est depuis longtemps animée par l'envie de nous faire danser. Ma seconde est lyonnaise, considérée comme
-                    l’une des étoiles montantes de la scène française et puisant ses inspirations dans les rythmes rapides et
-                    percussifs.
-                    <br>
-                    Deux générations d’artistes aux sets imprévisibles et à la technique imparable. À ré-écouter l'émission
-                    enregistrée par ces deux-là chez Rinse France il y a peu, on s’attend à un back to back explosif. Must see.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-saku" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Saku Sahara</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/sakusahara/" target="_blank">IG</a>
-                    <a href="https://soundcloud.com/sakusahara " target="_blank">SC</a>
-                    <a href="https://ra.co/dj/sakusahara" target="_blank">RA</a>
-                </div>
-                <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Mon premier est producteur, rappeur, ancien curateur de Boiler Room Paris, le “DJ de tes DJs préférés” et
-                    roi du mélange des genres. De l’aventure TTC aux meilleurs dancefloors de la capitale, la bible Teki Latex
-                    est depuis longtemps animée par l'envie de nous faire danser. Ma seconde est lyonnaise, considérée comme
-                    l’une des étoiles montantes de la scène française et puisant ses inspirations dans les rythmes rapides et
-                    percussifs.
-                    <br>
-                    Deux générations d’artistes aux sets imprévisibles et à la technique imparable. À ré-écouter l'émission
-                    enregistrée par ces deux-là chez Rinse France il y a peu, on s’attend à un back to back explosif. Must see.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-king-lefto" class="modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">KING HALLOUMI (ALIA & LEFTO EARLY BIRD)</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    BX Vibes ! L’un a la quarantaine et demeure une valeur sûre de la musique électronique en Europe. L’autre, à
-                    peine vingt ans, commence sérieusement à faire ses preuves sur le circuit. Tous deux sont belges, résidents
-                    Kiosk Radio et se connaissent depuis quelques années déjà. Après de nombreuses collaborations en back to
-                    back, ils ont enfin décidé de lancer un projet commun : King Halloumi. Glorieusement éclectique, les voir
-                    jouer ensemble sur un même plateau demeure assez rare. Attendez-vous à une avalanche de broken beat, Detroit
-                    House, Soul & Funk à Contours.
-                </p>
-                <p>
-                    LEFTO ➡
-                    <a href="https://www.instagram.com/lefto_early_bird/">IG</a>
-                    <a href="https://soundcloud.com/lefto">SC</a>
-                    <a href="https://ra.co/dj/leftoearlybird">RA</a>
-                </p>
-                <p>
-                    AliA ➡
-                    <a href="https://www.instagram.com/alyahriv/">IG</a>
-                    <a href="https://soundcloud.com/aliamusicc">SC</a>
-                    <a href="https://ra.co/dj/alia">RA</a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-lisa" class="modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Lisa More</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/lisam.o.r.e/ " target="_blank">IG</a>
-                    <a href="https://ra.co/dj/lisamore" target="_blank">RA</a>
-                </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Who run the world ? Rencontre au sommet pour les productrices et patronnes des labels français Tsunami et
-                    Nezha Records, Lisa More et Roni.
-                    <br>
-                    Formant un duo détonnant, les DJs, toutes deux résidentes de Rinse France seront réunies à Contours pour
-                    mêler musiques breakées, bass music et fast techno. Les deux amies ont bien des similitudes dans leurs
-                    parcours respectifs : baignées toutes les deux dans la musique depuis toutes petites, elles évoluent
-                    maintenant en tant qu'artistes multidisciplinaires, et compte bien retourner le festival/
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-roni" class="modal modal--artist">
-        <div class="modal-content dimanche">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Roni</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div>
-                    <a href="https://www.instagram.com/roni_nza/" target="_blank">IG</a>
-                    <a href="https://ra.co/dj/roni" target="_blank">RA</a>
-                </div>
-                <div>
-                    Dimanche 24 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                    Who run the world ? Rencontre au sommet pour les productrices et patronnes des labels français Tsunami et
-                    Nezha Records, Lisa More et Roni.
-                    <br>
-                    Formant un duo détonnant, les DJs, toutes deux résidentes de Rinse France seront réunies à Contours pour
-                    mêler musiques breakées, bass music et fast techno. Les deux amies ont bien des similitudes dans leurs
-                    parcours respectifs : baignées toutes les deux dans la musique depuis toutes petites, elles évoluent
-                    maintenant en tant qu'artistes multidisciplinaires, et compte bien retourner le festival/
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-rinse" class="modal modal--artist">
-        <div class="modal-content samedi">
-            <a class="modal-close sans-serif"><svg class="icon icon-close">
-                <use xlink:href="#icon-close"></use>
-            </svg></a>
-            <h3 class="title big">Rinse DJ's</h3>
-            <div class="video responsive-video">
-                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="infos tiny">
-                <div></div>
-                <div>
-                    Samedi 23 septembre &mdash; Parc des impressionnistes<br />
-                    (clichy)
-                </div>
-            </div>
-            <div class="text tiny">
-                <p>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <section class="hp__photo">
-        <div class="grid-list grid-list--artists">
+    <section class="container__photo">
+        <div>
             <div class="grid">
                 <div class="col-sm-6 col-md-4">
                     <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
@@ -843,104 +237,43 @@
                     <img src="https://www.origamie.org/images/playlists.jpg" alt="" />
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
+                    <img src="https://www.origamie.org/images/caravane/cara4.jpg" alt="" />
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="https://www.origamie.org/images/caravane/cara3.jpg" alt="" />
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="https://www.origamie.org/images/caravane/cara5.jpg" alt="" />
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <img src="https://www.origamie.org/images/talbot/ban.jpg" alt="" />
-                </div>
-            </div>
-    </section>
-
-    <section class="hp__parc" id="parc">
-        <h2 class="fat small-box">chapêlmêle</h2>
-        <div class="parc__photos">
-            <div class="parc-row">
-                <div class="left-column">
-                    <img src="https://contoursfestival.fr/img/parc/parc_1.jpg" alt="" />
-                </div>
-                <div class="right-column">
-                    <div class="small-container">
-                        <p><span style="color: #FF6D5E;">Le Parc des Impressionnistes</span> doit son nom aux peintres qui
-                            passèrent par le quartier du bac d’Asnières
-                            à la fin du XIXème siècle. Ils furent nombreux à installer leur trépied entre la butte Montmartre et les
-                            îles de la Seine pour y peindre le paysage industriel, le fleuve et ses ponts. Ce magnifique écrin de
-                            verdure à quelques minutes de Paris, qui accueille aujourd'hui encore de nombreuses espèces protégées
-                            sera notre terrain de jeu pour ces deux jours de fêtes le dernier week-end de l'été.</p>
-                    </div>
-                    <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.6872429415585!2d2.2900271770428438!3d48.90229737133804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ff80ff24ed1%3A0xaa557d3919542428!2sParc%20des%20Impressionnistes!5e0!3m2!1sen!2sfr!4v1685955244278!5m2!1sen!2sfr"
-                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="hp__acces" id="acces">
-        <h2 class="fat small-box">horaires & accès</h2>
-        <div class="infos-rows">
-            <div class="info-row">
-                <h4>quand ?</h4>
-                <div class="info-tiny">
-                    <p>
-                        Vendredi 23 aout 2024
-                    </p>
-                    <p>
-                        19:00 - 04:00
-                    </p>
-                </div>
-            </div>
-            <div class="info-row">
-                <h4 style="visibility: hidden;"></h4>
-                <div class="info-tiny">
-                    <p>
-                        Samedi 24 aout 2024
-                    </p>
-                    <p>16:00 - 04:00</p>
-                </div>
-            </div>
-            <div class="info-row">
-                <h4>où ?</h4>
-                <div class="info-tiny">
-                    <p>
-                        Chapêlmêle
-                    </p>
-                    <p>
-                        Alençon (61)
-                    </p>
-                </div>
-
-            </div>
-            <div class="info-row">
-                <h4>comment ?</h4>
-                <div class="info-tiny">
-                    <p>
-                        <span style="color: #FF6D5E;">T</span> <span>TRANSILIEN LIGNE L</span> <span style="color: #0E8158;">-
-                CLICHY-LEVALLOIS</span><br />
-                        <span style="color: #FF6D5E;">M</span> <span>LIGNE 13</span> <span style="color: #0E8158;">- MAIRIE DE
-                CLICHY</span><br />
-                        <span style="color: #FF6D5E;">M</span> <span>LIGNE 14</span> <span style="color: #0E8158;">- PORTE DE
-                CLICHY</span><br />
-                        <span style="color: #FF6D5E;">B</span> <span>174</span> <span style="color: #0E8158;">- GARE DE
-                CLICHY-LEVALLOIS</span>
-                    </p>
                 </div>
             </div>
         </div>
     </section>
 </main>
 
-<img src="/images/talbot-2024/background.png" alt="talbot machine festival 2024" />
 
 <footer id="footer" class="footer">
     <div class="container">
+
         <div class="footer__bottom">
+            <p class="small footer__logo">
+                <a href="/">
+                    <img src="/images/logo-origamie.png" alt="logo-origamie">
+                </a>
+            </p>
+            <p class="small">
+                festival@talbotmachine.fr
+            </p>
+            <p>
+                <a href="https://www.facebook.com/origa1000/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/talbotmachine/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </p>
             <p class="small">
                 Illustration :
                 <a href="https://www.instagram.com/tseue3000/">Tseue</a> -
@@ -948,6 +281,7 @@
                 <a mailto="contact@martinpotel.dev">Martin Potel</a> -
                 Photographies : Jocelyn Bigot
             </p>
+
         </div>
     </div>
 </footer>

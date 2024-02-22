@@ -1,12 +1,3 @@
-// function throttle(fn, wait) {
-//   var time = Date.now();
-//   return function() {
-//     if (time + wait - Date.now() < 0) {
-//       fn();
-//       time = Date.now();
-//     }
-//   };
-// }
 document.querySelectorAll(".circle a:not(.ext)").forEach((trigger) => {
     trigger.onclick = function(e) {
         e.preventDefault();
@@ -21,19 +12,11 @@ document.querySelectorAll(".circle a:not(.ext)").forEach((trigger) => {
         });
     };
 });
-// window.addEventListener("scroll", function() {
-//   var parallax = document.querySelector(".parallax-wrapper");
-//   var offset = window.pageYOffset;
-//   parallax.style.transform = "translateY(" + offset * 0.4 + "px)";
-// });
 
 window.addEventListener("scroll", parallax);
 function parallax() {
     var offset = window.pageYOffset;
     var parallax = document.querySelector(".parallax-wrapper");
-    // You can adjust the 0.4 to change the speed
-
-    // Define the scroll threshold where the parallax effect stops
     var threshold = 800;
 
     if (offset <= threshold) {
@@ -58,26 +41,26 @@ window.addEventListener("click", function(event) {
 });
 
 // SELECT ARTISTS
-var artists = document.querySelector(".hp__music");
+var artists = document.querySelector(".container__music");
 var selectAll = document.querySelector(".artist__select .all");
-var selectSaturday = document.querySelector(".artist__select .samedi");
-var selectSunday = document.querySelector(".artist__select .dimanche");
+var selectSaturday = document.querySelector(".artist__select .vendredi");
+var selectSunday = document.querySelector(".artist__select .samedi");
 
 if (typeof artists != "undefined" && artists != null) {
     selectAll.onclick = function(e) {
-        artists.classList.remove("dimanche");
         artists.classList.remove("samedi");
+        artists.classList.remove("vendredi");
         artists.classList.add("all");
     };
     selectSaturday.onclick = function(e) {
         artists.classList.remove("all");
-        artists.classList.remove("dimanche");
-        artists.classList.add("samedi");
+        artists.classList.remove("samedi");
+        artists.classList.add("vendredi");
     };
     selectSunday.onclick = function(e) {
         artists.classList.remove("all");
-        artists.classList.remove("samedi");
-        artists.classList.add("dimanche");
+        artists.classList.remove("vendredi");
+        artists.classList.add("samedi");
     };
 }
 
@@ -103,7 +86,6 @@ var closeBtnsArtists = [
 closeBtnsArtists.forEach(function(btn) {
     btn.onclick = function() {
         var modal = btn.closest(".modal");
-        // modal.style.display = "none";
         modal.style.visibility = "hidden";
         modal.style.opacity = 0;
         iframe = modal.querySelectorAll("iframe")[0];
@@ -112,4 +94,11 @@ closeBtnsArtists.forEach(function(btn) {
         }
         document.body.classList.remove("modal-isopened");
     };
+});
+
+
+$("button").click(function() {
+    $('html,body').animate({
+            scrollTop: $(".second").offset().top},
+        'slow');
 });
