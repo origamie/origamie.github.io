@@ -802,27 +802,28 @@ body.modal-isopened .modal-content {
 .open-menu.active + .nav a {
     padding: 8px 0;
 }
-@media (max-width: 860px) {
-    .container__cover {
-        background: url(/images/talbot-2024/background.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        height: 120vh;
-        padding-top: 60px;
-    }
-}
 
 .container__cover {
     background: url(/images/talbot-2024/background-full.png);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     height: 120vh;
     padding-top: 60px;
 }
 
+@media (min-width: 860px) {
+
+    .container__cover {
+        background: url(/images/talbot-2024/background-full.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 120vh;
+        padding-top: 60px;
+    }
+}
 
 .title-2024 {
     z-index: 99999;
