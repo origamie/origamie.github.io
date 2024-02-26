@@ -825,7 +825,7 @@ body.modal-isopened .modal-content {
 
 .title-2024 {
     z-index: 99999;
-    font-size: 70px;
+    font-size: 100px;
     text-transform: uppercase;
     font-family: "PoplarStd", sans-serif;
 }
