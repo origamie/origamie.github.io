@@ -815,7 +815,11 @@ body.modal-isopened .modal-content {
 @media (min-width: 860px) {
     .container__cover {
         background: url(/images/talbot-2024/background.png);
-        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 120vh;
+        padding-top: 60px;
     }
 }
 
