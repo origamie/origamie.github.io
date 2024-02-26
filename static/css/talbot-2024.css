@@ -75,19 +75,21 @@ img {
 @font-face {
     text-rendering: optimizeLegibility;
     font-display: swap;
-    font-family: "OPTIVagRound-Bold";
+    font-family: "TheScaryMovie";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/OPTIVagRound-Bold.otf) format("opentype");
+    src: url(/fonts/the_scary_movie.ttf) format("opentype");
 }
+
 @font-face {
     text-rendering: optimizeLegibility;
     font-display: swap;
-    font-family: "Max Fett";
+    font-family: "PoplarStd";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/maxfett-black.otf) format("opentype");
+    src: url(/fonts/poplarstf.otf) format("opentype");
 }
+
 .icon {
     stroke-width: 0;
     stroke: currentColor;
@@ -100,7 +102,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background: #fff8e5;
     color: #000;
-    font-family: OPTIVagRound-Bold, MaxFett-Black, arial, sans-serif;
+    font-family: Futura, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.4;
@@ -654,13 +656,11 @@ body.modal-isopened .modal-content {
 .menu-main {
     position: fixed;
     width: 100%;
+    font-size: 1rem;
     height: 40px;
     z-index: 150;
     display: flex;
     justify-content: space-between;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .menu-main li {
     cursor: pointer;
@@ -672,9 +672,19 @@ body.modal-isopened .modal-content {
 }
 .menu-main ul li {
     display: block;
+    border: 2px solid #000;
+    padding: 0.5rem;
 }
+.menu-main ul li:hover {
+    background-color: #ed2e69;
+}
+
+.menu-main .menu-text:last-of-type {
+    margin-right: 2rem;
+}
+
 @media (max-width: 1079px) {
-    .menu-main ul {
+    .menu-main .menu-text:last-of-type {
         display: none !important;
     }
 }
@@ -781,7 +791,7 @@ body.modal-isopened .modal-content {
 }
 
 .container__cover {
-    background: url(/images/talbot-2024/vache.jpg);
+    background: url(/images/talbot-2024/background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -791,14 +801,25 @@ body.modal-isopened .modal-content {
 }
 @media (min-width: 860px) {
     .container__cover {
-        background: url(/images/talbot-2024/vache.jpg);
+        background: url(/images/talbot-2024/background.png);
         background-position: center;
     }
 }
 
 .title-2024 {
     z-index: 99999;
-    font-family: "Futura", sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: "PoplarStd", sans-serif;
+}
+
+@media (max-width: 860px) {
+    .title-2024 {
+        z-index: 99999;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: "PoplarStd", sans-serif;
+    }
 }
 
 .box {
@@ -909,8 +930,35 @@ body.modal-isopened .modal-content {
 
 .container__infos {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+@media (max-width: 860px) {
+    .container__infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .container__infos img {
+        margin: auto;
+    }
+
+    .container__infos div {
+        margin-top: 2rem;
+    }
+}
+
+.container__infos div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    text-decoration: none;
+}
 
 .container__music {
     padding-bottom: 2em;
@@ -1093,9 +1141,21 @@ body.modal-isopened .modal-content {
 
 
 .container__acces {
+    margin: auto;
     margin-top: 2rem;
+    width: 60vw;
     padding-bottom: 0.5em;
 }
+
+.container__acces .infos-date {
+    font-family: "TheScaryMovie", sans-serif;
+}
+@media (max-width: 860px) {
+    .container__acces {
+        width: 98%;
+    }
+}
+
 .container__acces .big,
 .container__acces .fat {
     margin-bottom: 0.5em;
@@ -1183,6 +1243,12 @@ body.modal-isopened .modal-content {
 .info-tiny > p {
     margin: 0.2em;
 }
+@media (max-width: 860px) {
+    .info-tiny > p {
+        font-size: 18px;
+    }
+}
+
 .info-tiny > p:first-child {
     padding-left: 1em;
     text-align: left;

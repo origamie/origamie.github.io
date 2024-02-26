@@ -5,9 +5,9 @@ function parallax() {
     var threshold = 800;
 
     if (offset <= threshold) {
-        parallax.style.transform = "translateY(" + offset * 0.4 + "px)";
+        parallax.style.transform = "translateY(" + offset * 0.3 + "px)";
     } else {
-        parallax.style.transform = "translateY(" + threshold * 0.4 + "px)";
+        parallax.style.transform = "translateY(" + threshold * 0.3 + "px)";
     }
 }
 
@@ -100,7 +100,7 @@ $("#talbot").click(function() {
         scrollTop: $("header").offset().top
     },'slow');
 });
-
+/*
 $(window).on('scroll', function () {
 
     var scrollTop = $(this).scrollTop();
@@ -112,3 +112,4 @@ $(window).on('scroll', function () {
     }
 
 });
+ */
