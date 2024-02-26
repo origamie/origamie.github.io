@@ -954,6 +954,7 @@ body.modal-isopened .modal-content {
 
 @media (min-width: 860px) {
     .container__infos .description {
+        list-style-type: none;
     }
 }
 
