@@ -51,6 +51,7 @@ html {
     line-height: 1.15;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
+    overflow-x: hidden;
 }
 a {
     background-color: transparent;
@@ -113,6 +114,8 @@ body {
 @media (min-width: 860px) {
     body {
         font-size: 30px;
+        overflow-x: hidden;
+        position: relative;
     }
 }
 a {
