@@ -472,7 +472,6 @@ body.modal-isopened .modal-content {
 .selector div {
     border-color: #fff;
     display: block !important;
-    font-size: 24px;
     margin: 0.3em auto;
     max-width: 370px;
     background: #53c9e9;
@@ -480,7 +479,7 @@ body.modal-isopened .modal-content {
 @media (min-width: 860px) {
     .selector div {
         display: inline-block !important;
-        font-size: 40px;
+        font-size: 25px;
         margin: 0.3em 0.2em;
     }
 }
@@ -962,6 +961,7 @@ body.modal-isopened .modal-content {
 
 .container__music {
     padding-bottom: 2em;
+    font-size: 1rem;
 }
 .container__music a {
     display: block;
