@@ -88,7 +88,7 @@ img {
     font-family: "PoplarStd";
     font-style: normal;
     font-weight: 700;
-    src: url(/fonts/poplarstf.otf) format("opentype");
+    src: url(/fonts/poplarstd.otf) format("opentype");
 }
 
 .icon {
@@ -472,6 +472,7 @@ body.modal-isopened .modal-content {
 }
 .selector {
     padding: 2em 0;
+    font-family: "TheScaryMovie", sans-serif;
 }
 .selector div {
     border-color: #fff;
@@ -961,6 +962,8 @@ body.modal-isopened .modal-content {
     flex-direction: column;
     margin-left: 2rem;
     text-decoration: none;
+    text-align: left;
+    margin-left: 10rem;
 }
 
 .container__music {
@@ -1151,9 +1154,6 @@ body.modal-isopened .modal-content {
     padding-bottom: 0.5em;
 }
 
-.container__acces .infos-date {
-    font-family: "TheScaryMovie", sans-serif;
-}
 @media (max-width: 860px) {
     .container__acces {
         width: 98%;
@@ -1238,7 +1238,6 @@ body.modal-isopened .modal-content {
 }
 .info-tiny {
     background: #fff8e5;
-    border: 2px solid #000000;
 
     width: 100%;
     display: flex;
