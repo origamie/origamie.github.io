@@ -828,7 +828,7 @@ body.modal-isopened .modal-content {
 .box {
     margin: 0 40px;
     color: white;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 .small-box {
@@ -880,7 +880,7 @@ body.modal-isopened .modal-content {
     width: 4em;
 }
 .container__cover .info {
-    font-size: 18px;
+    font-size: 27px;
 }
 @media (min-width: 1400px) {
     .container__cover .info {
