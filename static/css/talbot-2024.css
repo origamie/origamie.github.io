@@ -85,6 +85,15 @@ img {
 @font-face {
     text-rendering: optimizeLegibility;
     font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/roboto-medium.ttf) format("opentype");
+}
+
+@font-face {
+    text-rendering: optimizeLegibility;
+    font-display: swap;
     font-family: "PoplarStd";
     font-style: normal;
     font-weight: 700;
@@ -103,7 +112,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background: #fff8e5;
     color: #000;
-    font-family: Futura, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.4;
@@ -939,6 +948,14 @@ body.modal-isopened .modal-content {
     justify-content: center;
 }
 
+.container__infos .description {
+    list-style-type: none;
+}
+
+.container__infos .description li {
+    margin-top: 1rem;
+}
+
 @media (max-width: 860px) {
     .container__infos {
         display: flex;
@@ -1096,7 +1113,7 @@ body.modal-isopened .modal-content {
 
 .container__photo {
     margin: auto;
-    width: 85%;
+    width: 95%;
 }
 
 
