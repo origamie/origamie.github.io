@@ -1248,7 +1248,6 @@ body.modal-isopened .modal-content {
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
-    margin: 0.2em 0;
 }
 @media (min-width: 860px) {
     .info-row {
@@ -1324,4 +1323,27 @@ body.modal-isopened .modal-content {
 }
 
 .border-annimation {
+}
+
+
+.scroll-border {
+    margin: 50px auto;
+    padding: 8px;
+    position: relative;
+}
+
+.scroll-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, #41ad90, #d11e58, #63b0be); /* Dégradé de bordure */
+    transition: width 1s ease; /* Transition fluide de la largeur */
+    z-index: -1; /* Assure que le dégradé est en arrière-plan */
+}
+
+.scroll-border.scrolled::before {
+    width: 100%;
 }
