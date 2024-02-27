@@ -1239,6 +1239,7 @@ body.modal-isopened .modal-content {
 
 
 .infos-rows {
+    font-family: "TheScaryMovie", sans-serif;
     display: flex;
     flex-direction: column;
 }
