@@ -100,16 +100,35 @@ $("#talbot").click(function() {
         scrollTop: $("header").offset().top
     },'slow');
 });
-/*
+
+
 $(window).on('scroll', function () {
 
     var scrollTop = $(this).scrollTop();
-    if (scrollTop > $('.container__cover').height() + 24) {
-        $('.menu-main').css({background: 'url(/images/talbot-2024/nav.png)',  });
-    } else {
-        $('.menu-main').css({background: 'unset', });
 
+    $('.text-left').css({
+        'opacity': scrollTop * 0.002,
+    });
+
+    if ( 200 - (scrollTop * 0.1) > 120) {
+        $('.text-right').css({
+            'margin-left': 200 - (scrollTop * 0.1) + 'px',
+        });
+        $('.text-right .description > li').each(function()  {
+            var dot = $(this)
+            dot.removeClass('underline-effect')
+        });
+    } else {
+        var index = 1;
+        $('.infos-date').addClass('border-annimation');
+
+        $('.text-right .description > li').each(function()  {
+            var dot = $(this)
+            index++;
+            setTimeout(function () {
+                dot.addClass('underline-effect')
+            }, index * 90);
+        });
     }
 
 });
- */
