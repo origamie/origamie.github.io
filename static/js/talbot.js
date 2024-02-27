@@ -111,9 +111,11 @@ $(window).on('scroll', function () {
     });
 
     if ( 200 - (scrollTop * 0.1) > 120) {
-        $('.text-right').css({
-            'margin-left': 200 - (scrollTop * 0.1) + 'px',
-        });
+        if (!window.matchMedia('(max-width: 767px)').matches) {
+            $('.text-right').css({
+                'margin-left': 200 - (scrollTop * 0.1) + 'px',
+            });
+        }
         $('.text-right .description > li').each(function()  {
             var dot = $(this)
             dot.removeClass('underline-effect')

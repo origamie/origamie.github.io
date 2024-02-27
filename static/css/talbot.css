@@ -214,6 +214,11 @@
         width: 0;
     }
 }
+@media screen and (min-width: 1024px) {
+    .text-right {
+        margin-left: 2000px;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     #home #affiche .home-img-mobile {

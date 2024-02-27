@@ -954,11 +954,10 @@ body.modal-isopened .modal-content {
     justify-content: center;
 }
 
-@media (min-width: 860px) {
-    .container__infos .description {
-        list-style-type: none;
-    }
+.container__infos .description {
+    list-style-type: none;
 }
+
 
 .container__infos .description li {
     margin-top: 1rem;
