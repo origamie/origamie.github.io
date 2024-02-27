@@ -991,7 +991,6 @@ body.modal-isopened .modal-content {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
     text-decoration: none;
     text-align: left;
 }
