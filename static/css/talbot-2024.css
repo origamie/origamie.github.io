@@ -100,6 +100,24 @@ img {
     src: url(/fonts/poplarstd.otf) format("opentype");
 }
 
+@font-face {
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    font-family: "Lithops";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/lithops.otf) format("opentype");
+}
+
+@font-face {
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    font-family: "Gulax";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/gulax.otf) format("opentype");
+}
+
 .icon {
     stroke-width: 0;
     stroke: currentColor;
