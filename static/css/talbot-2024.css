@@ -1413,7 +1413,7 @@ figure.img-effect:hover figcaption h2, figure.img-effect:active figcaption h2 {
 figure.img-effect:hover figcaption p, figure.img-effect:active figcaption p {
     opacity: 0.9;
     -webkit-transform: translate3d(0%, 0%, 0);
-    font-size: 16px;
+    font-size: 14px;
     transform: translate3d(0%, 0%, 0);
     -webkit-transition-delay: 0.6s;
     transition-delay: 0.6s;
