@@ -553,9 +553,13 @@ body.modal-isopened .modal-content {
 }
 
 @media (min-width: 860px) {
-    .grid {
+    .grid-bottom {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 .container {
