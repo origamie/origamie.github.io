@@ -446,7 +446,6 @@ body.modal-isopened .modal-content {
     display: none;
 }
 .modal-content .infos a {
-    border: 2px solid #000;
     border-radius: 20px;
     display: inline-block;
     margin-right: 3px;
@@ -1263,7 +1262,6 @@ body.modal-isopened .modal-content {
 }
 .info-row > p {
     background: #fff8e5;
-    border: 2px solid #000000;
 
     width: 100%;
 }
