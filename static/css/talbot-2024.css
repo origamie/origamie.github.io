@@ -802,24 +802,27 @@ body.modal-isopened .modal-content {
 
 .title-2024 {
     z-index: 99999;
-    font-size: 90px;
+    font-size: 100px;
     text-transform: uppercase;
-    font-family: "Gulax", sans-serif;
-
+    font-family: "PoplarStd", sans-serif;
     text-shadow: 5px 5px  2px  #010101;
+
 }
 
 @media (max-width: 860px) {
     .title-2024 {
         z-index: 99999;
-        font-size: 60px;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: "PoplarStd", sans-serif;
+
     }
 }
 
 .box {
     margin: 0 40px;
     color: white;
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 
 .small-box {
