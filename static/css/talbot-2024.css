@@ -805,7 +805,6 @@ body.modal-isopened .modal-content {
     font-size: 90px;
     text-transform: uppercase;
     font-family: "Gulax", sans-serif;
-    backdrop-filter: blur(1px);
 
     text-shadow: 5px 5px  2px  #010101;
 }
