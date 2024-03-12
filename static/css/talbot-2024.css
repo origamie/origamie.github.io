@@ -94,6 +94,15 @@ img {
 @font-face {
     text-rendering: optimizeLegibility;
     font-display: swap;
+    font-family: "RobotoBold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/roboto-bold.ttf) format("opentype");
+}
+
+@font-face {
+    text-rendering: optimizeLegibility;
+    font-display: swap;
     font-family: "PoplarStd";
     font-style: normal;
     font-weight: 700;
@@ -834,6 +843,7 @@ body.modal-isopened .modal-content {
 .container__cover .top {
     margin-bottom: 1em;
     padding-top: 1em;
+    font-family: "RobotoBold", sans-serif;
 }
 @media (min-width: 1080px) {
     .container__cover .top {
@@ -863,6 +873,7 @@ body.modal-isopened .modal-content {
 }
 .container__cover .info {
     font-size: 27px;
+    backdrop-filter: blur(1px);
 }
 @media (min-width: 1400px) {
     .container__cover .info {
