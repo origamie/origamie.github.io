@@ -30,6 +30,19 @@ var artists = document.querySelector(".container__music");
 var selectAll = document.querySelector(".artist__select .all");
 var selectSaturday = document.querySelector(".artist__select .vendredi");
 var selectSunday = document.querySelector(".artist__select .samedi");
+var particpate = document.querySelector(".participate");
+var moreInfos = document.querySelector(".more-infos");
+
+particpate.onclick = function (e) {
+    window.open("https://www.facebook.com/events/427699926250867", '_blank').focus();
+}
+
+moreInfos.onclick = function (e) {
+    $('html, body').animate({
+        'scrollTop': $('.container__more').offset().top
+    }, 1500);
+}
+
 
 if (typeof artists != "undefined" && artists != null) {
     selectAll.onclick = function(e) {

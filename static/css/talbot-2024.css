@@ -489,6 +489,23 @@ body.modal-isopened .modal-content {
     margin-right: 3px;
     padding: 0 0.5em;
 }
+
+.participate {
+    background-color: #98c6eb;
+    font-family: "TheScaryMovie", sans-serif;
+    width: 300px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+}
+.more-infos {
+    background-color: #ed2e69;
+    font-family: "TheScaryMovie", sans-serif;
+    width: 300px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+}
 @-webkit-keyframes fadein {
     0% {
         opacity: 0.3;
