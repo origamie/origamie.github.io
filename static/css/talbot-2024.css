@@ -498,6 +498,11 @@ body.modal-isopened .modal-content {
     color: white;
     padding: 1rem;
 }
+
+.participate:hover {
+    color: #ed2e69;
+}
+
 .more-infos {
     background-color: #ed2e69;
     font-family: "TheScaryMovie", sans-serif;
@@ -505,6 +510,10 @@ body.modal-isopened .modal-content {
     cursor: pointer;
     color: white;
     padding: 1rem;
+}
+
+.more-infos:hover {
+    color: #98c6eb;
 }
 @-webkit-keyframes fadein {
     0% {
