@@ -2,7 +2,7 @@
 description: "[Evènement] Oyé Oyé ! #3"
 title: "[Evènement] Oyé Oyé ! #3"
 featured_image: /images/gasseau_baniere3.jpg
-date: 2024-05-26T09:08:05.291Z
+date: 2024-04-20T09:08:05.291Z
 display_featured_image: false
 playlist: "null"
 ---
